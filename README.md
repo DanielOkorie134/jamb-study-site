@@ -72,11 +72,7 @@ A comprehensive web-based platform for JAMB (Joint Admissions and Matriculation 
 3. **Configure environment variables**
    
    The `.env` file is already created with default values. Update if needed:
-   ```env
-   PORT=3000
-   MONGODB_URI=mongodb://localhost:27017/jamb-study
-   SESSION_SECRET=your-secret-key-change-this-in-production-12345
-   ```
+
 
 4. **Start MongoDB**
    
