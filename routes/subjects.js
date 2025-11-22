@@ -3,9 +3,10 @@ const router = express.Router();
 const Subject = require('../models/Subject');
 const Topic = require('../models/Topic');
 const Progress = require('../models/Progress');
+const { requireAuth } = require('../middleware/auth');
 
 // GET /subjects/:slug
-router.get('/:slug', async (req, res) => {
+router.get('/:slug', requireAuth, async (req, res) => {
   try {
     const subject = await Subject.findOne({ slug: req.params.slug });
     

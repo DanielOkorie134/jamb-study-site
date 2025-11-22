@@ -58,7 +58,7 @@
             mathematics: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M9.5 8h5"/><path d="M8 12h8"/><path d="M10 16h4"/></svg>'
           };
         %>
-          <a href="/subjects/<%= subject.slug %>" class="subject-card card hover-lift slide-up stagger-<%= (index % 4) + 1 %>" style="--card-color: var(--<%= subject.slug %>); text-decoration: none; color: inherit;">
+          <a href="/subjects/<%= subject.slug %>" class="subject-card card hover-lift slide-up stagger-<%= (index % 4) + 1 %>" style="--card-color: var(--<%= subject.slug %>); text-decoration: none; color: inherit;" <%= !locals.user ? 'data-auth-required="true"' : '' %>>
             <div class="subject-icon"><%- icons[subject.slug] || icons.english %></div>
             <h3 class="subject-name"><%= subject.name %></h3>
             <p class="subject-description"><%= subject.description %></p>
@@ -107,6 +107,7 @@
   </main>
   
   <%- include('partials/footer') %>
+  <%- include('partials/auth-modal') %>
   
   <script src="/js/main.js"></script>
 </body>
