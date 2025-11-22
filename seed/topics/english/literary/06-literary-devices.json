@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Literary Devices and Figures of Speech",
+    "slug": "literary-devices",
+    "order": 6,
+    "explanation": "Understanding and identifying figurative language, metaphors, similes, personification, alliteration, and other literary techniques used by authors.",
+    "detailedNotes": "Literary devices are techniques writers use to create special effects, convey meaning, and enhance their writing.\n\nMajor literary devices:\n\n1. FIGURES OF SPEECH:\n- Simile: comparison using 'like' or 'as' (brave as a lion)\n- Metaphor: direct comparison without 'like' or 'as' (time is money)\n- Personification: giving human qualities to non-human things (the wind whispered)\n- Hyperbole: extreme exaggeration  (I've told you a million times)\n- Understatement: deliberately making something seem less important\n- Oxymoron: contradictory terms together (deafening silence)\n- Paradox: seemingly contradictory statement that reveals truth\n\n2. SOUND DEVICES:\n- Alliteration: repetition of initial consonant sounds (Peter Piper picked)\n- Assonance: repetition of vowel sounds\n- Onomatopoeia: words that imitate sounds (buzz, crash, hiss)\n\n3. STRUCTURAL DEVICES:\n- Irony: contrast between expectation and reality\n- Symbolism: object representing abstract idea\n- Imagery: vivid descriptive language appealing to senses\n- Foreshadowing: hints about future events",
+    "examples": [
+      {
+        "title": "Identifying Metaphors",
+        "content": "'Life is a journey filled with unexpected turns and beautiful destinations.'\n\nIdentify the literary device and explain its effect.",
+        "solution": "This is a metaphor comparing life to a journey without using 'like' or 'as'. The comparison helps readers visualize life's experiences as travels, making the concept more concrete and relatable. 'Unexpected turns' represents challenges or surprises, while 'beautiful destinations' represents achievements or happy moments."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "'The classroom was a zoo after the teacher left.' This sentence contains:",
+        "options": [
+          "A simile",
+          "A metaphor",
+          "Personification",
+          "Alliteration"
+        ],
+        "correctAnswer": 1,
+        "explanation": "This is a metaphor because it directly compares the classroom to a zoo without using 'like' or 'as', suggesting chaos and disorder."
+      },
+      {
+        "question": "'The stars danced playfully in the moonlit sky.' What literary device is used?",
+        "options": [
+          "Hyperbole",
+          "Simile",
+          "Personification",
+          "Onomatopoeia"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This is personification because stars (non-human) are given the human ability to dance, creating a vivid, animated image."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "'I'm so hungry I could eat a horse.' This is an example of:",
+        "options": [
+          "Metaphor",
+          "Hyperbole",
+          "Personification",
+          "Simile"
+        ],
+        "correctAnswer": 1,
+        "explanation": "This is hyperbole - an extreme exaggeration used to emphasize how hungry the speaker is. No one would actually eat a horse."
+      }
+    ]
+  }
+]

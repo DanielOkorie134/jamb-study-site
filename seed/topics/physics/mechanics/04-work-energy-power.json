@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Work, Energy and Power",
+    "slug": "work-energy-power",
+    "order": 4,
+    "explanation": "Understanding work done by forces, different forms of energy, energy transformations, and the rate of doing work (power).",
+    "detailedNotes": "Work, energy, and power are interconnected concepts in physics.\n\nWORK:\n- Work = Force × Distance (in direction of force)\n- W = F × d × cosθ (θ = angle between force and displacement)\n- Unit: Joule (J) = N·m\n- Work is done only when force causes displacement\n\nENERGY:\nCapacity to do work. Types:\n\n1. Kinetic Energy (KE):\n- Energy of motion\n- KE = ½mv²\n- Depends on mass and velocity\n\n2. Potential Energy (PE):\n- Stored energy due to position\n- Gravitational PE = mgh\n- Elastic PE = ½kx² (for springs)\n\n3. Mechanical Energy:\n- ME = KE + PE\n- Conserved in absence of friction\n\nCONSERVATION OF ENERGY:\n- Energy cannot be created or destroyed\n- Only transformed from one form to another\n- Total energy remains constant\n\nPOWER:\n- Rate of doing work or transferring energy\n- P = Work/Time = W/t\n- P = Energy/Time = E/t\n- Unit: Watt (W) = J/s\n- Also: P = Fv (force × velocity)\n\nEFFICIENCY:\n- Efficiency = (Useful energy output / Total energy input) × 100%\n- Always less than 100% (due to energy losses)",
+    "examples": [
+      {
+        "title": "Calculating Work Done",
+        "content": "A force of 50 N pushes a box 10 m across a floor. How much work is done?",
+        "solution": "W = F × d\nW = 50 N × 10 m\nW = 500 J\n\n500 Joules of work is done on the box."
+      },
+      {
+        "title": "Kinetic Energy",
+        "content": "Calculate the kinetic energy of a 2 kg object moving at 5 m/s.",
+        "solution": "KE = ½mv²\nKE = ½ × 2 kg × (5 m/s)²\nKE = ½ × 2 × 25\nKE = 25 J\n\nThe kinetic energy is 25 Joules."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "A 10 kg mass is lifted to a height of 5 m. What is the potential energy gained? (g = 10 m/s²)",
+        "options": [
+          "50 J",
+          "100 J",
+          "250 J",
+          "500 J"
+        ],
+        "correctAnswer": 3,
+        "explanation": "PE = mgh = 10 × 10 × 5 = 500 J."
+      },
+      {
+        "question": "A machine does 600 J of work in 10 seconds. What is its power?",
+        "options": [
+          "6 W",
+          "60 W",
+          "600 W",
+          "6000 W"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Power = Work/Time = 600/10 = 60 W."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "The unit of power is:",
+        "options": [
+          "Joule",
+          "Newton",
+          "Watt",
+          "Pascal"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The SI unit of power is the Watt (W), which equals one Joule per second."
+      }
+    ]
+  }
+]

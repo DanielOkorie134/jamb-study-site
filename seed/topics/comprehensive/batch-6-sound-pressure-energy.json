@@ -1,0 +1,125 @@
+[
+  {
+    "title": "Sound Waves and Acoustics",
+    "slug": "sound-waves",
+    "order": 13,
+    "explanation": "Understanding sound production, propagation, speed, pitch, loudness, and applications like echo and resonance.",
+    "detailedNotes": "Sound is a longitudinal mechanical wave requiring a medium.\n\nPROPERTIES:\n- Longitudinal wave (compressions and rarefactions)\n- Requires medium (solid, liquid, gas)\n- Cannot travel in vacuum\n- Speed depends on medium\n\nSPEED OF SOUND:\n- Air (20°C): ~340 m/s\n- Water: ~1500 m/s\n- Steel: ~5000 m/s\n- Faster in solids > liquids > gases\n- Increases with temperature in gases\n\nCHARACTERISTICS:\n\n1. PITCH:\n- Determined by frequency\n- High pitch = high frequency\n- Low pitch = low frequency\n- Human range: 20 Hz to 20,000 Hz\n\n2. LOUDNESS:\n- Determined by amplitude\n- Large amplitude = loud sound\n- Small amplitude = soft sound\n- Measured in decibels (dB)\n\n3. QUALITY (Timbre):\n- Distinguishes sources\n- Same note, different instruments\n\nECHO:\n- Reflection of sound\n- Minimum distance for echo: ~17 m\n- Used in: sonar, echolocation\n\nRESONANCE:\n- Maximum vibration at natural frequency\n- Applications: musical instruments\n- Dangers: building collapse\n\nAPPLICATIONS:\n- Ultrasound: > 20,000 Hz (medical imaging)\n- Infrasound: < 20 Hz (earthquake detection)\n- Sonar: underwater detection\n- Musical instruments\n\nFORMULAS:\n- v = fλ (wave equation)\n- Distance = speed × time (echo)",
+    "examples": [
+      {
+        "title": "Echo Calculation",
+        "content": "A person shouts and  hears an echo after 3 seconds. If the speed of sound is 340 m/s, how far is the reflecting surface?",
+        "solution": "Total distance = speed × time\nTotal distance = 340 × 3 = 1020 m\n\nThis is there-and-back distance.\nActual distance = 1020/2 = 510 m\n\nThe reflecting surface is 510 m away."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Sound cannot travel through:",
+        "options": [
+          "Air",
+          "Water",
+          "Steel",
+          "Vacuum"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Sound is a mechanical wave requiring a medium. It cannot travel through vacuum (no particles)."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "The pitch of a sound is determined by its:",
+        "options": [
+          "Amplitude",
+          "Frequency",
+          "Speed",
+          "Wavelength"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Pitch is determined by frequency; higher frequency means higher pitch."
+      }
+    ]
+  },
+  {
+    "title": "Pressure in Fluids",
+    "slug": "fluid-pressure",
+    "order": 14,
+    "explanation": "Understanding pressure in liquids and gases, atmospheric pressure, Pascal's principle, and Archimedes' principle.",
+    "detailedNotes": "Pressure is force per unit area.\n\nPRESSURE FORMULA:\nP = F/A\nwhere:\nP = pressure (Pa or N/m²)\nF = force (N)\nA = area (m²)\n\nPRESSURE IN LIQUIDS:\n- Increases with depth\n- P = ρgh\nwhere:\nρ = density (kg/m³)\ng = gravity (10 m/s²)\nh = depth (m)\n\nPROPERTIES:\n- Acts in all directions\n- Same at same depth\n- Independent of container shape\n- Transmitted equally (Pascal's law)\n\nATMOSPHERIC PRESSURE:\n- Due to weight of air\n- Standard: 1 atm = 101,325 Pa\n- Decreases with altitude\n- Measured by barometer\n\nPASCAL'S PRINCIPLE:\nPressure applied to enclosed fluid is transmitted equally in all directions\n\nApplications:\n- Hydraulic systems\n- Brakes\n- Lifts\n\nHydraulic press:\nF₁/A₁ = F₂/A₂\n\nARCHIMEDES' PRINCIPLE:\nUpthrust = Weight of fluid displaced\nUpthrust = ρVg\n\nFLOATATION:\n- Float: Upthrust = Weight\n- Sink: Weight > Upthrust\n- Object density < fluid density → floats\n- Object density > fluid density → sinks\n\nAPPLICATIONS:\n- Ships and submarines\n- Hot air balloons\n- Hydrometers\n- Dams",
+    "examples": [
+      {
+        "title": "Liquid Pressure",
+        "content": "Calculate pressure at 5 m depth in water. (ρ = 1000 kg/m³, g = 10 m/s²)",
+        "solution": "P = ρgh\nP = 1000 × 10 × 5\nP = 50,000 Pa = 50 kPa\n\nPressure at 5 m depth is 50,000 Pascals."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Pressure in a liquid increases with:",
+        "options": [
+          "Temperature",
+          "Depth",
+          "Surface area",
+          "Volume"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Liquid pressure increases with depth due to the weight of liquid above."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "An object floats when:",
+        "options": [
+          "Its density equals fluid density",
+          "Its density is greater than fluid",
+          "Its density is less than fluid",
+          "Temperature is high"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Objects float when their density is less than the fluid density, as upthrust exceeds weight."
+      }
+    ]
+  },
+  {
+    "title": "Energy Resources and Conservation",
+    "slug": "energy-resources",
+    "order": 15,
+    "explanation": "Understanding renewable and non-renewable energy sources, energy conversion, and the importance of conservation.",
+    "detailedNotes": "Energy resources are sources we use to generate power.\n\nNON-RENEWABLE (Finite):\n\n1. Fossil Fuels:\n- Coal, oil, natural gas\n- Formed over millions of years\n- Produce CO₂ (climate change)\n- Will eventually run out\n- Extraction damages environment\n\n2. Nuclear:\n- Uranium/plutonium\n- Fission reaction\n- Radioactive waste problem\n- High energy output\n- Risk of accidents\n\nRENEWABLE (Sustainable):\n\n1. Solar:\n- From sun's radiation\n- Photovoltaic cells\n- Clean, unlimited\n- Expensive initial cost\n- Weather dependent\n\n2. Wind:\n- Wind turbines\n- Clean, no pollution\n- Inconsistent supply\n- Visual/noise impact\n\n3. Hydroelectric:\n- Dams and water flow\n- Reliable, clean\n- Environmental impact\n- Location specific\n\n4. Geothermal:\n- Earth's internal heat\n- Reliable, clean\n- Limited locations\n\n5. Biomass:\n- Organic matter\n- Carbon neutral\n- Renewable if managed\n\n6. Tidal/Wave:\n- Ocean energy\n- Predictable (tidal)\n- Early technology\n\nENERGY CONSERVATION:\n\nWhy conserve:\n- Limited resources\n- Environmental protection\n- Cost saving\n- Climate change mitigation\n\nMethods:\n- Insulation\n- Efficient appliances\n- LED lights\n- Public transport\n- Recycling\n- Reduce, reuse\n\nENERGY EFFICIENCY:\n- Reducing wasted energy\n- Better technology\n- Proper maintenance\n- Smart usage\n\nFUTURE TRENDS:\n- More renewables\n- Smart grids\n- Electric vehicles\n- Energy storage improvements",
+    "examples": [
+      {
+        "title": "Comparing Energy Sources",
+        "content": "Compare advantages and disadvantages of solar vs fossil fuels.",
+        "solution": "SOLAR:\nAdvantages:\n- Renewable (unlimited)\n- Clean (no pollution)\n- Low running costs\n- Suitable for remote areas\n\nDisadvantages:\n- High initial cost\n- Weather dependent\n- Needs large area\n- Energy storage needed\n\nFOSSIL FUELS:\nAdvantages:\n- Reliable supply\n- Existing infrastructure\n- High energy density\n- Well-established technology\n\nDisadvantages:\n- Finite (will run out)\n- Polluting (CO₂, SO₂)\n- Climate change\n- Price fluctuations"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which is a renewable energy source?",
+        "options": [
+          "Coal",
+          "Natural gas",
+          "Solar",
+          "Nuclear"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Solar energy is renewable (from the sun). Coal, gas, and nuclear use finite resources."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "A major disadvantage of fossil fuels is:",
+        "options": [
+          "Unlimited supply",
+          "Clean burning",
+          "Carbon emissions",
+          "Low energy output"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Fossil fuels produce carbon emissions (CO₂) which contribute to climate change and pollution."
+      }
+    ]
+  }
+]

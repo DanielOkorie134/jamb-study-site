@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Logarithms",
+    "slug": "logarithms",
+    "order": 5,
+    "content": {
+      "explanation": "Logarithms are the inverse of exponents. If aˣ = b, then log_a(b) = x. Logarithms are essential for solving exponential equations and appear frequently in JAMB.",
+      "detailedNotes": "**Definition:**\nIf aˣ = b, then log_a(b) = x\n\n- a = base\n- b = number\n- x = logarithm (power)\n\n**Common Bases:**\n- **Common logarithm**: log₁₀ (written as log)\n- **Natural logarithm**: log_e (written as ln, where e ≈ 2.718)\n\n**Basic Examples:**\n- log₂(8) = 3 because 2³ = 8\n- log₁₀(100) = 2 because 10² = 100\n- log₅(125) = 3 because 5³ = 125\n\n**Laws of Logarithms:**\n\n**1. Product Law:**\nlog_a(mn) = log_a(m) + log_a(n)\n\nExample: log(20) = log(4×5) = log(4) + log(5)\n\n**2. Quotient Law:**\nlog_a(m/n) = log_a(m) - log_a(n)\n\nExample: log(5) = log(10/2) = log(10) - log(2) = 1 - log(2)\n\n**3. Power Law:**\nlog_a(mⁿ) = n × log_a(m)\n\nExample: log(8) = log(2³) = 3log(2)\n\n**4. Change of Base:**\nlog_a(b) = log_c(b) / log_c(a)\n\nExample: log₂(8) = log₁₀(8) / log₁₀(2)\n\n**5. Special Values:**\n- log_a(1) = 0 (because a⁰ = 1)\n- log_a(a) = 1 (because a¹ = a)\n- log_a(aⁿ) = n\n- a^(log_a(x)) = x\n\n**Solving Logarithmic Equations:**\n\n**Method 1:** Convert to exponential form\nIf log_a(x) = b, then x = aᵇ\n\nExample: log₂(x) = 5\nSolution: x = 2⁵ = 32\n\n**Method 2:** Use laws of logarithms\nExample: log(x) + log(3) = log(15)\nlog(3x) = log(15)\n3x = 15\nx = 5\n\n**Common Mistakes:**\n- ❌ log(a+b) ≠ log(a) + log(b)\n- ❌ log(a-b) ≠ log(a) - log(b)\n- ✅ log(ab) = log(a) + log(b)\n- ✅ log(a/b) = log(a) - log(b)",
+      "examples": [
+        {
+          "title": "Example 1: Basic Logarithm",
+          "problem": "Evaluate: log₃(81)",
+          "solution": "**Question:** 3ˣ = 81?\n\n**Step 1:** Express 81 as a power of 3\n81 = 3⁴\n\n**Step 2:** Therefore\nlog₃(81) = log₃(3⁴) = 4\n\n**Answer: 4**"
+        },
+        {
+          "title": "Example 2: Using Laws",
+          "problem": "Simplify: log₂(16) + log₂(4) - log₂(2)",
+          "solution": "**Step 1:** Convert to powers of 2\nlog₂(16) = log₂(2⁴) = 4\nlog₂(4) = log₂(2²) = 2\nlog₂(2) = 1\n\n**Step 2:** Calculate\n4 + 2 - 1 = 5\n\n**Alternative using laws:**\nlog₂(16×4/2) = log₂(32) = log₂(2⁵) = 5\n\n**Answer: 5**"
+        },
+        {
+          "title": "Example 3: Solving Equation",
+          "problem": "Solve: log₅(x) = 3",
+          "solution": "**Step 1:** Convert to exponential form\nIf log₅(x) = 3, then x = 5³\n\n**Step 2:** Calculate\nx = 125\n\n**Answer: x = 125**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Evaluate: log₁₀(1000)",
+          "options": ["2", "3", "4", "10"],
+          "correctAnswer": 1,
+          "explanation": "1000 = 10³, so log₁₀(1000) = 3"
+        },
+        {
+          "question": "Simplify: log(5) + log(2)",
+          "options": ["log(7)", "log(10)", "log(3)", "1"],
+          "correctAnswer": 1,
+          "explanation": "log(5) + log(2) = log(5×2) = log(10) = 1"
+        },
+        {
+          "question": "If log₂(x) = 4, find x",
+          "options": ["8", "16", "32", "64"],
+          "correctAnswer": 1,
+          "explanation": "x = 2⁴ = 16"
+        },
+        {
+          "question": "What is log_a(1)?",
+          "options": ["0", "1", "a", "Undefined"],
+          "correctAnswer": 0,
+          "explanation": "a⁰ = 1, so log_a(1) = 0 for any base a"
+        },
+        {
+          "question": "Simplify: 2log(3)",
+          "options": ["log(6)", "log(9)", "log(5)", "log(8)"],
+          "correctAnswer": 1,
+          "explanation": "2log(3) = log(3²) = log(9)"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "If log₁₀(2) = 0.3010, find log₁₀(8)",
+          "options": ["0.6020", "0.9030", "1.2040", "2.4080"],
+          "correctAnswer": 1,
+          "explanation": "log(8) = log(2³) = 3log(2) = 3(0.3010) = 0.9030",
+          "year": "2023"
+        },
+        {
+          "question": "Solve: log₃(x) + log₃(4) = log₃(20)",
+          "options": ["5", "16", "80", "24"],
+          "correctAnswer": 0,
+          "explanation": "log₃(4x) = log₃(20), so 4x = 20, x = 5",
+          "year": "2022"
+        },
+        {
+          "question": "Evaluate: log₄(64)",
+          "options": ["2", "3", "4", "16"],
+          "correctAnswer": 1,
+          "explanation": "64 = 4³, so log₄(64) = 3",
+          "year": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Percentages and Ratios",
+    "slug": "percentages-ratios",
+    "order": 6,
+    "content": {
+      "explanation": "Percentages express parts per hundred, while ratios compare quantities. These concepts are fundamental for solving real-world problems and appear frequently in JAMB.",
+      "detailedNotes": "**PERCENTAGES:**\n\n**Definition:** Parts per hundred\n- Symbol: %\n- 50% = 50/100 = 0.5 = 1/2\n\n**Converting:**\n- **Fraction to %**: Multiply by 100\n  - 3/4 = (3/4) × 100 = 75%\n- **Decimal to %**: Multiply by 100\n  - 0.25 = 0.25 × 100 = 25%\n- **% to Fraction**: Divide by 100\n  - 40% = 40/100 = 2/5\n- **% to Decimal**: Divide by 100\n  - 35% = 35/100 = 0.35\n\n**Percentage Calculations:**\n\n**1. Finding percentage of a number:**\nFormula: (Percentage/100) × Number\n\nExample: 30% of 200\n= (30/100) × 200 = 60\n\n**2. Expressing one number as % of another:**\nFormula: (Part/Whole) × 100%\n\nExample: Express 15 as % of 60\n= (15/60) × 100 = 25%\n\n**3. Percentage Increase:**\nIncrease = New - Original\n% Increase = (Increase/Original) × 100%\n\nExample: Price increases from ₦50 to ₦60\nIncrease = 10\n% Increase = (10/50) × 100 = 20%\n\n**4. Percentage Decrease:**\nDecrease = Original - New\n% Decrease = (Decrease/Original) × 100%\n\n**RATIOS:**\n\n**Definition:** Comparison of quantities\n- Written as a:b or a/b\n- Example: 2:3 means \"2 parts to 3 parts\"\n\n**Simplifying Ratios:**\nDivide by HCF\n- 12:18 = 2:3 (divide by 6)\n- 15:25 = 3:5 (divide by 5)\n\n**Equivalent Ratios:**\nMultiply or divide by same number\n- 2:3 = 4:6 = 6:9 = 8:12\n\n**Sharing in a Ratio:**\n\nExample: Share ₦500 in ratio 2:3\n\n**Step 1:** Total parts = 2+3 = 5\n**Step 2:** Value of 1 part = 500/5 = 100\n**Step 3:** First share = 2×100 = 200\n         Second share = 3×100 = 300\n\n**Ratio to Percentage:**\nRatio 3:2 means:\n- First part = 3/(3+2) = 3/5 = 60%\n- Second part = 2/(3+2) = 2/5 = 40%\n\n**Proportion:**\nIf a:b = c:d, then ad = bc (cross multiplication)\n\nExample: If 3:x = 6:8\n3×8 = 6×x\n24 = 6x\nx = 4",
+      "examples": [
+        {
+          "title": "Example 1: Percentage of a Number",
+          "problem": "Find 15% of 240",
+          "solution": "**Method 1:** Direct calculation\n15% of 240 = (15/100) × 240\n= 0.15 × 240\n= 36\n\n**Method 2:** Simplify first\n15% = 15/100 = 3/20\n3/20 × 240 = 3 × 12 = 36\n\n**Answer: 36**"
+        },
+        {
+          "title": "Example 2: Sharing in Ratio",
+          "problem": "Divide ₦720 among A, B, and C in the ratio 2:3:4",
+          "solution": "**Step 1:** Total parts\n2 + 3 + 4 = 9 parts\n\n**Step 2:** Value of 1 part\n720 ÷ 9 = ₦80\n\n**Step 3:** Each share\nA: 2 × 80 = ₦160\nB: 3 × 80 = ₦240\nC: 4 × 80 = ₦320\n\n**Check:** 160+240+320 = 720 ✓\n\n**Answer: A=₦160, B=₦240, C=₦320**"
+        },
+        {
+          "title": "Example 3: Percentage Change",
+          "problem": "A shirt price decreased from ₦2000 to ₦1600. Find the percentage decrease.",
+          "solution": "**Step 1:** Find decrease\nDecrease = 2000 - 1600 = 400\n\n**Step 2:** Calculate percentage\n% Decrease = (400/2000) × 100\n= (1/5) × 100\n= 20%\n\n**Answer: 20% decrease**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "What is 25% of 80?",
+          "options": ["15", "20", "25", "30"],
+          "correctAnswer": 1,
+          "explanation": "25% of 80 = (25/100) × 80 = (1/4) × 80 = 20"
+        },
+        {
+          "question": "Express 3/5 as a percentage",
+          "options": ["30%", "50%", "60%", "75%"],
+          "correctAnswer": 2,
+          "explanation": "3/5 = (3/5) × 100 = 60%"
+        },
+        {
+          "question": "Simplify the ratio 24:36",
+          "options": ["2:3", "3:4", "4:6", "6:9"],
+          "correctAnswer": 0,
+          "explanation": "Divide both by HCF(12): 24÷12 : 36÷12 = 2:3"
+        },
+        {
+          "question": "Share ₦100 in ratio 3:2. What is the larger share?",
+          "options": ["₦40", "₦50", "₦60", "₦75"],
+          "correctAnswer": 2,
+          "explanation": "Total parts=5. One part=₦20. Larger share=3×20=₦60"
+        },
+        {
+          "question": "A value increases from 50 to 60. Percentage increase?",
+          "options": ["10%", "15%", "20%", "25%"],
+          "correctAnswer": 2,
+          "explanation": "Increase=10. % = (10/50)×100 = 20%"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "If 30% of a number is 90, find the number",
+          "options": ["270", "300", "330", "360"],
+          "correctAnswer": 1,
+          "explanation": "30% of x = 90, so 0.3x = 90, x = 90/0.3 = 300",
+          "year": "2023"
+        },
+        {
+          "question": "The ratio of boys to girls is 3:5. If there are 24 boys, how many girls?",
+          "options": ["30", "35", "40", "45"],
+          "correctAnswer": 2,
+          "explanation": "3:5 = 24:x. Cross multiply: 3x=120, x=40",
+          "year": "2022"
+        },
+        {
+          "question": "A man's salary increased from ₦50,000 to ₦60,000. Percentage increase?",
+          "options": ["10%", "15%", "20%", "25%"],
+          "correctAnswer": 2,
+          "explanation": "Increase=10,000. % = (10,000/50,000)×100 = 20%",
+          "year": "2021"
+        }
+      ]
+    }
+  }
+]

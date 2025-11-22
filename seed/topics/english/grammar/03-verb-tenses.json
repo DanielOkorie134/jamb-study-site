@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Verb Tenses and Aspects",
+    "slug": "verb-tenses-aspects",
+    "order": 3,
+    "content": {
+      "explanation": "Verb tenses show when an action occurs (past, present, future), while aspects show how the action relates to time (simple, continuous, perfect, perfect continuous). Mastering tenses is crucial for clear communication and scoring well in JAMB English.",
+      "detailedNotes": "**The 12 English Tenses:**\n\n**PRESENT TENSES:**\n1. **Simple Present**: Habitual actions, general truths\n   - Form: base verb (+ s/es for he/she/it)\n   - Example: 'She writes every day.'\n\n2. **Present Continuous**: Actions happening now\n   - Form: am/is/are + verb-ing\n   - Example: 'I am studying now.'\n\n3. **Present Perfect**: Completed actions with present relevance\n   - Form: has/have + past participle\n   - Example: 'They have finished the work.'\n\n4. **Present Perfect Continuous**: Actions that started in the past and continue\n   - Form: has/have been + verb-ing\n   - Example: 'He has been reading for two hours.'\n\n**PAST TENSES:**\n5. **Simple Past**: Completed actions in the past\n   - Form: verb + ed (or irregular form)\n   - Example: 'She visited Lagos yesterday.'\n\n6. **Past Continuous**: Actions in progress in the past\n   - Form: was/were + verb-ing\n   - Example: 'They were playing football.'\n\n7. **Past Perfect**: Actions completed before another past action\n   - Form: had + past participle\n   - Example: 'I had eaten before he arrived.'\n\n8. **Past Perfect Continuous**: Ongoing past actions before another past action\n   - Form: had been + verb-ing\n   - Example: 'She had been waiting for hours.'\n\n**FUTURE TENSES:**\n9. **Simple Future**: Actions that will happen\n   - Form: will + base verb\n   - Example: 'I will travel tomorrow.'\n\n10. **Future Continuous**: Actions in progress in the future\n    - Form: will be + verb-ing\n    - Example: 'We will be celebrating next week.'\n\n11. **Future Perfect**: Actions that will be completed by a future time\n    - Form: will have + past participle\n    - Example: 'By 2025, I will have graduated.'\n\n12. **Future Perfect Continuous**: Ongoing actions up to a future point\n    - Form: will have been + verb-ing\n    - Example: 'By June, I will have been studying for six months.'\n\n**Key Rules:**\n- Use present tense for universal truths: 'The sun rises in the east.'\n- Use past tense for specific past events: 'Nigeria gained independence in 1960.'\n- Don't mix tenses unnecessarily in the same sentence\n- Time expressions help determine tense: yesterday (past), now (present), tomorrow (future)",
+      "examples": [
+        {
+          "title": "Example 1: Choosing the Correct Tense",
+          "problem": "Fill in the blank with the correct tense:\n'By the time you arrive, I _______ (finish) my homework.'\n\nA) will finish\nB) will have finished\nC) am finishing\nD) have finished",
+          "solution": "**Answer: B) will have finished**\n\n**Explanation:**\n- The action (finishing homework) will be completed before another future action (your arrival)\n- This requires the Future Perfect tense\n- 'By the time' indicates one action will be complete before another\n- Future Perfect form: will have + past participle"
+        },
+        {
+          "title": "Example 2: Tense Consistency",
+          "problem": "Identify the error in this sentence:\n'She was cooking when the phone rings.'\n\nWhat should 'rings' be changed to?",
+          "solution": "**Answer: 'rings' should be 'rang'**\n\n**Explanation:**\n- The first verb 'was cooking' is in Past Continuous\n- The second verb should also be in the past\n- Correct sentence: 'She was cooking when the phone rang.'\n- Both actions happened in the past, so both verbs must be past tense"
+        },
+        {
+          "title": "Example 3: Present Perfect vs. Simple Past",
+          "problem": "Choose the correct sentence:\n\nA) I have visited Abuja last year.\nB) I visited Abuja last year.\nC) I visit Abuja last year.\nD) I am visiting Abuja last year.",
+          "solution": "**Answer: B) I visited Abuja last year**\n\n**Explanation:**\n- 'Last year' is a specific past time\n- Use Simple Past for specific past times\n- Present Perfect is used for unspecified past times or actions with present relevance\n- Correct: 'I visited' (Simple Past) with 'last year'"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Which tense is used for actions happening right now?",
+          "options": [
+            "Simple Present",
+            "Present Continuous",
+            "Present Perfect",
+            "Simple Past"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Present Continuous (am/is/are + verb-ing) is used for actions happening at the moment of speaking."
+        },
+        {
+          "question": "Complete: 'The students _______ hard for their exams since January.' (study)",
+          "options": [
+            "study",
+            "are studying",
+            "have been studying",
+            "studied"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Present Perfect Continuous (have been studying) is correct because the action started in the past (since January) and continues to the present."
+        },
+        {
+          "question": "Which sentence is correct?",
+          "options": [
+            "I have seen him yesterday",
+            "I saw him yesterday",
+            "I see him yesterday",
+            "I am seeing him yesterday"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Simple Past (saw) is correct with 'yesterday' (a specific past time). Present Perfect cannot be used with specific past time expressions."
+        },
+        {
+          "question": "'Water _______ at 100 degrees Celsius.' Which tense?",
+          "options": [
+            "boils",
+            "is boiling",
+            "has boiled",
+            "will boil"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Simple Present (boils) is used for universal truths and scientific facts."
+        },
+        {
+          "question": "By next month, she _______ in Lagos for five years.",
+          "options": [
+            "lives",
+            "will live",
+            "will have been living",
+            "is living"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Future Perfect Continuous (will have been living) shows an ongoing action that will continue up to a specific future time."
+        },
+        {
+          "question": "Identify the tense: 'They had left before I arrived.'",
+          "options": [
+            "Simple Past",
+            "Past Perfect",
+            "Present Perfect",
+            "Past Continuous"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Past Perfect (had left) shows an action completed before another past action (arrived)."
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "Choose the option that best completes the sentence: 'The president _______ the new hospital next week.'",
+          "options": [
+            "will commission",
+            "commissions",
+            "has commissioned",
+            "commissioned"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Simple Future (will commission) is correct for an action that will happen in the future ('next week').",
+          "year": "2023"
+        },
+        {
+          "question": "Which is grammatically correct?",
+          "options": [
+            "I am knowing the answer",
+            "I know the answer",
+            "I have been knowing the answer",
+            "I will be knowing the answer"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Stative verbs like 'know' are not normally used in continuous tenses. Simple Present (know) is correct.",
+          "year": "2022"
+        },
+        {
+          "question": "Complete the sentence: 'When I reached the station, the train _______.'",
+          "options": [
+            "has left",
+            "leaves",
+            "had left",
+            "is leaving"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Past Perfect (had left) shows the train's departure happened before the arrival at the station (both past actions).",
+          "year": "2021"
+        },
+        {
+          "question": "'She _______ in this school since 2018.' Fill the gap:",
+          "options": [
+            "teaches",
+            "taught",
+            "has been teaching",
+            "will teach"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Present Perfect Continuous (has been teaching) is used with 'since' to show an action that started in the past and continues to the present.",
+          "year": "2020"
+        }
+      ]
+    }
+  }
+]

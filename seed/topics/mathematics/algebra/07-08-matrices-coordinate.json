@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Matrices and Determinants",
+    "slug": "matrices-determinants",
+    "order": 7,
+    "explanation": "Understanding matrix operations (addition, subtraction, multiplication), finding determinants, and solving simultaneous equations using matrices.",
+    "detailedNotes": "A matrix is a rectangular array of numbers arranged in rows and columns.\n\nMATRIX NOTATION:\n- Order/Size: m×n (m rows, n columns)\n- Elements: aᵢⱼ (i = row, j = column)\n\nTYPES OF MATRICES:\n- Row matrix: 1×n\n- Column matrix: m×1\n- Square matrix: m=n\n- Zero matrix: all elements are 0\n- Identity matrix (I): diagonal elements = 1, others = 0\n\nMATRIX OPERATIONS:\n\n1. ADDITION/SUBTRACTION:\n- Only for same size matrices\n- Add/subtract corresponding elements\n\n2. SCALAR MULTIPLICATION:\n- Multiply each element by the scalar\n\n3. MATRIX MULTIPLICATION:\n- (m×n) × (n×p) = (m×p)\n- Element: (AB)ᵢⱼ = Σ(aᵢₖ × bₖⱼ)\n- NOT commutative: AB ≠ BA\n\nDETERMINANT:\nFor 2×2 matrix: [a b; c d]\ndet = ad - bc\n\nFor 3×3 matrix: expand by row or column\n\nINVERSE MATRIX:\nA⁻¹ exists if det(A) ≠ 0\n\nFor 2×2: A⁻¹ = 1/det(A) × [d -b; -c a]\n\nSOLVING EQUATIONS:\nAX = B\nX = A⁻¹B\n\nAPPLICATIONS:\n- Solving simultaneous equations\n- Transformations in geometry\n- Computer graphics\n- Economics (input-output models)",
+    "examples": [
+      {
+        "title": "Matrix Multiplication",
+        "content": "Multiply: [2 3; 1 4] × [5 1; 2 3]",
+        "solution": "Result = [(2×5+3×2) (2×1+3×3); (1×5+4×2) (1×1+4×3)]\n       = [(10+6) (2+9); (5+8) (1+12)]\n       = [16 11; 13 13]\n\nAnswer: [16 11; 13 13]"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "What is the order of a matrix with 3 rows and 4 columns?",
+        "options": [
+          "3×3",
+          "4×3",
+          "3×4",
+          "4×4"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Matrix order is written as rows × columns, so 3 rows and 4 columns = 3×4."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "Find the determinant of [3 2; 1 4]",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "5"
+        ],
+        "correctAnswer": 0,
+        "explanation": "det = (3×4) - (2×1) = 12 - 2 = 10."
+      }
+    ]
+  },
+  {
+    "title": "Coordinate Geometry - Lines",
+    "slug": "coordinate-geometry-lines",
+    "order": 8,
+    "explanation": "Finding distance between points, midpoint, gradient, equation of straight lines, and parallel/perpendicular lines.",
+    "detailedNotes": "Coordinate geometry studies geometric shapes using algebra and coordinates.\n\nDISTANCE BETWEEN TWO POINTS:\nFor points (x₁,y₁) and (x₂,y₂):\nd = √[(x₂-x₁)² + (y₂-y₁)²]\n\nMIDPOINT:\nM = ((x₁+x₂)/2, (y₁+y₂)/2)\n\nGRADIENT (SLOPE):\nm = (y₂-y₁)/(x₂-x₁)\n= rise/run\n\nEQUATION OF A LINE:\n\n1. SLOPE-INTERCEPT FORM:\n- y = mx + c\n- m = gradient\n- c = y-intercept\n\n2. POINT-SLOPE FORM:\n- y - y₁ = m(x - x₁)\n- Use when given point and gradient\n\n3. TWO-POINT FORM:\n- (y-y₁)/(y₂-y₁) = (x-x₁)/(x₂-x₁)\n\n4. GENERAL FORM:\n- ax + by + c = 0\n\nPARALLEL LINES:\n- Same gradient\n- m₁ = m₂\n- Never intersect\n\nPERPENDICULAR LINES:\n- Product of gradients = -1\n- m₁ × m₂ = -1\n- m₂ = -1/m₁\n\nSPECIAL LINES:\n- Horizontal: y = k (m=0)\n- Vertical: x = h (m=undefined)\n\nFINDING INTERSECTION:\nSolve simultaneous equations of two lines",
+    "examples": [
+      {
+        "title": "Distance and Midpoint",
+        "content": "Find the distance and midpoint between A(1,2) and B(7,10).",
+        "solution": "Distance:\nd = √[(7-1)² + (10-2)²]\nd = √[36 + 64]\nd = √100 = 10 units\n\nMidpoint:\nM = ((1+7)/2, (2+10)/2)\nM = (8/2, 12/2)\nM = (4, 6)\n\nDistance = 10 units, Midpoint = (4,6)"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "What is the gradient of the line passing through (2,3) and (4,7)?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": 1,
+        "explanation": "m = (7-3)/(4-2) = 4/2 = 2."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "Two lines are perpendicular. If one has gradient 2, the other has gradient:",
+        "options": [
+          "2",
+          "-2",
+          "1/2",
+          "-1/2"
+        ],
+        "correctAnswer": 3,
+        "explanation": "For perpendicular lines: m₁ × m₂ = -1, so m₂ = -1/2."
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "title": "Organic Chemistry - Alcohols and Carboxylic Acids",
+    "slug": "alcohols-carboxylic-acids",
+    "order": 14,
+    "explanation": "Understanding alcohols, their properties, reactions, and carboxylic acids including nomenclature and chemical behavior.",
+    "detailedNotes": "Alcohols and carboxylic acids are important organic compounds.\n\nALCOHOLS:\n- Contain -OH (hydroxyl) group\n- General formula: CₙH₂ₙ₊₁OH or R-OH\n- Functional group: -OH\n\nNOMENCLATURE:\n-  Replace '-e' of alkane with '-ol'\n- Position of -OH shown by number\n\nExamples:\n- Methanol: CH₃OH\n- Ethanol: C₂H₅OH (CH₃CH₂OH)\n- Propanol: C₃H₇OH\n\nCLASSIFICATION:\n1. Primary (1°): -OH on carbon bonded to 1 other carbon\n2. Secondary (2°): -OH on carbon bonded to 2 other carbons\n3. Tertiary (3°): -OH on carbon bonded to 3 other carbons\n\nPROPERTIES OF ALCOHOLS:\n- Lower members: colorless liquids\n- Pleasant smell\n- Soluble in water (H-bonding)\n- Boiling points higher than corresponding alkanes\n- Neutral to litmus\n\nREACTIONS OF ALCOHOLS:\n\n1. Combustion:\nC₂H₅OH + 3O₂ → 2CO₂ + 3H₂O\n\n2. Oxidation:\n- Primary → Aldehyde → Carboxylic acid\n- Secondary → Ketone\n- Tertiary: no oxidation\n\nUsing acidified K₂Cr₂O₇:\nC₂H₅OH → CH₃CHO → CH₃COOH\n(ethanol → ethanal → ethanoic acid)\n\n3. Esterification:\nAlcohol + Acid → Ester + Water\nC₂H₅OH + CH₃COOH → CH₃COOC₂H₅ + H₂O\n\n4. Dehydration:\nC₂H₅OH → C₂H₄ + H₂O (forms alkene)\n\nUSES OF ALCOHOLS:\n- Ethanol: drinks, antiseptic, fuel\n- Methanol: solvent, fuel\n- Industrial: solvents, antifreeze\n\nCARBOXYLIC ACIDS:\n- Contain -COOH group\n- General formula: CₙH₂ₙ₊₁COOH or R-COOH\n- Functional group: -COOH\n\nNOMENCLATURE:\nReplace '-e' with '-oic acid'\n\nExamples:\n- Methanoic acid: HCOOH (formic acid)\n- Ethanoic acid: CH₃COOH (acetic acid)\n- Propanoic acid: C₂H₅COOH\n\nPROPERTIES:\n- Weak acids\n- Sour taste\n- Soluble in water\n- Turn blue litmus red\n- React with metals, bases, carbonates\n\nREACTIONS:\n\n1. With metals:\n2CH₃COOH + Mg → (CH₃COO)₂Mg + H₂\n\n2. With bases:\nCH₃COOH + NaOH → CH₃COONa + H₂O\n\n3. With carbonates:\n2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂\n\n4. Esterification:\nAcid + Alcohol → Ester + Water\n\nUSES:\n- Ethanoic acid: vinegar, food preservative\n- Methanoic acid: leather tanning\n- Fatty acids: soaps, detergents",
+    "examples": [
+      {
+        "title": "Oxidation of Alcohol",
+        "content": "What products are formed when ethanol is oxidized with acidified potassium dichromate?",
+        "solution": "Ethanol (primary alcohol) undergoes stepwise oxidation:\n\nStep 1: Ethanol → Ethanal (aldehyde)\nC₂H₅OH → CH₃CHO + H₂O\n\nStep 2: Ethanal → Ethanoic acid\nCH₃CHO + [O] → CH₃COOH\n\nFinal product: Ethanoic acid (CH₃COOH)\nIntermediate: Ethanal (if oxidation stopped early)\n\nThe solution turns from orange (Cr₂O₇²⁻) to green (Cr³⁺)."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "The functional group in alcohols is:",
+        "options": [
+          "-COOH",
+          "-CHO",
+          "-OH",
+          "-CO-"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Alcohols contain the hydroxyl (-OH) functional group attached to a carbon atom."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "Ethanoic acid reacts with sodium carbonate to produce:",
+        "options": [
+          "CO and H₂O",
+          "CO₂ and H₂O",
+          "O₂ and H₂",
+          "CO₂ and H₂"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Carboxylic acids react with carbonates to produce salt, water, and carbon dioxide (CO₂)."
+      }
+    ]
+  },
+  {
+    "title": "Separation Techniques in Chemistry",
+    "slug": "separation-techniques",
+    "order": 15,
+    "explanation": "Methods for separating mixtures including filtration, evaporation, distillation, chromatography, and crystallization.",
+    "detailedNotes": "Separation techniques are used to separate components of mixtures.\n\nTYPES OF MIXTURES:\n1. Homogeneous: uniform composition (solutions)\n2. Heterogeneous: non-uniform (suspensions, colloids)\n\nSEPARATION METHODS:\n\n1. FILTRATION:\n- Separates insoluble solid from liquid\n- Uses filter paper/funnel\n- Residue: solid left on filter\n- Filtrate: liquid that passes through\n- Example: sand from water\n\n2. EVAPORATION:\n- Separates dissolved solid from solution\n- Heat to evaporate liquid\n- Solid remains\n- Example: salt from salt solution\n- Disadvantage: can decompose heat-sensitive substances\n\n3. CRYSTALLIZATION:\n- Purifies soluble solid\n- Heat saturated solution\n- Cool slowly to form crystals\n- More pure than evaporation\n- Example: purifying sugar\n\n4. SIMPLE DISTILLATION:\n- Separates liquid from solution\n- Liquid evaporates, then condenses\n- Collects pure liquid (distillate)\n- Example: pure water from salt solution\n- Requires: different boiling points\n\n5. FRACTIONAL DISTILLATION:\n- Separates miscible liquids\n- Uses fractionating column\n- Separates by boiling point differences\n- Examples:\n  - Crude oil → petroleum fractions\n  - Air → nitrogen, oxygen, argon\n  - Ethanol-water mixture\n\n6. SUBLIMATION:\n- Separates sublimable solid from non-sublimable\n- Solid → gas → solid (no liquid)\n- Examples: iodine, ammonium chloride, naphthalene\n\n7. CHROMATOGRAPHY:\n- Separates dissolved substances\n- Components move at different rates\n- Paper/thin-layer chromatography\n- Uses: separating dyes, inks, amino acids\n\nTerms:\n- Stationary phase: paper/silica\n- Mobile phase: solvent\n- Rf value = distance moved by substance / distance moved by solvent\n\n8. SEPARATING FUNNEL:\n- Separates immiscible liquids\n- Based on density difference\n- Denser liquid settles below\n- Example: oil and water\n\n9. MAGNETIC SEPARATION:\n- Separates magnetic from non-magnetic\n- Example: iron filings from sulfur\n\n10. DECANTATION:\n- Pour off liquid from settled solid\n- Example: water from sand\n\nCHOOSING METHOD:\nDepends on:\n- Physical properties\n- Nature of mixture\n- Required purity\n- Scale of operation",
+    "examples": [
+      {
+        "title": "Choosing Separation Method",
+        "content": "How would you obtain pure water from a mixture of sand, salt, and water?",
+        "solution": "Step 1: FILTRATION\n- Remove sand (insoluble)\n- Sand = residue\n- Salt solution = filtrate\n\nStep 2: SIMPLE DISTILLATION\n- Heat salt solution\n- Water evaporates and condenses\n- Pure water collected\n- Salt left behind\n\nResult: Pure water obtained, sand and salt separated."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which method would separate two miscible liquids with different boiling points?",
+        "options": [
+          "Filtration",
+          "Evaporation",
+          "Fractional distillation",
+          "Crystallization"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Fractional distillation separates miscible liquids based on their different boiling points."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "The process of separating dyes in ink is called:",
+        "options": [
+          "Filtration",
+          "Distillation",
+          "Chromatography",
+          "Evaporation"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Chromatography is used to separate colored substances like dyes in ink based on their differential movement."
+      }
+    ]
+  },
+  {
+    "title": "Quantitative Analysis - Titration",
+    "slug": "titration-analysis",
+    "order": 16,
+    "explanation": "Understanding acid-base titration, calculations, indicators, and determining concentrations of solutions.",
+    "detailedNotes": "Titration is a technique to find the concentration of a solution by reacting it with a solution of known concentration.\n\nACID-BASE TITRATION:\nReaction between acid and base to form salt and water\n\nKEY TERMS:\n\n1. TITRANT: Solution in burette (known concentration)\n2. ANALYTE: Solution in conical flask (unknown concentration)\n3. EQUIVALENCE POINT: Point where acid and base neutralize exactly\n4. END POINT: Point where indicator changes color\n5. TITRATION: Volume of titrant needed to reach end point\n\nAPPARATUS:\n- Burette: delivers titrant\n- Pipette: measures fixed volume of analyte\n- Conical flask: contains analyte\n- Indicator: shows end point\n\nCOMMON INDICATORS:\n\n1. Phenolphthalein:\n- Colorless in acid\n- Pink in base\n- End point: first permanent pink\n\n2. Methyl orange:\n- Red in acid\n- Yellow in base\n- End point: orange/yellow\n\n3. Litmus:\n- Red in acid\n- Blue in base\n\nPROCEDURE:\n1. Fill burette with titrant (e.g., NaOH)\n2. Pipette fixed volume of analyte into flask (e.g., HCl)\n3. Add few drops of indicator\n4. Add titrant slowly with swirling\n5. Stop when indicator changes color permanently\n6. Record burette readings\n7. Repeat for accuracy (concordant results)\n\nCALCULATIONS:\n\nUsing: n(acid) × Vₐ × Cₐ = n(base) × Vᵦ × Cᵦ\n\nWhere:\nn = number of H⁺ or OH⁻ in formula\nV = volume (must use same units)\nC = concentration (mol/dm³)\n\nFor monoprotic acids and bases (HCl, NaOH):\nVₐCₐ = VᵦCᵦ\n\nSTEPS:\n1. Write balanced equation\n2. Identify mole ratio\n3. Calculate moles of known\n4. Use ratio to find moles of unknown\n5. Calculate concentration: C = n/V\n\nUNIT CONVERSIONS:\n- cm³ to dm³: divide by 1000\n- dm³ to cm³: multiply by 1000\n\nBACK TITRATION:\n- When analyte reacts slowly or is insoluble\n- Add excess reagent\n- Titrate remaining reagent\n\nAPPLICATIONS:\n- Finding concentration\n- Purity determination\n- Quality control\n- Water hardness\n- Vitamin C content",
+    "examples": [
+      {
+        "title": "Titration Calculation",
+        "content": "25 cm³ of HCl was neutralized by 20 cm³ of 0.1 M NaOH. Find the concentration of HCl.",
+        "solution": "Equation: HCl + NaOH → NaCl + H₂O\nMole ratio 1:1\n\nUsing: VₐCₐ = VᵦCᵦ\n\nGiven:\nVₐ (HCl) = 25 cm³\nVᵦ (NaOH) = 20 cm³\nCᵦ (NaOH) = 0.1 M\n\n25 × Cₐ = 20 × 0.1\n25Cₐ = 2\nCₐ = 2/25 = 0.08 M\n\nConcentration of HCl = 0.08 M or 0.08 mol/dm³"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "In acid-base titration, the solution of known concentration is called:",
+        "options": [
+          "Analyte",
+          "Titrant",
+          " Indicator",
+          "Precipitate"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The titrant is the solution of known concentration, usually placed in the burette."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "Phenolphthalein is pink in:",
+        "options": [
+          "Acid",
+          "Base",
+          "Neutral solution",
+          "Salt solution"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Phenolphthalein is pink in basic (alkaline) solutions and colorless in acidic solutions."
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="/" class="navbar-brand">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+      JAMB Study Hub
+    </a>
+    
+    <button class="menu-toggle" id="menuToggle">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    
+    <ul class="navbar-menu" id="navbarMenu">
+      <li><a href="/" class="navbar-link">Home</a></li>
+      <li><a href="/subjects/english" class="navbar-link">English</a></li>
+      <li><a href="/subjects/physics" class="navbar-link">Physics</a></li>
+      <li><a href="/subjects/chemistry" class="navbar-link">Chemistry</a></li>
+      <li><a href="/subjects/mathematics" class="navbar-link">Mathematics</a></li>
+      
+      <% if (locals.user) { %>
+        <li><a href="/dashboard" class="navbar-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-sm"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+          Dashboard
+        </a></li>
+        <li><a href="/mock-exam" class="navbar-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-sm"><path d="M8 18V9"/><path d="M12 18v-9"/><path d="M16 18v-9"/><path d="M3 18h18"/><path d="M20 18V6.5a2.5 2.5 0 0 0-2.5-2.5h-11A2.5 2.5 0 0 0 4 6.5V18"/></svg>
+          Mock Exam
+        </a></li>
+        <li><a href="/logout" class="btn btn-outline btn-sm">Logout</a></li>
+      <% } else { %>
+        <li><a href="/login" class="btn btn-primary btn-sm">Login</a></li>
+        <li><a href="/register" class="btn btn-secondary btn-sm">Register</a></li>
+      <% } %>
+    </ul>
+  </div>
+</nav>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>

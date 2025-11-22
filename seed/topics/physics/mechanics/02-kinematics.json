@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Kinematics - Motion in a Straight Line",
+    "slug": "kinematics-motion",
+    "order": 2,
+    "explanation": "Study of motion without considering forces. Covers distance, displacement, speed, velocity, and acceleration in straight line motion.",
+    "detailedNotes": "Kinematics deals with describing motion using mathematical equations and graphs.\n\nKEY TERMS:\n- Distance: total path covered (scalar)\n- Displacement: change in position (vector)\n- Speed: rate of distance covered (scalar)\n- Velocity: rate of displacement (vector)\n- Acceleration: rate of change of velocity\n\nEQUATIONS OF MOTION (for constant acceleration):\n1. v = u + at\n2. s = ut + ½at²\n3. v² = u² + 2as\n4. s = ½(u + v)t\n\nWhere:\nv = final velocity\nu = initial velocity\na = acceleration\nt = time\ns = displacement\n\nTYPES OF MOTION:\n1. Uniform motion: constant velocity (a = 0)\n2. Uniformly accelerated: constant acceleration\n3. Free fall: motion under gravity (a = g = 10 m/s²)\n\nGRAPHS:\n- Distance-time: slope = speed\n- Velocity-time: slope = acceleration, area = displacement\n- Acceleration-time: area = change in velocity",
+    "examples": [
+      {
+        "title": "Calculating Final Velocity",
+        "content": "A car accelerates from rest at 2 m/s² for 5 seconds. What is its final velocity?",
+        "solution": "Given: u = 0 m/s (from rest), a = 2 m/s², t = 5 s\nUsing v = u + at\nv = 0 + (2)(5)\nv = 10 m/s\n\nThe car's final velocity is 10 m/s."
+      },
+      {
+        "title": "Calculating Displacement",
+        "content": "A ball is thrown upward with velocity 20 m/s. How high does it go? (g = 10 m/s²)",
+        "solution": "At maximum height, final velocity v = 0\nGiven: u = 20 m/s, v = 0, a = -10 m/s² (gravity opposes motion)\nUsing v² = u² + 2as\n0² = 20² + 2(-10)s\n0 = 400 - 20s\n20s = 400\ns = 20 m\n\nThe ball reaches a height of 20 m."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "A train moving at 30 m/s decelerates uniformly at 5 m/s². How long does it take to stop?",
+        "options": [
+          "3 seconds",
+          "6 seconds",
+          "10 seconds",
+          "15 seconds"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Using v = u + at: 0 = 30 + (-5)t, therefore 5t = 30, t = 6 seconds."
+      },
+      {
+        "question": "If a car travels 100 m in 20 s at constant speed, what is its speed?",
+        "options": [
+          "2 m/s",
+          "5 m/s",
+          "10 m/s",
+          "20 m/s"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Speed = distance/time = 100/20 = 5 m/s."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "A body starts from rest and accelerates uniformly at 3 m/s² for 4 seconds. The distance covered is:",
+        "options": [
+          "12 m",
+          "24 m",
+          "36 m",
+          "48 m"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Using s = ut + ½at²: s = 0(4) + ½(3)(4²) = ½(3)(16) = 24 m."
+      }
+    ]
+  }
+]

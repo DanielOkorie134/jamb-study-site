@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> | JAMB Study Hub</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <main class="container" style="padding-top: var(--spacing-3xl); padding-bottom: var(--spacing-3xl);">
+    <!-- Subject Header -->
+    <div class="slide-up" style="text-align: center; margin-bottom: var(--spacing-3xl);">
+      <div style="font-size: 4rem; margin-bottom: var(--spacing-md);"><%= subject.icon %></div>
+      <h1 style="color: var(--<%= subject.slug %>); margin-bottom: var(--spacing-md);"><%= subject.name %></h1>
+      <p class="lead"><%= subject.description %></p>
+      
+      <% if (subjectProgress > 0) { %>
+        <div style="max-width: 500px; margin: var(--spacing-xl) auto 0;">
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: <%= subjectProgress %>%; background: linear-gradient(90deg, var(--<%= subject.slug %>) 0%, var(--<%= subject.slug %>) 100%);"></div>
+          </div>
+          <p class="progress-text">Your Progress: <%= subjectProgress %>%</p>
+        </div>
+      <% } %>
+    </div>
+
+    <!-- Syllabus Section -->
+    <section class="card slide-up" style="margin-bottom: var(--spacing-3xl);">
+      <h2 style="color: var(--<%= subject.slug %>); margin-bottom: var(--spacing-xl);">📋 Syllabus</h2>
+      
+      <% if (subject.syllabus && subject.syllabus.length > 0) { %>
+        <div class="grid grid-cols-2" style="gap: var(--spacing-xl);">
+          <% subject.syllabus.forEach(section => { %>
+            <div>
+              <h4 style="color: var(--text-primary); margin-bottom: var(--spacing-md); border-bottom: 2px solid var(--<%= subject.slug %>); padding-bottom: var(--spacing-sm);">
+                <%= section.section %>
+              </h4>
+              <ul style="list-style: none; padding-left: 0;">
+                <% section.topics.forEach(topic => { %>
+                  <li style="padding: var(--spacing-sm) 0; color: var(--text-secondary);">
+                    <span style="color: var(--<%= subject.slug %>); margin-right: var(--spacing-sm);">•</span>
+                    <%= topic %>
+                  </li>
+                <% }) %>
+              </ul>
+            </div>
+          <% }) %>
+        </div>
+      <% } else { %>
+        <p class="text-secondary">Syllabus will be available soon.</p>
+      <% } %>
+    </section>
+
+    <!-- Topics List -->
+    <section>
+      <h2 style="margin-bottom: var(--spacing-xl);">📚 Topics</h2>
+      
+      <% if (topics && topics.length > 0) { %>
+        <div class="grid grid-cols-1" style="gap: var(--spacing-md);">
+          <% topics.forEach((topic, index) => { %>
+            <a href="/topics/<%= topic._id %>" class="card hover-lift slide-up stagger-<%= (index % 5) + 1 %>" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex; align-items: center; gap: var(--spacing-lg); flex: 1;">
+                <div class="checkmark <%= topic.completed ? 'checked' : '' %>"></div>
+                <div>
+                  <h4 style="margin-bottom: var(--spacing-xs);"><%= topic.title %></h4>
+                  <p class="small text-secondary" style="margin-bottom: 0;">
+                    <%= topic.explanation.substring(0, 100) %>...
+                  </p>
+                </div>
+              </div>
+              <div style="color: var(--<%= subject.slug %>); font-size: 1.5rem;">→</div>
+            </a>
+          <% }) %>
+        </div>
+      <% } else { %>
+        <div class="card" style="text-align: center; padding: var(--spacing-3xl);">
+          <p class="lead">No topics available yet. Check back soon!</p>
+        </div>
+      <% } %>
+    </section>
+  </main>
+  
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Momentum and  Collisions",
+    "slug": "momentum-collisions",
+    "order": 5,
+    "explanation": "Understanding momentum as mass times velocity, conservation of momentum, and analyzing elastic and inelastic collisions.",
+    "detailedNotes": "Momentum is the product of an object's mass and velocity, representing its 'quantity of motion'.\n\nMOMENTUM:\n- Formula: p = mv (momentum = mass × velocity)\n- Unit: kg·m/s or N·s\n- Vector quantity (has direction)\n- Depends on both mass and velocity\n\nCONSERVATION OF MOMENTUM:\nIn a closed system with no external forces:\n- Total momentum before collision = Total momentum after collision\n- m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂\n\nWhere:\n- m = mass\n- u = initial velocity\n- v = final velocity\n\nTYPES OF COLLISIONS:\n\n1. ELASTIC COLLISION:\n- Both momentum and kinetic energy conserved\n- Objects bounce off each other\n- No energy lost to heat/sound\n- Example: billiard balls\n\n2. INELASTIC COLLISION:\n- Momentum conserved\n- Kinetic energy NOT conserved (some lost)\n- Objects may stick together\n- Example: car crash\n\nIMPULSE:\n- Change in momentum\n- Impulse = Force × Time\n- Also: Impulse = Change in momentum = m(v - u)\n- Unit: N·s\n\nAPPLICATIONS:\n- Airbags (increase time, reduce force)\n- Following through in sports\n- Rocket propulsion\n- Recoil of guns",
+    "examples": [
+      {
+        "title": "Conservation of Momentum",
+        "content": "A 2 kg ball moving at 5 m/s collides with a stationary 3 kg ball. After collision, they stick together. Find their common velocity.",
+        "solution": "Using conservation of momentum:\nBefore: p = m₁u₁ + m₂u₂\np = (2)(5) + (3)(0) = 10 kg·m/s\n\nAfter: p = (m₁ + m₂)v\n10 = (2 + 3)v\n10 = 5v\nv = 2 m/s\n\nThe combined mass moves at 2 m/s."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Momentum is the product of:",
+        "options": [
+          "Mass and acceleration",
+          "Mass and velocity",
+          "Force and time",
+          "Force and distance"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Momentum = mass × velocity (p = mv)."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "In an elastic collision:",
+        "options": [
+          "Only momentum is conserved",
+          "Only kinetic energy is conserved",
+          "Both momentum and kinetic energy are conserved",
+          "Neither is conserved"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Elastic collisions conserve both total momentum and total kinetic energy."
+      }
+    ]
+  },
+  {
+    "title": "Circular Motion",
+    "slug": "circular-motion",
+    "order": 6,
+    "explanation": "Motion in a circular path, centripetal force, centripetal acceleration, and applications like satellites and vehicles on curves.",
+    "detailedNotes": "Circular motion occurs when an object moves along a circular path at constant or varying speed.\n\nUNIFORM CIRCULAR MOTION:\n- Constant speed\n- Changing velocity (direction changes)\n- Always accelerating (toward center)\n\nKEY TERMS:\n\n1. Period (T): Time for one complete revolution\n- Unit: seconds\n\n2. Frequency (f): Number of revolutions per second\n- f = 1/T\n- Unit: Hz (Hertz)\n\n3. Angular velocity (ω):\n- Rate of change of angle\n- ω = 2π/T = 2πf\n- Unit: rad/s\n\n4. Linear velocity (v):\n- v = rω = 2πr/T\n- where r = radius\n\nCENTRIPETAL ACCELERATION:\n- Acceleration toward center\n- a = v²/r = rω²\n- Always perpendicular to velocity\n\nCENTRIPETAL FORCE:\n- Force toward center keeping object in circle\n- F = mv²/r = mrω²\n- Provided by: tension, gravity, friction, etc.\n\nAPPLICATIONS:\n- Satellites orbiting Earth\n- Cars turning corners\n- Planets orbiting sun\n- Washing machine spin cycle\n- Athletics: hammer throw\n\nBANKED CURVES:\n- Road tilted to provide centripetal force\n- Reduces reliance on friction",
+    "examples": [
+      {
+        "title": "Calculating Centripetal Force",
+        "content": "A 1000 kg car travels at 20 m/s around a curve of radius 50 m. Calculate the centripetal force.",
+        "solution": "F = mv²/r\nF = (1000)(20)²/50\nF = (1000)(400)/50\nF = 400000/50\nF = 8000 N\n\nThe centripetal force is 8000 N toward the center of the curve."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Centripetal force always acts:",
+        "options": [
+          "Tangent to the circle",
+          "Away from the center",
+          "Toward the center",
+          "Perpendicular to the plane"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Centripetal force always points toward the center of the circular path."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "The centripetal acceleration of an object in circular motion is:",
+        "options": [
+          "v/r",
+          "vr",
+          "v²/r",
+          "v²r"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Centripetal acceleration a = v²/r, where v is velocity and r is radius."
+      }
+    ]
+  }
+]

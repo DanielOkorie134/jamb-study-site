@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Vocabulary in Context",
+    "slug": "vocabulary-context",
+    "order": 3,
+    "explanation": "Understanding word meanings based on surrounding text, recognizing synonyms, antonyms, and figurative language in passages.",
+    "detailedNotes": "Vocabulary in context questions test your ability to determine the meaning of words based on how they're used in a passage, rather than relying solely on dictionary definitions.\n\nKey strategies:\n1. Read the entire sentence containing the word\n2. Look at sentences before and after for context\n3. Identify signal words (however, although, such as)\n4. Replace the word with each option to see which makes sense\n5. Consider the author's tone\n\nTypes of context clues:\n- Definition clues (word is defined in the sentence)\n- Synonym clues (similar word is used)\n- Antonym clues (opposite word provides contrast)\n- Example clues (examples illustrate meaning)\n- Inference clues (meaning implied from general context)\n\nFigurative language to recognize:\n- Metaphors: comparing without 'like' or 'as'\n- Similes: comparing with 'like' or 'as'\n- Personification: giving human qualities to non-human things\n- Hyperbole: extreme exaggeration\n- Idioms: expressions with meanings different from literal words",
+    "examples": [
+      {
+        "title": "Using Context Clues",
+        "content": "'The politician's rhetoric, filled with empty promises and misleading statistics, failed to convince the skeptical audience.'\n\nWhat does 'rhetoric' mean in this context?",
+        "solution": "'Rhetoric' here means persuasive but insincere language. The context clues 'empty promises' and 'misleading statistics' indicate negative, deceptive communication. The negative reaction ('failed to convince') confirms this meaning."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "In the sentence 'Her meticulous preparation ensured that every detail of the event was perfect,' meticulous most likely means:",
+        "options": [
+          "Careless and rushed",
+          "Extremely careful and precise",
+          "Expensive and elaborate",
+          "Simple and basic"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The context 'ensured that every detail...was perfect' indicates extreme care and attention to detail, making 'extremely careful and precise' the correct answer."
+      },
+      {
+        "question": "'The desert was an arid wasteland with no vegetation in sight.' Arid means:",
+        "options": [
+          "Wet and muddy",
+          "Very dry",
+          "Colorful and vibrant",
+          "Mountainous"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'No vegetation' and 'wasteland' are clues that indicate a very dry environment, which is what 'arid' means."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "'The team's camaraderie was evident in their seamless cooperation.' What does camaraderie mean?",
+        "options": [
+          "Competition",
+          "Friendship and mutual trust",
+          "Leadership",
+          "Disagreement"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Seamless cooperation' indicates positive relationships, pointing to friendship and mutual trust as the meaning of camaraderie."
+      }
+    ]
+  }
+]

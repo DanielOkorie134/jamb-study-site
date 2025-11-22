@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> | JAMB Study Hub</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <main class="container container-md" style="padding-top: var(--spacing-3xl); padding-bottom: var(--spacing-3xl);">
+    <div class="slide-up" style="text-align: center; margin-bottom: var(--spacing-3xl);">
+      <h1 style="margin-bottom: var(--spacing-md);">🎯 Mock Examination</h1>
+      <p class="lead">Test your knowledge with timed mock exams</p>
+    </div>
+
+    <div class="grid grid-cols-2">
+      <% subjects.forEach((subject, index) => { %>
+        <a href="/mock-exam/<%= subject.slug %>" class="subject-card card hover-lift slide-up stagger-<%= (index % 4) + 1 %>" style="--card-color: var(--<%= subject.slug %>); text-decoration: none; color: inherit;">
+          <div class="subject-icon"><%= subject.icon %></div>
+          <h3 class="subject-name"><%= subject.name %></h3>
+          <p class="subject-description" style="margin-bottom: var(--spacing-lg);">
+            40 questions • 60 minutes
+          </p>
+          <div class="btn btn-primary" style="width: 100%;">
+            Start Exam →
+          </div>
+        </a>
+      <% }) %>
+    </div>
+
+    <div class="card slide-up" style="margin-top: var(--spacing-3xl); background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 2px solid var(--info);">
+      <h3 style="color: var(--info); margin-bottom: var(--spacing-md);">ℹ️ Exam Instructions</h3>
+      <ul style="color: var(--text-secondary); line-height: 1.8;">
+        <li>Each exam contains 40 questions</li>
+        <li>You have 60 minutes to complete the exam</li>
+        <li>Questions are randomly selected from exercises and past questions</li>
+        <li>The exam will auto-submit when time expires</li>
+        <li>You can review your answers after submission</li>
+        <li>Results include detailed explanations and performance analysis</li>
+      </ul>
+    </div>
+  </main>
+  
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

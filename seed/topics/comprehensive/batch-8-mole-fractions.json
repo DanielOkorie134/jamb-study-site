@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Mole Concept and Stoichiometry",
+    "slug": "mole-concept",
+    "order": 12,
+    "explanation": "Understanding the mole, Avogadro's number, molar mass, and calculations involving chemical equations.",
+    "detailedNotes": "The mole is the SI unit for amount of substance.\n\nTHE MOLE:\n- 1 mole = 6.02 × 10²³ particles (Avogadro's number)\n- Particles can be atoms, molecules, ions, etc.\n\nMOLAR MASS:\n- Mass of 1 mole of substance\n- Numerically equal to relative formula mass\n- Unit: g/mol\n- Example: H₂O = 18 g/mol\n\nFORMULAS:\n\n1. Number of moles:\nn = mass (g) / molar mass (g/mol)\nn = volume (dm³) / 24 (for gases at STP)\nn = volume (cm³) / 24000\nn = concentration × volume (dm³)\n\n2. Mass:\nmass = moles × molar mass\n\n3. Number of particles:\nParticles = moles × 6.02 × 10²³\n\nSTOICHIOMETRY:\nQuantitative relationships in chemical reactions\n\nSTEPS:\n1. Write balanced equation\n2. Identify known and unknown\n3. Convert to moles\n4. Use mole ratio from equation\n5. Convert to required units\n\nLIMITING REAGENT:\n- Reactant that runs out first\n- Determines amount of product\n- Other reactants in excess\n\nPERCENTAGE YIELD:\n% yield = (actual yield / theoretical yield) × 100%\n\nCONCENTRATION:\n- Moles per dm³ (mol/dm³)\n- Conc = moles / volume\n\nEMPIRICAL FORMULA:\n- Simplest ratio of atoms\n- From percentage composition\n\nMOLECULAR FORMULA:\n- Actual number of atoms\n- Multiple of empirical formula",
+    "examples": [
+      {
+        "title": "Mole Calculation",
+        "content": "Calculate the number of moles in 36 g of water (H₂O). [H=1, O=16]",
+        "solution": "Molar mass of H₂O = 2(1) + 16 = 18 g/mol\n\nn = mass / molar mass\nn = 36 / 18\nn = 2 moles\n\nThere are 2 moles of water in 36 g."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Avogadro's number is:",
+        "options": [
+          "6.02 × 10²²",
+          "6.02 × 10²³",
+          "6.02 × 10²⁴",
+          "6.02 × 10²⁵"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Avogadro's number is 6.02 × 10²³, the number of particles in one mole."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "What is the mass of 0.5 moles of CO₂? [C=12, O=16]",
+        "options": [
+          "11 g",
+          "22 g",
+          "44 g",
+          "88 g"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Molar mass of CO₂ = 12 + 2(16) = 44 g/mol. Mass = 0.5 × 44 = 22 g."
+      }
+    ]
+  },
+  {
+    "title": "Fractions and Decimals",
+    "slug": "fractions-decimals",
+    "order": 16,
+    "explanation": "Operations with fractions, converting between fractions and decimals, and solving problems involving ratios and proportions.",
+    "detailedNotes": "Fractions represent parts of a whole.\n\nTYPES OF FRACTIONS:\n1. Proper: numerator < denominator (3/4)\n2. Improper: numerator ≥ denominator (5/3)\n3. Mixed: whole number + fraction (1 ¾)\n\nOPERATIONS:\n\n1. ADDITION/SUBTRACTION:\n- Find LCD (lowest common denominator)\n- Convert to equivalent fractions\n- Add/subtract numerators\n- Simplify\n\nExample: 1/2 + 1/3 = 3/6 + 2/6 = 5/6\n\n2. MULTIPLICATION:\n- Multiply numerators\n- Multiply denominators\n- Simplify\n\nExample: 2/3 × 3/4 = 6/12 = 1/2\n\n3. DIVISION:\n- Multiply by reciprocal\n- Flip second fraction\n\nExample: 2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = 5/6\n\nCONVERSIONS:\n\nFraction to decimal:\n- Divide numerator by denominator\n- 3/4 = 0.75\n\nDecimal to fraction:\n- Write as fraction over power of 10\n- Simplify\n- 0.25 = 25/100 = 1/4\n\nDECIMAL OPERATIONS:\n- Addition/Subtraction: align decimal points\n- Multiplication: ignore decimals, then count places\n- Division: make divisor whole number\n\nRATIOS:\n- Comparison of quantities\n- a:b means a/b\n- Simplify by dividing by HCF\n\nPROPORTION:\n- Equality of ratios\n- a/b = c/d\n- Cross multiply: ad = bc\n\nPERCENTAGES:\n- Out of 100\n- 25% = 25/100 = 0.25\n- Percentage of amount: (percentage/100) × amount",
+    "examples": [
+      {
+        "title": "Fraction Operations",
+        "content": "Calculate: 2/3 + 1/4 - 1/6",
+        "solution": "Find LCD of 3, 4, 6 = 12\n\n2/3 = 8/12\n1/4 = 3/12\n1/6 = 2/12\n\n8/12 + 3/12 - 2/12 = (8+3-2)/12 = 9/12 = 3/4\n\nAnswer: 3/4"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Convert 0.6 to a fraction in simplest form:",
+        "options": [
+          "6/10",
+          "3/5",
+          "2/3",
+          "5/6"
+        ],
+        "correctAnswer": 1,
+        "explanation": "0.6 = 6/10 = 3/5 (dividing by 2)."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "What is 3/4 of 80?",
+        "options": [
+          "20",
+          "40",
+          "60",
+          "70"
+        ],
+        "correctAnswer": 2,
+        "explanation": "3/4 × 80 = (3 × 80)/4 = 240/4 = 60."
+      }
+    ]
+  }
+]

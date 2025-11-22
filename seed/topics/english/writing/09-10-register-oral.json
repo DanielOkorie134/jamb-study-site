@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Register and Tone in Writing",
+    "slug": "register-tone",
+    "order": 9,
+    "explanation": "Understanding formal vs informal language, choosing appropriate tone for different contexts and audiences.",
+    "detailedNotes": "Register refers to the level of formality in language use, while tone conveys attitude and emotion.\n\nREGISTER TYPES:\n\n1. FORMAL REGISTER:\n- Used in academic, professional, official contexts\n- Complete sentences, proper grammar\n- No contractions (don't → do not)\n- No slang or colloquialisms\n- Impersonal language\n- Example: 'I am writing to inquire about...'\n\n2. INFORMAL REGISTER:\n- Used with friends, family, casual settings\n- Contractions allowed\n- Colloquial expressions\n- Personal language\n- Example: 'Hey, what's up?'\n\n3. NEUTRAL REGISTER:\n- Neither too formal nor informal\n- Used in everyday conversations\n- Clear and direct\n\nFORMAL VS INFORMAL:\n- kids → children\n- a lot → many/much\n- thing → matter/issue\n- get → obtain/receive\n- help out → assist\n\nTONE:\nThe attitude conveyed through writing:\n- Objective: factual, unbiased\n- Subjective: personal opinion\n- Serious: grave, important\n- Humorous: light, funny\n- Optimistic: positive, hopeful\n- Pessimistic: negative, gloomy\n- Respectful, sarcastic, enthusiastic, etc.\n\nCONTEXT MATTERS:\n- Business letter: formal, respectful\n- Email to friend: informal, casual\n- Academic essay: formal, objective\n- Speech: depends on audience\n- Text message: informal",
+    "examples": [
+      {
+        "title": "Converting Informal to Formal",
+        "content": "Informal: 'Hey boss, can I get some time off next week? I'm kinda tired and need a break.'\n\nRewrite in formal register.",
+        "solution": "Formal: 'Dear Sir/Madam, I am writing to request leave for next week. I would appreciate the opportunity to take a short break to recuperate.'\n\nChanges made:\n- Removed casual greeting\n- Eliminated contractions\n- Replaced slang ('kinda') with proper words\n- Used formal vocabulary\n- Maintained respectful tone"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which sentence uses formal register?",
+        "options": [
+          "I wanna go to the party tonight.",
+          "Can't wait to see you guys!",
+          "I am pleased to accept your invitation.",
+          "That's super cool!"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Option C uses formal language with complete words, proper grammar, and no slang or contractions."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "Formal register is appropriate for:",
+        "options": [
+          "Text messages to friends",
+          "Official letters and reports",
+          "Social media posts",
+          "Casual conversations"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Formal register is used in official, academic, and professional contexts like letters and reports."
+      }
+    ]
+  },
+  {
+    "title": "Oral Literature - Folktales and Proverbs",
+    "slug": "oral-literature",
+    "order": 10,
+    "explanation": "Understanding African oral traditions including folktales, proverbs, riddles, and their cultural significance.",
+    "detailedNotes": "Oral literature consists of stories, sayings, and expressions passed down through generations by word of mouth.\n\nFOLKTALES:\nTraditional stories that teach moral lessons\n\nCHARACTERISTICS:\n- Passed orally through generations\n- Teach values and morals\n- Feature animals as characters (often)\n- Have clear good vs evil\n- Use repetition for memory\n- Reflect cultural beliefs\n\nTYPES:\n- Animal tales (Tortoise stories)\n- Myths (creation stories)\n- Legends (historical heroes)\n- Fables (moral lessons)\n\nCOMMON THEMES:\n- Cunning vs strength\n- Greed punished\n- Honesty rewarded\n- Wisdom valued\n\nPROVERBS:\nShort, wise sayings expressing truth or advice\n\nPURPOSE:\n- Preserve wisdom\n- Teach lessons\n- Settle arguments\n- Add eloquence to speech\n\nEXAMPLES:\n- 'A bird in hand is worth two in the bush' (appreciate what you have)\n- 'When two elephants fight, the grass suffers' (innocent suffer in conflicts)\n- 'It takes a village to raise a child' (community responsibility)\n\nRIDDLES:\n- Questions with clever answers\n- Test intelligence and wit\n- Entertainment and education\n- Example: 'What has eyes but cannot see?' (A needle)\n\nCULTURAL SIGNIFICANCE:\n- Preserve history and culture\n- Pass down moral values\n- Unite communities\n- Entertain and educate",
+    "examples": [
+      {
+        "title": "Interpreting a Proverb",
+        "content": "'The patient dog eats the fattest bone.'\n\nWhat does this proverb mean?",
+        "solution": "Meaning: Patience is rewarded; those who wait calmly often get the best results.\n\nInterpretation: Instead of rushing or being greedy, being patient and waiting for the right time leads to better outcomes. The 'fattest bone' represents the best reward that comes to those who exercise patience and self-control."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Folktales primarily serve to:",
+        "options": [
+          "Record historical facts",
+          "Teach moral lessons",
+          "Document scientific knowledge",
+          "Describe geographical features"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Folktales are traditional stories designed to teach moral lessons and cultural values to listeners."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "What is the main characteristic of oral literature?",
+        "options": [
+          "It is written down",
+          "It is passed by word of mouth",
+          "It is created by one author",
+          "It has no cultural value"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Oral literature is distinguished by being passed down through generations by spoken word, not writing."
+      }
+    ]
+  }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "title": "Synonyms and Antonyms",
+    "slug": "synonyms-antonyms",
+    "order": 5,
+    "content": {
+      "explanation": "Synonyms are words with similar meanings, while antonyms are words with opposite meanings. Understanding these relationships helps you expand your vocabulary and answer JAMB questions on word meanings accurately.",
+      "detailedNotes": "**Synonyms** are words that have the same or nearly the same meaning.\n\nExamples:\n- Happy = Joyful, Cheerful, Delighted\n- Intelligent = Smart, Clever, Bright\n- Beautiful = Attractive, Pretty, Lovely\n\n**Antonyms** are words that have opposite meanings.\n\nExamples:\n- Happy ↔ Sad\n- Intelligent ↔ Foolish\n- Beautiful ↔ Ugly\n\n**Types of Synonyms:**\n1. **Absolute Synonyms**: Exactly the same meaning (rare)\n   - Begin = Commence\n2. **Near Synonyms**: Similar but not identical\n   - Slim = Thin (slim is more positive)\n\n**Types of Antonyms:**\n1. **Gradable**: Opposite ends of a scale\n   - Hot ↔ Cold (with warm, cool in between)\n2. **Complementary**: No middle ground\n   - Dead ↔ Alive\n3. **Relational**: Pairs that depend on each other\n   - Teacher ↔ Student\n\n**JAMB Strategy:**\n- Read the sentence context carefully\n- Eliminate obviously wrong options\n- Choose the word that fits the context best\n- Watch for words with multiple meanings",
+      "examples": [
+        {
+          "title": "Example 1: Finding Synonyms",
+          "problem": "Choose the word closest in meaning to 'DILIGENT':\nA) Lazy\nB) Hardworking\nC) Careless\nD) Slow",
+          "solution": "**Answer: B) Hardworking**\n\nDiligent means showing care and effort in one's work. Hardworking is the closest synonym."
+        },
+        {
+          "title": "Example 2: Finding Antonyms",
+          "problem": "Choose the word opposite in meaning to 'ABUNDANT':\nA) Plentiful\nB) Scarce\nC) Numerous\nD) Ample",
+          "solution": "**Answer: B) Scarce**\n\nAbundant means existing in large quantities. Scarce (rare, insufficient) is the opposite."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Choose the synonym of 'COURAGEOUS':",
+          "options": ["Cowardly", "Brave", "Fearful", "Timid"],
+          "correctAnswer": 1,
+          "explanation": "Courageous and brave both mean showing courage or fearlessness."
+        },
+        {
+          "question": "What is the antonym of 'ANCIENT'?",
+          "options": ["Old", "Modern", "Historical", "Traditional"],
+          "correctAnswer": 1,
+          "explanation": "Ancient means very old. Modern (contemporary, current) is the opposite."
+        },
+        {
+          "question": "Synonym of 'CONCEAL':",
+          "options": ["Reveal", "Hide", "Show", "Display"],
+          "correctAnswer": 1,
+          "explanation": "Conceal and hide both mean to keep from being seen or known."
+        },
+        {
+          "question": "Antonym of 'GENEROUS':",
+          "options": ["Kind", "Giving", "Stingy", "Charitable"],
+          "correctAnswer": 2,
+          "explanation": "Generous means willing to give. Stingy (unwilling to give) is the opposite."
+        },
+        {
+          "question": "Synonym of 'METICULOUS':",
+          "options": ["Careless", "Careful", "Sloppy", "Hasty"],
+          "correctAnswer": 1,
+          "explanation": "Meticulous means showing great attention to detail, similar to careful."
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "The antonym of 'TRANSPARENT' is:",
+          "options": ["Clear", "Opaque", "Visible", "Obvious"],
+          "correctAnswer": 1,
+          "explanation": "Transparent means see-through. Opaque (not transparent) is the opposite.",
+          "year": "2023"
+        },
+        {
+          "question": "A synonym for 'AFFLUENT' is:",
+          "options": ["Poor", "Wealthy", "Needy", "Destitute"],
+          "correctAnswer": 1,
+          "explanation": "Affluent and wealthy both mean having a lot of money.",
+          "year": "2022"
+        },
+        {
+          "question": "The opposite of 'EXPAND' is:",
+          "options": ["Grow", "Contract", "Increase", "Enlarge"],
+          "correctAnswer": 1,
+          "explanation": "Expand means to become larger. Contract (become smaller) is the opposite.",
+          "year": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Figures of Speech",
+    "slug": "figures-of-speech",
+    "order": 6,
+    "content": {
+      "explanation": "Figures of speech are expressions that use words in non-literal ways to create vivid imagery or emphasize ideas. Common types include metaphor, simile, personification, and hyperbole. These are frequently tested in JAMB comprehension passages.",
+      "detailedNotes": "**Major Figures of Speech:**\n\n**1. Simile**: Comparison using 'like' or 'as'\n- Example: 'She is as brave as a lion.'\n- Example: 'He runs like the wind.'\n\n**2. Metaphor**: Direct comparison without 'like' or 'as'\n- Example: 'Time is money.'\n- Example: 'The classroom was a zoo.'\n\n**3. Personification**: Giving human qualities to non-human things\n- Example: 'The wind whispered through the trees.'\n- Example: 'The sun smiled down on us.'\n\n**4. Hyperbole**: Extreme exaggeration\n- Example: 'I've told you a million times.'\n- Example: 'I'm so hungry I could eat a horse.'\n\n**5. Alliteration**: Repetition of initial consonant sounds\n- Example: 'Peter Piper picked a peck of pickled peppers.'\n\n**6. Onomatopoeia**: Words that imitate sounds\n- Example: 'The bees buzzed.'\n- Example: 'The door creaked.'\n\n**7. Irony**: Saying the opposite of what you mean\n- Example: Saying 'Great weather!' during a storm\n\n**8. Oxymoron**: Contradictory terms together\n- Example: 'Deafening silence'\n- Example: 'Bittersweet'\n\n**9. Euphemism**: Mild expression for something harsh\n- Example: 'Passed away' instead of 'died'\n\n**10. Pun**: Play on words with multiple meanings\n- Example: 'Time flies like an arrow; fruit flies like a banana.'",
+      "examples": [
+        {
+          "title": "Example 1: Identifying Simile vs Metaphor",
+          "problem": "Identify the figure of speech:\n'Her smile was sunshine on a rainy day.'\n\nA) Simile\nB) Metaphor\nC) Personification\nD) Hyperbole",
+          "solution": "**Answer: B) Metaphor**\n\nThis is a direct comparison (smile = sunshine) without using 'like' or 'as', making it a metaphor."
+        },
+        {
+          "title": "Example 2: Personification",
+          "problem": "'The stars danced in the night sky.' This is an example of:\n\nA) Simile\nB) Metaphor\nC) Personification\nD) Alliteration",
+          "solution": "**Answer: C) Personification**\n\nStars cannot actually dance. Giving them the human action of dancing is personification."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "'The thunder roared angrily.' This is:",
+          "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+          "correctAnswer": 2,
+          "explanation": "Thunder cannot be angry or roar like a person. This gives human qualities to thunder (personification)."
+        },
+        {
+          "question": "'I'm so tired I could sleep for a year.' This is:",
+          "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+          "correctAnswer": 3,
+          "explanation": "This is an extreme exaggeration (hyperbole). You cannot literally sleep for a year."
+        },
+        {
+          "question": "'Life is a journey.' This is:",
+          "options": ["Simile", "Metaphor", "Personification", "Alliteration"],
+          "correctAnswer": 1,
+          "explanation": "This is a direct comparison without 'like' or 'as', making it a metaphor."
+        },
+        {
+          "question": "'The classroom was as quiet as a mouse.' This is:",
+          "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+          "correctAnswer": 0,
+          "explanation": "This comparison uses 'as...as', making it a simile."
+        },
+        {
+          "question": "'The leaves crunched under my feet.' 'Crunched' is:",
+          "options": ["Simile", "Metaphor", "Onomatopoeia", "Alliteration"],
+          "correctAnswer": 2,
+          "explanation": "'Crunched' imitates the sound leaves make, making it onomatopoeia."
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "'He has a heart of stone.' This expression is:",
+          "options": ["Simile", "Metaphor", "Personification", "Irony"],
+          "correctAnswer": 1,
+          "explanation": "This is a metaphor comparing someone's heart to stone (hard, unfeeling) without using 'like' or 'as'.",
+          "year": "2023"
+        },
+        {
+          "question": "'The opportunity knocked on his door.' This is:",
+          "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+          "correctAnswer": 2,
+          "explanation": "Opportunity cannot knock. Giving it the human action of knocking is personification.",
+          "year": "2022"
+        },
+        {
+          "question": "'She sells sea shells by the seashore.' This uses:",
+          "options": ["Simile", "Alliteration", "Metaphor", "Irony"],
+          "correctAnswer": 1,
+          "explanation": "The repetition of the 's' sound at the beginning of words is alliteration.",
+          "year": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Punctuation Rules",
+    "slug": "punctuation-rules",
+    "order": 7,
+    "content": {
+      "explanation": "Punctuation marks are symbols used to organize and clarify writing. Proper punctuation is essential for clear communication and is frequently tested in JAMB. Key marks include periods, commas, semicolons, colons, apostrophes, and quotation marks.",
+      "detailedNotes": "**Essential Punctuation Marks:**\n\n**1. Period (.)**\n- Ends declarative sentences\n- Used in abbreviations (Dr., Mr., etc.)\n\n**2. Comma (,)**\n- Separates items in a list: 'I bought rice, beans, and yam.'\n- After introductory phrases: 'After the rain, the sun came out.'\n- Before conjunctions in compound sentences: 'I studied hard, but I still failed.'\n- Around non-essential information: 'My brother, who lives in Lagos, is visiting.'\n\n**3. Semicolon (;)**\n- Joins related independent clauses: 'I love reading; it expands my mind.'\n- Separates complex list items: 'We visited Lagos, Nigeria; Accra, Ghana; and Dakar, Senegal.'\n\n**4. Colon (:)**\n- Introduces a list: 'Bring these items: pen, paper, and calculator.'\n- Introduces an explanation: 'She had one goal: to succeed.'\n\n**5. Apostrophe (')**\n- Shows possession: 'John's book', 'the students' bags'\n- Indicates contractions: 'don't' (do not), 'it's' (it is)\n- Note: 'its' (possessive) vs 'it's' (it is)\n\n**6. Quotation Marks (\" \")**\n- Enclose direct speech: 'She said, \"I am ready.\"'\n- Indicate titles of short works: \"The Road Not Taken\"\n\n**7. Question Mark (?)**\n- Ends questions: 'What is your name?'\n\n**8. Exclamation Mark (!)**\n- Shows strong emotion: 'What a beautiful day!'\n\n**9. Hyphen (-)**\n- Joins compound words: 'twenty-one', 'mother-in-law'\n\n**10. Dash (—)**\n- Indicates a break in thought: 'I was thinking—wait, what was I saying?'\n\n**Common Errors:**\n- ❌ Its' → ✅ Its (possessive has no apostrophe)\n- ❌ The students book → ✅ The student's book\n- ❌ Let's eat grandma → ✅ Let's eat, grandma (commas save lives!)",
+      "examples": [
+        {
+          "title": "Example 1: Comma Usage",
+          "problem": "Which is correctly punctuated?\n\nA) After eating the dog ran outside.\nB) After eating, the dog ran outside.\nC) After, eating the dog ran outside.\nD) After eating the dog, ran outside.",
+          "solution": "**Answer: B) After eating, the dog ran outside.**\n\nA comma is needed after the introductory phrase 'After eating'."
+        },
+        {
+          "title": "Example 2: Apostrophe",
+          "problem": "Choose the correct sentence:\n\nA) The dogs bone is missing.\nB) The dog's bone is missing.\nC) The dogs' bone is missing.\nD) The dog's' bone is missing.",
+          "solution": "**Answer: B) The dog's bone is missing.**\n\nSingular possession requires apostrophe + s. One dog owns the bone."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Which sentence is correctly punctuated?",
+          "options": [
+            "I need eggs milk and bread",
+            "I need eggs, milk, and bread",
+            "I need eggs milk, and bread",
+            "I need, eggs milk and bread"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Items in a list should be separated by commas."
+        },
+        {
+          "question": "Choose the correct possessive form:",
+          "options": [
+            "The childrens toys",
+            "The children's toys",
+            "The childrens' toys",
+            "The children's' toys"
+          ],
+          "correctAnswer": 1,
+          "explanation": "For irregular plurals like 'children', add apostrophe + s."
+        },
+        {
+          "question": "Which uses the semicolon correctly?",
+          "options": [
+            "I love reading; books are amazing",
+            "I love; reading books are amazing",
+            "I love reading books; are amazing",
+            "I; love reading books are amazing"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A semicolon joins two related independent clauses."
+        },
+        {
+          "question": "Correct usage of quotation marks:",
+          "options": [
+            "She said I am ready",
+            "She said, I am ready",
+            "She said, \"I am ready\"",
+            "She said \"I am ready\""
+          ],
+          "correctAnswer": 2,
+          "explanation": "Direct speech requires quotation marks and a comma before the quote."
+        },
+        {
+          "question": "Which is correct?",
+          "options": [
+            "Its a beautiful day",
+            "It's a beautiful day",
+            "Its' a beautiful day",
+            "It's' a beautiful day"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'It's' is the contraction of 'it is'. 'Its' (no apostrophe) is possessive."
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "Punctuate correctly: 'The teachers books are on the desk'",
+          "options": [
+            "The teacher's books are on the desk",
+            "The teachers' books are on the desk",
+            "The teachers books' are on the desk",
+            "The teacher's' books are on the desk"
+          ],
+          "correctAnswer": 0,
+          "explanation": "If one teacher owns the books, use apostrophe + s. If multiple teachers, use teachers'.",
+          "year": "2023"
+        },
+        {
+          "question": "Which sentence is correctly punctuated?",
+          "options": [
+            "However I disagree with you",
+            "However, I disagree with you",
+            "However I, disagree with you",
+            "However I disagree, with you"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Introductory words like 'however' should be followed by a comma.",
+          "year": "2022"
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "She asked where are you going",
+            "She asked, \"Where are you going?\"",
+            "She asked where are you going?",
+            "She asked \"where are you going\""
+          ],
+          "correctAnswer": 1,
+          "explanation": "Direct questions in quotes need quotation marks, a comma before the quote, and a question mark inside the quotes.",
+          "year": "2021"
+        }
+      ]
+    }
+  }
+]

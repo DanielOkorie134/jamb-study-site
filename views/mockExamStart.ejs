@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> | JAMB Study Hub</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <main class="container container-lg" style="padding-top: var(--spacing-2xl); padding-bottom: var(--spacing-3xl);">
+    <!-- Timer and Header -->
+    <div class="card slide-up" style="position: sticky; top: 70px; z-index: 100; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); margin-bottom: var(--spacing-2xl);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <h2 style="margin-bottom: var(--spacing-xs);"><%= subject.name %> Mock Exam</h2>
+          <p class="text-secondary" style="margin-bottom: 0;"><%= questions.length %> Questions</p>
+        </div>
+        <div style="text-align: right;">
+          <div id="timer" style="font-size: 2rem; font-weight: 700; color: var(--primary); margin-bottom: var(--spacing-xs);">
+            60:00
+          </div>
+          <p class="text-secondary" style="margin-bottom: 0;">Time Remaining</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Questions -->
+    <form id="examForm">
+      <% questions.forEach((question, index) => { %>
+        <div class="card slide-up" style="margin-bottom: var(--spacing-xl);" id="question-<%= index %>">
+          <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: var(--spacing-md);">
+            <h3 style="margin-bottom: 0;">Question <%= index + 1 %></h3>
+            <% if (question.type === 'past') { %>
+              <span class="badge badge-warning">JAMB <%= question.year %></span>
+            <% } %>
+          </div>
+          
+          <p style="font-weight: 500; margin-bottom: var(--spacing-lg); font-size: 1.0625rem;">
+            <%= question.question %>
+          </p>
+          
+          <div class="options" style="display: grid; gap: var(--spacing-md);">
+            <% question.options.forEach((option, optIndex) => { %>
+              <label class="option-label" style="display: flex; align-items: center; gap: var(--spacing-md); padding: var(--spacing-md); border: 2px solid var(--border-color); border-radius: var(--radius-md); cursor: pointer; transition: all var(--transition-base);">
+                <input type="radio" name="question-<%= index %>" value="<%= optIndex %>" style="width: 20px; height: 20px;" onchange="updateProgress()">
+                <span><strong><%= String.fromCharCode(65 + optIndex) %>.</strong> <%= option %></span>
+              </label>
+            <% }) %>
+          </div>
+        </div>
+      <% }) %>
+
+      <!-- Submit Button -->
+      <div class="card" style="text-align: center; background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 2px solid var(--info);">
+        <p style="margin-bottom: var(--spacing-lg); color: var(--text-secondary);">
+          <span id="answeredCount">0</span> / <%= questions.length %> questions answered
+        </p>
+        <button type="button" onclick="submitExam()" class="btn btn-primary btn-lg">
+          Submit Exam
+        </button>
+      </div>
+    </form>
+  </main>
+  
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+  <script>
+    const questions = <%- JSON.stringify(questions) %>;
+    const duration = <%= duration %>;
+    const subjectSlug = '<%= subject.slug %>';
+    
+    let timeRemaining = duration * 60; // Convert to seconds
+    let timerInterval;
+    let startTime = Date.now();
+    
+    // Start timer
+    function startTimer() {
+      timerInterval = setInterval(() => {
+        timeRemaining--;
+        
+        const minutes = Math.floor(timeRemaining / 60);
+        const seconds = timeRemaining % 60;
+        
+        document.getElementById('timer').textContent = 
+          `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        
+        // Change color when time is running out
+        if (timeRemaining <= 300) { // 5 minutes
+          document.getElementById('timer').style.color = 'var(--error)';
+        } else if (timeRemaining <= 600) { // 10 minutes
+          document.getElementById('timer').style.color = 'var(--warning)';
+        }
+        
+        // Auto-submit when time expires
+        if (timeRemaining <= 0) {
+          clearInterval(timerInterval);
+          alert('Time is up! Your exam will be submitted automatically.');
+          submitExam();
+        }
+      }, 1000);
+    }
+    
+    // Update progress counter
+    function updateProgress() {
+      let answered = 0;
+      questions.forEach((_, index) => {
+        const selected = document.querySelector(`input[name="question-${index}"]:checked`);
+        if (selected) answered++;
+      });
+      document.getElementById('answeredCount').textContent = answered;
+    }
+    
+    // Submit exam
+    async function submitExam() {
+      // Collect answers
+      const answers = [];
+      questions.forEach((_, index) => {
+        const selected = document.querySelector(`input[name="question-${index}"]:checked`);
+        answers.push(selected ? parseInt(selected.value) : -1);
+      });
+      
+      // Check if all questions are answered
+      const unanswered = answers.filter(a => a === -1).length;
+      if (unanswered > 0) {
+        if (!confirm(`You have ${unanswered} unanswered question(s). Do you want to submit anyway?`)) {
+          return;
+        }
+      }
+      
+      // Calculate time spent
+      const timeSpent = Math.floor((Date.now() - startTime) / 1000);
+      
+      // Stop timer
+      clearInterval(timerInterval);
+      
+      // Submit to server
+      try {
+        const response = await fetch(`/mock-exam/${subjectSlug}/submit`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ answers, timeSpent, questions })
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+          window.location.href = `/mock-exam/results/${data.scoreId}`;
+        } else {
+          const errorMsg = data.details || data.error || 'Unknown error occurred';
+          alert(`Error submitting exam: ${errorMsg}\nPlease try again or contact support.`);
+          console.error('Server error:', data);
+        }
+      } catch (error) {
+        console.error('Submission error:', error);
+        alert(`Network error: ${error.message}\nPlease check your connection and try again.`);
+      }
+    }
+    
+    // Prevent accidental page close
+    window.addEventListener('beforeunload', (e) => {
+      if (timeRemaining > 0) {
+        e.preventDefault();
+        e.returnValue = '';
+      }
+    });
+    
+    // Start the timer when page loads
+    startTimer();
+  </script>
+</body>
+</html>

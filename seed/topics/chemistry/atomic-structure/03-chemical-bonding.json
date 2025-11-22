@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Chemical Bonding - Ionic and Covalent",
+    "slug": "ionic-covalent-bonding",
+    "order": 3,
+    "explanation": "Understanding how atoms combine through ionic and covalent bonds, including bond formation, properties, and molecular structures.",
+    "detailedNotes": "Chemical bonds form when atoms share or transfer electrons to achieve stable electron configurations.\n\nIONIC BONDING:\n- Transfer of electrons from metal to non-metal\n- Forms positive ions (cations) and negative ions (anions)\n- Held together by electrostatic attraction\n- Example: NaCl (sodium transfers electron to chlorine)\n\nProperties of Ionic Compounds:\n- High melting and boiling points\n- Conduct electricity when molten or dissolved (ions mobile)\n- Hard but brittle crystals\n- Soluble in water (polar solvent)\n\nCOVALENT BONDING:\n- Sharing of electrons between non-metals\n- Forms molecules\n- Electrons shared to fill outer shells\n- Types:\n  • Single bond: 1 pair shared (H-H)\n  • Double bond: 2 pairs shared (O=O)\n  • Triple bond: 3 pairs shared (N≡N)\n\nProperties of Covalent Compounds:\n- Lower melting and boiling points\n- Don't conduct electricity (no free ions)\n- Can be gases, liquids, or soft solids\n- Soluble in non-polar solvents\n\nELECTRONEGATIVITY:\n- Determines bond type\n- Large difference → ionic bond\n- Small difference → covalent bond\n- Equal electronegativity → pure covalent (non-polar)\n\nPOLAR COVALENT BONDS:\n- Unequal sharing of electrons\n- Creates partial charges (δ+ and δ-)\n- Example: H₂O (oxygen more electronegative than hydrogen)\n\nLEWIS DOT STRUCTURES:\n- Diagram showing valence electrons\n- Dots represent electrons\n- Shows bonding and lone pairs\n\nOCTET RULE:\n- Atoms tend to gain, lose, or share electrons to achieve 8 valence electrons\n- Exceptions: hydrogen (wants 2), elements in Period 3+ can exceed octet",
+    "examples": [
+      {
+        "title": "Ionic Bond Formation",
+        "content": "Describe how sodium chloride (NaCl) forms.",
+        "solution": "Sodium (Na) has 1 valence electron, chlorine (Cl) has 7 valence electrons.\n\n1. Sodium donates its 1 electron to chlorine\n2. Sodium becomes Na⁺ ion (stable, like neon)\n3. Chlorine becomes Cl⁻ ion (stable, like argon)\n4. Electrostatic attraction holds Na⁺ and Cl⁻ together\n5. Forms ionic compound NaCl"
+      },
+      {
+        "title": "Covalent Bond",
+        "content": "How does a water molecule (H₂O) form?",
+        "solution": "Oxygen needs 2 more electrons to complete its octet, each hydrogen needs 1 electron.\n\n1. Oxygen shares one electron with each hydrogen\n2. Each hydrogen shares its electron with oxygen\n3. Forms two O-H covalent bonds\n4. Oxygen has 2 bonding pairs and 2 lone pairs\n5. Results in bent molecular shape"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which type of bond is formed between a metal and a non-metal?",
+        "options": [
+          "Covalent bond",
+          "Ionic bond",
+          "Metallic bond",
+          "Hydrogen bond"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ionic bonds form between metals (which lose electrons) and non-metals (which gain electrons)."
+      },
+      {
+        "question": "H₂ molecule contains:",
+        "options": [
+          "One single covalent bond",
+          "One double covalent bond",
+          "Two single covalent bonds",
+          "One ionic bond"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Two hydrogen atoms share one pair of electrons, forming a single covalent bond (H-H)."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "Ionic compounds conduct electricity when:",
+        "options": [
+          "In solid state",
+          "Molten or in aqueous solution",
+          "In gaseous state",
+          "Never conduct electricity"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ionic compounds conduct electricity when molten or dissolved in water because ions are free to move and carry charge."
+      }
+    ]
+  }
+]

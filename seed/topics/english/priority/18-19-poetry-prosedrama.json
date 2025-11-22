@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Poetry Analysis - Understanding Poems",
+    "slug": "poetry-analysis",
+    "order": 18,
+    "explanation": "Analyzing poetry including themes, literary devices, structure, rhythm, rhyme schemes, and interpreting poetic meaning.",
+    "detailedNotes": "Poetry analysis involves examining all elements that contribute to a poem's meaning and effect.\n\nELEMENTS OF POETRY:\n\n1. THEME:\n- Central idea or message\n- What the poem is about\n- Common themes: love, death, nature, identity, war\n-  Can have multiple themes\n\n2. TONE:\n- Poet's attitude toward subject\n- Examples: joyful, somber, sarcastic, nostalgic\n- Created through word choice and imagery\n\n3. MOOD:\n- Atmosphere or feeling created\n- How the poem makes reader feel\n- Examples: melancholic, peaceful, tense, hopeful\n\n4. STRUCTURE:\n\nStanza: Group of lines (like paragraph)\n- Couplet: 2 lines\n- Tercet: 3 lines\n- Quatrain: 4 lines\n- Quintet: 5 lines\n- Sestet: 6 lines\n- Octave: 8 lines\n\nLine: Single row of words\n\n5. RHYME SCHEME:\n- Pattern of rhymes at line ends\n- Labeled with letters: ABAB, AABB, ABCB\n- Example:\n  Roses are red (A)\n  Violets are blue (B)\n  Sugar is sweet (C)\n  And so are you (B)\n  Rhyme scheme: ABCB\n\n6. RHYTHM AND METER:\n- Pattern of stressed/unstressed syllables\n- Creates musical quality\n- Iambic pentameter: most common in English poetry\n\n7. IMAGERY:\n- Vivid descriptions using senses\n- Visual, auditory, tactile, olfactory, gustatory\n- Creates mental pictures\n- Example: \"Golden daffodils dancing in the breeze\"\n\n8. FIGURATIVE LANGUAGE:\n- Simile: comparison with \"like\" or \"as\"\n- Metaphor: direct comparison\n- Personification: human qualities to non-human\n- Hyperbole: exaggeration\n- Symbolism: object representing idea\n\n9. SOUND DEVICES:\n- Alliteration: repeated initial consonants\n- Assonance: repeated vowel sounds\n- Consonance: repeated consonant sounds\n- Onomatopoeia: words imitating sounds\n- Repetition: repeating words/phrases for emphasis\n\nPOETIC FORMS:\n- Sonnet: 14 lines, specific rhyme scheme\n- Haiku: 3 lines, 5-7-5 syllables\n- Free verse: no regular pattern\n- Ballad: narrative poem, often with refrain\n\nANALYZING A POEM:\n\n1. Read multiple times\n2. Note first impressions\n3. Identify speaker/persona\n4. Determine theme/message\n5. Analyze structure and form\n6. Examine language and imagery\n7. Consider context (historical, biographical)\n8. Interpret overall meaning\n\nWRITING ABOUT POETRY:\n- Quote relevant lines\n- Explain how devices create meaning\n- Support interpretations with evidence\n- Use present tense\n- Integrate quotes smoothly",
+    "examples": [
+      {
+        "title": "Identifying Rhyme Scheme",
+        "content": "Determine the rhyme scheme:\n\n'I wandered lonely as a cloud (A)\nThat floats on high o'er vales and hills, (B)\nWhen all at once I saw a crowd, (A)\nA host, of golden daffodils.' (B)",
+        "solution": "Rhyme scheme: ABAB\n\nAnalysis:\n- Line 1 (cloud) rhymes with line 3 (crowd) = A\n- Line 2 (hills) rhymes with line 4 (daffodils) = B\n- This is an alternate rhyme scheme, common in quatrains\n- Creates flowing, connected feeling\n- Typical of Romantic poetry"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "A stanza with four lines is called a:",
+        "options": [
+          "Couplet",
+          "Tercet",
+          "Quatrain",
+          "Sestet"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A quatrain is a stanza consisting of four lines, the  most common stanza form in English poetry."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "'The wind whispered through the trees.' This is an example of:",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Hyperbole"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This is personification - the wind (non-human) is given the human ability to whisper."
+      }
+    ]
+  },
+  {
+    "title": "Prose and Drama - Literary Analysis",
+    "slug": "prose-drama-analysis",
+    "order": 19,
+    "explanation": "Understanding elements of prose fiction and drama including plot, character, setting, conflict, and theatrical elements.",
+    "detailedNotes": "Prose and drama are major literary forms with distinct characteristics.\n\nPROSE FICTION:\n\nWritten in ordinary language (not verse)\nTypes: novels, short stories, novellas\n\nELEMENTS OF PROSE:\n\n1. PLOT:\n- Sequence of events\n- Structure:\n  • Exposition (introduction)\n  • Rising action (complications)\n  • Climax (turning point)\n  • Falling action\n  • Resolution (denouement)\n\n2. CHARACTERS:\n- People/beings in story\n- Protagonist: main character\n- Antagonist: opposing force\n- Round: complex, multi-dimensional\n- Flat: one-dimensional\n- Static: unchanging\n- Dynamic: develops/changes\n\nCharacterization methods:\n- Direct: author tells us\n- Indirect: shown through actions, speech, thoughts\n\n3. SETTING:\n- Time and place\n- Physical location\n- Historical period\n- Social environment\n- Creates atmosphere\n- Can influence plot\n\n4. CONFLICT:\n- Struggle driving plot\nTypes:\n- Person vs Person\n- Person vs Self (internal)\n- Person vs Society\n- Person vs Nature\n- Person vs Technology/Supernatural\n\n5. THEME:\n- Central idea/message\n- Universal truth\n- Often implicit\n- Examples: coming of age, good vs evil, love conquers all\n\n6. POINT OF VIEW:\n- First person (I, we)\n- Second person (you) - rare\n- Third person limited (one character's thoughts)\n- Third person omniscient (all-knowing narrator)\n\n7. STYLE:\n- Author's distinctive way of writing\n- Word choice, sentence structure\n- Tone and mood\n\nDRAMA:\n\nWritten to be performed\nTold through dialogue and action\n\nELEMENTS OF DRAMA:\n\n1. ACTS AND SCENES:\n- Act: major division\n- Scene: subdivision of act\n- Traditional: 5 acts (Shakespeare)\n- Modern: 2-3 acts\n\n2. DIALOGUE:\n- Conversation between characters\n- Reveals character, advances plot\n-  Creates dramatic effect\n\n3. MONOLOGUE:\n- Long speech by one character\n- Soliloquy: alone on stage, thinking aloud\n- Aside: to audience, others don't hear\n\n4. STAGE DIRECTIONS:\n- Instructions for actors\n- Describe actions, movements, expressions\n- Set description\n- Often in italics/parentheses\n\n5. DRAMATIC TECHNIQUES:\n- Dramatic irony: audience knows more than characters\n- Suspense: uncertainty about outcome\n- Foreshadowing: hints about future\n- Flashback: scene from past\n\nTYPES OF DRAMA:\n- Tragedy: serious, ends in disaster\n- Comedy: humorous, happy ending\n- Tragicomedy: mixture\n- Farce: exaggerated comedy\n\nANALYZING LITERATURE:\n\n1. Read actively\n2. Identify literary elements\n3. Note significant quotations\n4. Consider author's purpose\n5. Analyze character motivations\n6. Examine cause and effect\n7. Interpret symbolism\n8. Connect to themes",
+    "examples": [
+      {
+        "title": "Identifying Conflict Type",
+        "content": "In a story, a character struggles with whether to tell the truth or protect a friend. What type of conflict is this?",
+        "solution": "This is Person vs Self conflict (internal conflict).\n\nAnalysis:\n- The struggle is within the character's own mind\n- It's a moral dilemma\n- No external opponent\n- Character must decide between two difficult choices\n- Resolution depends on character's values and development\n\nThis type of conflict creates psychological depth and often drives character development."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "The main character in a story is called the:",
+        "options": [
+          "Antagonist",
+          "Protagonist",
+          "Narrator",
+          "Supporting character"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The protagonist is the main character, central to the plot and usually the hero or focus of the story."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "A soliloquy in drama is:",
+        "options": [
+          "A conversation between two characters",
+          "A speech delivered alone on stage",
+          "Stage directions",
+          "The play's introduction"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A soliloquy is a speech delivered by a character alone on stage, revealing inner thoughts to the audience."
+      }
+    ]
+  }
+]

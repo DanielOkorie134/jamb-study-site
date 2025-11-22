@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Sets and Venn Diagrams",
+    "slug": "sets-venn-diagrams",
+    "order": 14,
+    "explanation": "Understanding set notation, operations, Venn diagrams, and solving problems involving intersections and unions.",
+    "detailedNotes": "A set is a collection of distinct objects.\n\nSET NOTATION:\n- A = {1, 2, 3, 4} (list elements)\n- n(A) = number of elements\n- ∈ means 'is an element of'\n- ∉ means 'is not an element of'\n- ⊂ means 'is a subset of'\n- ∅ or {} = empty set\n\nTYPES OF SETS:\n- Universal set (ξ or U): all elements under consideration\n- Empty set: no elements\n- Finite set: countable elements\n- Infinite set: uncountable elements\n- Equal sets: same elements\n- Equivalent sets: same number of elements\n\nSET OPERATIONS:\n\n1. UNION (A ∪ B):\n- All elements in A or B or both\n- n(A ∪ B) = n(A) + n(B) - n(A ∩ B)\n\n2. INTERSECTION (A ∩ B):\n- Elements in both A and B\n\n3. COMPLEMENT (A'):\n- Elements NOT in A\n- n(A') = n(U) - n(A)\n\n4. DIFFERENCE (A - B):\n- Elements in A but not in B\n\nVENN DIAGRAMS:\n- Visual representation of sets\n- Circles represent sets\n- Overlap shows intersection\n- Rectangle shows universal set\n\nPROPERTIES:\n- A ∪ A = A\n- A ∩ A = A\n- A ∪ ∅ = A\n- A ∩ ∅ = ∅\n- A ∪ A' = U\n- A ∩ A' = ∅\n\nPROBLEMS:\nFor two sets:\nn(A ∪ B) = n(A) + n(B) - n(A ∩ B)\n\nFor three sets:\nn(A ∪ B ∪ C) = n(A) + n(B) + n(C) \n                - n(A ∩ B) - n(A ∩ C) - n(B ∩ C) \n                + n(A ∩ B ∩ C)",
+    "examples": [
+      {
+        "title": "Set Operations",
+        "content": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find:\na) A ∪ B\nb) A ∩ B\nc) A - B",
+        "solution": "a) A ∪ B = {1, 2, 3, 4, 5, 6} (all elements)\n\nb) A ∩ B = {3, 4} (common elements)\n\nc) A - B = {1, 2} (in A but not B)"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "If n(A) = 20, n(B) = 15, and n(A ∩ B) = 5, then n(A ∪ B) =",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "35"
+        ],
+        "correctAnswer": 2,
+        "explanation": "n(A ∪ B) = n(A) + n(B) - n(A ∩ B) = 20 + 15 - 5 = 30."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "If set A has 5 elements and set B has 3 elements with 2 common elements, how many elements are in A ∪ B?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "10"
+        ],
+        "correctAnswer": 0,
+        "explanation": "n(A ∪ B) = 5 + 3 - 2 = 6 elements."
+      }
+    ]
+  },
+  {
+    "title": "Differentiation - Basic Calculus",
+    "slug": "differentiation-basic",
+    "order": 15,
+    "explanation": "Introduction to rates of change, finding derivatives using power rule, and applications like finding gradients and stationary points.",
+    "detailedNotes": "Differentiation finds the rate of change of a function.\n\nDERIVATIVE NOTATION:\n- dy/dx (Leibniz notation)\n- f'(x) (Lagrange notation)\n- y' (prime notation)\n\nBASIC RULES:\n\n1. POWER RULE:\nIf y = xⁿ, then dy/dx = nxⁿ⁻¹\n\nExamples:\n- y = x³ → dy/dx = 3x²\n- y = x⁵ → dy/dx = 5x⁴\n- y = x → dy/dx = 1\n- y = constant → dy/dx = 0\n\n2. CONSTANT MULTIPLE:\nIf y = kxⁿ, then dy/dx = knxⁿ⁻¹\n\nExample:\ny = 5x³ → dy/dx = 15x²\n\n3. SUM/DIFFERENCE:\nDerivative of sum = sum of derivatives\n\nExample:\ny = x³ + 2x² - 5x + 7\ndy/dx = 3x² + 4x - 5\n\nGRADIENT OF CURVE:\n- dy/dx gives gradient at any point\n- Substitute x-value to find gradient there\n\nSTATIONARY POINTS:\n- Where dy/dx = 0\n- Maximum, minimum, or inflection\n\nTo find nature:\n- Maximum: gradient changes + to -\n- Minimum: gradient changes - to +\n- Use second derivative test:\n  - d²y/dx² > 0 → minimum\n  - d²y/dx² < 0 → maximum\n\nEQUATION OF TANGENT:\n- At point (x₁, y₁)\n- Gradient m = dy/dx at that point\n- Use y - y₁ = m(x - x₁)\n\nAPPLICATIONS:\n- Maximum/minimum problems\n- Rates of change\n- Optimization\n- Velocity and acceleration",
+    "examples": [
+      {
+        "title": "Finding Derivative",
+        "content": "Find dy/dx if y = 4x³ - 6x² + 2x - 5",
+        "solution": "Using power rule for each term:\n\ny = 4x³ - 6x² + 2x - 5\n\ndy/dx = 4(3x²) - 6(2x) + 2(1) - 0\ndy/dx = 12x² - 12x + 2\n\nAnswer: dy/dx = 12x² - 12x + 2"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "If y = x⁴, then dy/dx =",
+        "options": [
+          "x³",
+          "4x³",
+          "4x⁴",
+          "x⁵"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Using power rule: dy/dx = 4x⁴⁻¹ = 4x³."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "Find the gradient of y = 2x² + 3x at x = 1.",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "11"
+        ],
+        "correctAnswer": 1,
+        "explanation": "dy/dx = 4x + 3. At x = 1: gradient = 4(1) + 3 = 7."
+      }
+    ]
+  }
+]

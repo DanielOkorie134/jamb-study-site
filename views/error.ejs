@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error | JAMB Study Hub</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <main class="container" style="padding-top: var(--spacing-3xl); padding-bottom: var(--spacing-3xl); text-align: center;">
+    <div class="slide-up">
+      <h1 style="margin-bottom: var(--spacing-lg);">⚠️ Something Went Wrong</h1>
+      <p class="lead" style="margin-bottom: var(--spacing-2xl);">
+        We're sorry, but an error occurred. Please try again later.
+      </p>
+      <a href="/" class="btn btn-primary btn-lg">Go Home</a>
+    </div>
+  </main>
+  
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

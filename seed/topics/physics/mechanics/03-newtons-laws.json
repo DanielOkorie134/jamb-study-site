@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Newton's Laws of Motion",
+    "slug": "newtons-laws",
+    "order": 3,
+    "explanation": "Three fundamental laws describing the relationship between forces and motion, forming the foundation of classical mechanics.",
+    "detailedNotes": "Newton's Laws explain how objects move when forces act on them.\n\nFIRST LAW (Law of Inertia):\nAn object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by a net external force.\n- Inertia: resistance to change in motion\n- Depends on mass (more mass = more inertia)\n\nSECOND LAW (F = ma):\nThe acceleration of an object is directly proportional to the net force and inversely proportional to its mass.\n- F = ma (Force = mass × acceleration)\n- Unit of force: Newton (N) = kg·m/s²\n- Direction of acceleration is in direction of net force\n\nTHIRD LAW (Action-Reaction):\nFor every action, there is an equal and opposite reaction.\n- Forces always occur in pairs\n- Act on different objects\n- Equal in magnitude, opposite in direction\n\nAPPLICATIONS:\n- Rocket propulsion (gases pushed down, rocket pushed up)\n- Walking (foot pushes ground back, ground pushes foot forward)\n- Swimming (hands push water back, water pushes swimmer forward)\n\nFORCE TYPES:\n- Weight: W = mg (force due to gravity)\n- Normal force: perpendicular support force\n- Friction: opposes motion\n- Tension: force in strings/ropes",
+    "examples": [
+      {
+        "title": "Calculating Force",
+        "content": "A 5 kg object accelerates at 3 m/s². What force is applied?",
+        "solution": "Using F = ma\nF = 5 kg × 3 m/s²\nF = 15 N\n\nA force of 15 Newtons is applied to the object."
+      },
+      {
+        "title": "Action-Reaction Pairs",
+        "content": "A person pushes a wall with 100 N of force. What force does the wall exert on the person?",
+        "solution": "According to Newton's Third Law, the wall exerts an equal and opposite force on the person.\nForce = 100 N (in the opposite direction)\n\nThe wall pushes back with 100 N, preventing the person from moving forward."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "What is the weight of a 10 kg mass on Earth? (g = 10 m/s²)",
+        "options": [
+          "10 N",
+          "50 N",
+          "100 N",
+          "1000 N"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Weight W = mg = 10 kg × 10 m/s² = 100 N."
+      },
+      {
+        "question": "Which law explains why passengers lurch forward when a car suddenly stops?",
+        "options": [
+          "Newton's First Law",
+          "Newton's Second Law",
+          "Newton's Third Law",
+          "Law of Conservation of Energy"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Newton's First Law (inertia) explains this - passengers tend to remain in motion when the car stops."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "A force of 20 N acts on a 4 kg mass. The acceleration produced is:",
+        "options": [
+          "2 m/s²",
+          "5 m/s²",
+          "16 m/s²",
+          "80 m/s²"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Using F = ma: 20 = 4a, therefore a = 20/4 = 5 m/s²."
+      }
+    ]
+  }
+]

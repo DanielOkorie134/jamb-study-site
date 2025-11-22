@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Waves - Properties and Behavior",
+    "slug": "waves-properties",
+    "order": 8,
+    "explanation": "Understanding wave motion, wavelength, frequency, amplitude, wave equation, and wave phenomena like reflection, refraction, and interference.",
+    "detailedNotes": "Waves transfer energy without transferring matter.\n\nWAVE TYPES:\n\n1. TRANSVERSE WAVES:\n- Vibrations perpendicular to direction of travel\n- Examples: light, water waves, electromagnetic waves\n- Can be polarized\n\n2. LONGITUDINAL WAVES:\n- Vibrations parallel to direction of travel\n- Examples: sound, seismic P-waves\n- Compressions and rarefactions\n\nWAVE PROPERTIES:\n\n1. Wavelength (λ): Distance between successive crests\n- Unit: meters (m)\n\n2. Frequency (f): Number of waves per second\n- Unit: Hertz (Hz)\n\n3. Period (T): Time for one complete wave\n- T = 1/f\n\n4. Amplitude (A): Maximum displacement from rest\n- Related to energy/intensity\n\n5. Speed (v): Distance traveled per unit time\n\nWAVE EQUATION:\nv = fλ\n(speed = frequency × wavelength)\n\nWAVE PHENOMENA:\n\n1. REFLECTION:\n- Bouncing back from a surface\n- Angle of incidence = Angle of reflection\n\n2. REFRACTION:\n- Bending when entering different medium\n- Speed changes, frequency constant\n- Wavelength changes\n\n3. DIFFRACTION:\n- Spreading around obstacles\n- More diffraction with longer wavelengths\n\n4. INTERFERENCE:\n- Superposition of waves\n- Constructive: crests align (louder/brighter)\n- Destructive: crest meets trough (quieter/darker)\n\n5. POLARIZATION:\n- Transverse waves only\n- Vibrations in one plane\n\nAPPLICATIONS:\n- Communication (radio, TV)\n- Medicine (ultrasound, X-rays)\n- Navigation (radar, sonar)",
+    "examples": [
+      {
+        "title": "Wave Equation",
+        "content": "A wave has frequency 50 Hz and wavelength 6 m. Calculate its speed.",
+        "solution": "Using v = fλ\nv = 50 × 6\nv = 300 m/s\n\nThe wave speed is 300 m/s."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "In which type of wave do particles vibrate perpendicular to the direction of wave travel?",
+        "options": [
+          "Longitudinal",
+          "Sound",
+          "Transverse",
+          "Compression"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Transverse waves have vibrations perpendicular to the direction of wave propagation."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "If the frequency of a wave is doubled while its speed remains constant, the wavelength:",
+        "options": [
+          "Doubles",
+          "Halves",
+          "Remains the same",
+          "Quadruples"
+        ],
+        "correctAnswer": 1,
+        "explanation": "From v = fλ, if v is constant and f doubles, λ must halve to maintain the equation."
+      }
+    ]
+  },
+  {
+    "title": "Electricity - Current and Resistance",
+    "slug": "electricity-current",
+    "order": 9,
+    "explanation": "Understanding electric current, potential difference, resistance, Ohm's law, and electrical circuits.",
+    "detailedNotes": "Electricity is the flow of electric charge.\n\nELECTRIC CURRENT (I):\n- Flow of electric charge\n- I = Q/t (charge/time)\n- Unit: Ampere (A)\n- Direction: positive to negative (conventional)\n\nPOTENTIAL DIFFERENCE/VOLTAGE (V):\n- Energy per unit charge\n- V = W/Q (work/charge)\n- Unit: Volt (V)\n- Measured with voltmeter (parallel)\n\nRESISTANCE (R):\n- Opposition to current flow\n- Unit: Ohm (Ω)\n- Factors affecting resistance:\n  - Length: R ∝ L\n  - Cross-sectional area: R ∝ 1/A\n  - Material (resistivity ρ)\n  - Temperature\n- Formula: R = ρL/A\n\nOHM'S LAW:\nV = IR\n(Voltage = Current × Resistance)\n\nApplies to ohmic conductors at constant temperature\n\nELECTRICAL POWER:\nP = IV = I²R = V²/R\nUnit: Watt (W)\n\nENERGY:\nE = Pt = VIt\nUnit: Joule (J)\n\nSERIES CIRCUITS:\n- Same current through all components\n- Voltages add: V_total = V₁ + V₂ + V₃\n- Resistances add: R_total = R₁ + R₂ + R₃\n\nPARALLEL CIRCUITS:\n- Same voltage across all components\n- Currents add: I_total = I₁ + I₂ + I₃\n- Resistances: 1/R_total = 1/R₁ + 1/R₂ + 1/R₃\n\nMEASURING INSTRUMENTS:\n- Ammeter: measures current (in series)\n- Voltmeter: measures voltage (in parallel)\n- Ohmmeter: measures  resistance",
+    "examples": [
+      {
+        "title": "Using Ohm's Law",
+        "content": "A 12V battery is connected to a 4Ω resistor. Calculate the current.",
+        "solution": "Using V = IR\n12 = I × 4\nI = 12/4\nI = 3 A\n\nThe current is 3 amperes."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "What is the unit of electrical resistance?",
+        "options": [
+          "Ampere",
+          "Volt",
+          "Ohm",
+          "Watt"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The SI unit of electrical resistance is the Ohm (Ω)."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "Two 6Ω resistors are connected in parallel. The total resistance is:",
+        "options": [
+          "12Ω",
+          "6Ω",
+          "3Ω",
+          "2Ω"
+        ],
+        "correctAnswer": 2,
+        "explanation": "For parallel: 1/R_total = 1/6 + 1/6 = 2/6, so R_total = 6/2 = 3Ω."
+      }
+    ]
+  }
+]

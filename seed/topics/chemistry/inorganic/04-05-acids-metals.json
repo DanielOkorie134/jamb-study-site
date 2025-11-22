@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Acids, Bases, and Salts",
+    "slug": "acids-bases-salts",
+    "order": 4,
+    "explanation": "Properties and reactions of acids and bases, pH scale, neutralization, and salt formation.",
+    "detailedNotes": "Acids and bases are important classes of chemical compounds with distinct properties.\n\nACIDS:\nSubstances that produce H⁺ ions in water\n\nPROPERTIES:\n- Sour taste (e.g., lemon, vinegar)\n- Turn blue litmus red\n- pH less than 7\n- React with metals to produce hydrogen\n- Conduct electricity in solution\n\nCOMMON ACIDS:\n- HCl: Hydrochloric acid (stomach acid)\n- H₂SO₄: Sulfuric acid (car batteries)\n- HNO₃: Nitric acid\n- CH₃COOH: Ethanoic acid (vinegar)\n\nBASES:\nSubstances that produce OH⁻ ions in water\n\nPROPERTIES:\n- Bitter taste\n- Slippery feel\n- Turn red litmus blue\n- pH greater than 7\n- Neutralize acids\n\nCOMMON BASES:\n- NaOH: Sodium hydroxide (caustic soda)\n- KOH: Potassium hydroxide\n- NH₃: Ammonia\n- Ca(OH)₂: Calcium hydroxide (slaked lime)\n\npH SCALE:\n- Measures acidity/alkalinity\n- Range: 0 to 14\n- pH < 7: Acidic\n- pH = 7: Neutral (pure water)\n- pH > 7: Alkaline/Basic\n- Each unit is 10× difference\n\nNEUTRALIZATION:\nAcid + Base → Salt + Water\n\nExample:\nHCl + NaOH → NaCl + H₂O\n\nSALTS:\n- Formed from neutralization\n- Ionic compounds\n- Examples: NaCl (table salt), CaCO₃ (limestone)\n\nINDICATORS:\n- Litmus: Red in acid, blue in base\n- Phenolphthalein: Colorless in acid, pink in base\n- Methyl orange: Red in acid, yellow in base\n- Universal indicator: Shows pH by color",
+    "examples": [
+      {
+        "title": "Neutralization Reaction",
+        "content": "Write the equation for the neutralization of sulfuric acid with sodium hydroxide.",
+        "solution": "H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\n\nBreakdown:\n- Acid: H₂SO₄ (sulfuric acid)\n- Base: NaOH (sodium hydroxide)\n- Salt: Na₂SO₄ (sodium sulfate)\n- Water: H₂O\n\nNote: 2 moles of NaOH needed for each mole of H₂SO₄ because H₂SO₄ is dibasic (has 2 H⁺ ions)."
+      }
+    ],
+    "exercises": [
+      {
+        "question": " What is the pH of a neutral solution?",
+        "options": [
+          "0",
+          "7",
+          "10",
+          "14"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A neutral solution (like pure water) has a pH of 7, exactly in the middle of the pH scale."
+      },
+      {
+        "question": "Which turns red litmus blue?",
+        "options": [
+          "Acid",
+          "Base",
+          "Salt",
+          "Neutral solution"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bases turn red litmus paper blue, while acids turn blue litmus paper red."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "The product of neutralization reaction between an acid and a base is:",
+        "options": [
+          "Salt only",
+          "Water only",
+          "Salt and water",
+          "Gas and water"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Neutralization: Acid + Base → Salt + Water. Both salt and water are always produced."
+      }
+    ]
+  },
+  {
+    "title": "Metals and Non-metals",
+    "slug": "metals-nonmetals",
+    "order": 5,
+    "explanation": "Properties, reactions, and applications of metals and non-metals, including reactivity series and extraction methods.",
+    "detailedNotes": "Elements are classified as metals or non-metals based on their physical and chemical properties.\n\nMETALS:\n\nPHYSICAL PROPERTIES:\n- Shiny (lustrous)\n- Good conductors of heat and electricity\n- Malleable (can be hammered into sheets)\n- Ductile (can be drawn into wires)\n- High melting and boiling points (usually)\n- Solid at room temperature (except mercury)\n- Sonorous (ring when struck)\n\nCHEMICAL PROPERTIES:\n- Form positive ions (cations)\n- React with oxygen: 4Na + O₂ → 2Na₂O\n- React with water (some): 2Na + 2H₂O → 2NaOH + H₂\n- React with acids: Mg + 2HCl → MgCl₂ + H₂\n- Good reducing agents\n\nREACTIVITY SERIES (most to least reactive):\nPotassium (K)\nSodium (Na)\nCalcium (Ca)\nMagnesium (Mg)\nAluminum (Al)\nZinc (Zn)\nIron (Fe)\nCopper (Cu)\nSilver (Ag)\nGold (Au)\n\nNON-METALS:\n\nPHYSICAL PROPERTIES:\n- Dull (not lustrous)\n- Poor conductors (insulators)\n- Brittle when solid\n- Low melting and boiling points (usually)\n- Can be solid, liquid, or gas\n\nCHEMICAL PROPERTIES:\n- Form negative ions (anions)\n- React with oxygen: C + O₂ → CO₂\n- Good oxidizing agents\n\nCOMMON METALS:\n- Iron (Fe): construction\n- Copper (Cu): electrical wiring\n- Aluminum (Al): aircraft, foil\n- Gold (Au): jewelry\n\nCOMMON NON-METALS:\n- Oxygen (O): respiration\n- Carbon (C): organic compounds\n- Nitrogen (N): fertilizers\n- Sulfur (S): vulcanizing rubber",
+    "examples": [
+      {
+        "title": "Displacement Reaction",
+        "content": "Predict if zinc will displace copper from copper sulfate solution. Explain.",
+        "solution": "Yes, zinc will displace copper.\n\nReaction: Zn + CuSO₄ → ZnSO₄ + Cu\n\nExplanation: In the reactivity series, zinc is more reactive than copper. A more reactive metal can displace a less reactive metal from its compound. Zinc atoms lose electrons more easily than copper atoms, so zinc displaces copper from the solution."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which is a property of metals?",
+        "options": [
+          "Brittle",
+          "Poor conductor of electricity",
+          "Malleable",
+          "Dull appearance"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Metals are malleable (can be hammered into sheets), unlike non-metals which are brittle."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "In the reactivity series, which is most reactive?",
+        "options": [
+          "Iron",
+          "Copper",
+          "Potassium",
+          "Gold"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Potassium is at the top of the reactivity series and is the most reactive of the options given."
+      }
+    ]
+  }
+]

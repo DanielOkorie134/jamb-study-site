@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Reading Comprehension - Passages",
+    "slug": "reading-passages",
+    "order": 1,
+    "explanation": "Reading comprehension involves understanding written texts, identifying main ideas, making inferences, and analyzing the author's purpose and tone.",
+    "detailedNotes": "Reading comprehension is a fundamental skill in English language examinations. It requires you to read passages carefully and answer questions about what you've read.\n\nKey strategies:\n1. Read the questions first to know what to look for\n2. Identify the main idea in each paragraph\n3. Underline or note important details\n4. Distinguish between facts and opinions\n5. Look for context clues to understand unfamiliar words\n\nTypes of comprehension questions:\n- Literal (directly stated in passage)\n- Inferential (requires reading between the lines)\n- Evaluative (requires forming judgments)\n- Analytical (examining structure and style)\n\nCommon question types:\n- Main idea questions\n- Detail questions\n- Vocabulary in context\n- Author's purpose\n- Inference questions\n- Tone and mood",
+    "examples": [
+      {
+        "title": "Identifying Main Idea",
+        "content": "Passage: 'Climate change is one of the most pressing issues of our time. Rising temperatures, melting ice caps, and extreme weather events are clear indicators that our planet is in distress. Scientists agree that human activities, particularly the burning of fossil fuels, are the primary cause.'\n\nQuestion: What is the main idea of this passage?",
+        "solution": "The main idea is that climate change is a serious issue caused primarily by human activities. The passage supports this with evidence (rising temperatures, melting ice caps) and expert opinion (scientists agree)."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "In a passage, the author writes: 'The ancient library stood silent, its towering shelves heavy with the weight of forgotten knowledge.' What does this suggest about the library?",
+        "options": [
+          "It is newly built",
+          "It contains valuable but neglected information",
+          "It is well-maintained",
+          "It is frequently visited"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The phrase 'forgotten knowledge' suggests that the library contains valuable information that has been neglected or overlooked."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "The author's primary purpose in the passage is to:",
+        "options": [
+          "Entertain readers with a story",
+          "Persuade readers to take action",
+          "Inform readers about a topic",
+          "Criticize a particular viewpoint"
+        ],
+        "correctAnswer": 2,
+        "explanation": "When a passage presents facts and information without strong opinions or narrative elements, the primary purpose is usually to inform."
+      }
+    ]
+  }
+]

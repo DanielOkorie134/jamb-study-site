@@ -1,0 +1,125 @@
+[
+  {
+    "title": "Redox Reactions and Oxidation States",
+    "slug": "redox-reactions",
+    "order": 8,
+    "explanation": "Understanding oxidation-reduction reactions, oxidation numbers, balancing redox equations, and identifying oxidizing and reducing agents.",
+    "detailedNotes": "Redox reactions involve transfer of electrons between species.\n\nOXIDATION AND REDUCTION:\n\nOxidation:\n- Loss of electrons\n- Increase in oxidation number\n- Gain of oxygen\n- Loss of hydrogen\n\nReduction:\n- Gain of electrons\n- Decrease in oxidation number\n- Loss of oxygen\n- Gain of hydrogen\n\nMnemonic: OIL RIG\n- Oxidation Is Loss (of electrons)\n- Reduction Is Gain (of electrons)\n\nOXIDATION STATES/NUMBERS:\nRule s:\n1. Element in its natural state: 0\n2. Monatomic ion: equals charge\n3. Oxygen: usually -2\n4. Hydrogen: usually +1\n5. Group 1: +1, Group 2: +2\n6. Halogens: usually -1\n7. Sum in neutral compound: 0\n8. Sum in polyatomic ion: equals charge\n\nOXIDIZING AND REDUCING AGENTS:\n- Oxidizing agent: causes oxidation, itself reduced\n- Reducing agent: causes reduction, itself oxidized\n\nBALANCING REDOX EQUATIONS:\n\n1. Half-equation method:\n   - Write oxidation and reduction half-equations\n   - Balance atoms other than O and H\n   - Balance O by adding H₂O\n   - Balance H by adding H⁺\n   - Balance charge by adding electrons\n   - Equalize electrons, then add equations\n\n2. Oxidation number method:\n   - Assign oxidation numbers\n   - Identify what's oxidized/reduced\n   - Calculate electron change\n   - Balance using coefficients\n\nAPPLICATIONS:\n- Batteries and fuel cells\n- Corrosion\n- Metallurgy\n- Bleaching\n- Photography",
+    "examples": [
+      {
+        "title": "Identifying Oxidation States",
+        "content": "Find the oxidation state of sulfur in H₂SO₄.",
+        "solution": "Let x = oxidation state of S\n\nSum of oxidation states = 0 (neutral compound)\n2(+1) + x + 4(-2) = 0\n2 + x - 8 = 0\nx - 6 = 0\nx = +6\n\nSulfur has oxidation state +6 in H₂SO₄."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, which is oxidized?",
+        "options": [
+          "Zn",
+          "Cu²⁺",
+          "Zn²⁺",
+          "Cu"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Zn loses electrons (0 → +2), so it is oxidized. Zn is the reducing agent."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "The oxidation state of chlorine in Cl₂ is:",
+        "options": [
+          "-1",
+          "0",
+          "+1",
+          "+2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Elements in their natural state have oxidation number 0. Cl₂ is elemental chlorine."
+      }
+    ]
+  },
+  {
+    "title": "Electrolysis and Electrochemical Cells",
+    "slug": "electrolysis",
+    "order": 9,
+    "explanation": "Understanding electrolysis, electroplating, Faraday's laws, and the difference between electrolytic and galvanic cells.",
+    "detailedNotes": "Electrolysis uses electrical energy to drive non-spontaneous chemical reactions.\n\nELECTROLYSIS:\n- Decomposition using electric current\n- Requires: electrolyte, electrodes, power source\n\nELECTRODES:\n- Anode (+): oxidation occurs\n- Cathode (-): reduction occurs\n\nMnemonic: An Ox (anode oxidation), Red Cat (reduction cathode)\n\nION DISCHARGE:\nAt cathode (reduction):\n1. Less reactive metals discharge\n2. Order: Ag⁺ > Cu²⁺ > H⁺ > reactive metals\n3. H⁺ from water if metal very reactive\n\nAt anode (oxidation):\n1. OH⁻ and other anions discharge\n2. Order: SO₄²⁻, NO₃⁻ < OH⁻ < Cl⁻, Br⁻, I⁻\n3. If sulfate/nitrate, OH⁻ from water oxidizes\n\nFARADAY'S  LAWS:\n\n1. First Law:\nMass deposited ∝ Quantity of electricity\nm ∝ Q = It\n\n2. Second Law:\nFor same quantity, mass ∝ equivalent weight\n\nFORMULA:\nm = ZIt\nwhere:\nm = mass (g)\nZ = electrochemical equivalent\nI = current (A)\nt = time (s)\n\nAPPLICATIONS:\n- Electroplating (coating with metal)\n- Extraction of metals (aluminum)\n- Purification (copper refining)\n- Production of chemicals (Cl₂, NaOH)\n\nELECTROCHEMICAL CELLS:\n\n1. Galvanic/Voltaic Cell:\n- Chemical → electrical energy\n- Spontaneous reaction\n- Battery\n\n2. Electrolytic Cell:\n- Electrical → chemical energy\n- Non-spontaneous\n- Electrolysis",
+    "examples": [
+      {
+        "title": "Electrolysis Products",
+        "content": "What are the products at each electrode during electrolysis of dilute H₂SO₄?",
+        "solution": "Cathode (-):\nH⁺ ions discharge (more than water)\n2H⁺ + 2e⁻ → H₂\nProduct: Hydrogen gas\n\nAnode (+):\nSO₄²⁻ ions don't discharge\nOH⁻ from water oxidizes\n4OH⁻ → O₂ + 2H₂O + 4e⁻\nProduct: Oxygen gas\n\nOverall: Water is decomposed into H₂ and O₂ (ratio 2:1)"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "During electrolysis, reduction occurs at the:",
+        "options": [
+          "Anode",
+          "Cathode",
+          "Electrolyte",
+          "Power source"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Reduction (gain of electrons) always occurs at the cathode (negative electrode)."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "Electroplating is an application of:",
+        "options": [
+          "Electrolysis",
+          "Neutralization",
+          "Combustion",
+          "Fermentation"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Electroplating uses electrolysis to deposit a thin layer of metal onto an object."
+      }
+    ]
+  },
+  {
+    "title": "Water - Properties and Treatment",
+    "slug": "water-properties",
+    "order": 10,
+    "explanation": "Properties of water, hard and soft water, water treatment methods, and purification processes.",
+    "detailedNotes": "Water is essential for life and has unique properties.\n\nPROPERTIES OF WATER:\n- Formula: H₂O\n- Colorless, odorless, tasteless\n- Boiling point: 100°C (unusually high)\n- Freezing point: 0°C\n- Maximum density at 4°C\n- Universal solvent\n- High specific heat capacity\n- High surface tension\n\nHARD WATER:\nContains dissolved Ca²⁺ and Mg²⁺ ions\n\nTYPES:\n1. Temporary hardness:\n   - Ca(HCO₃)₂ and Mg(HCO₃)₂\n   - Removed by boiling\n   - Forms scale in kettles\n\n2. Permanent hardness:\n   - CaSO₄, MgSO₄, CaCl₂, MgCl₂\n   - NOT removed by boiling\n   - Requires chemical treatment\n\nDISADVANTAGES:\n- Wastes soap (forms scum)\n- Scales in pipes and boilers\n- Not suitable for some industries\n\nSOFT WATER:\n- Free from Ca²⁺ and Mg²⁺\n- Lathers easily with soap\n- Better for washing\n\nSOFTENING METHODS:\n\n1. Boiling (temporary only)\n2. Adding washing soda (Na₂CO₃)\n3. Ion exchange resins\n4. Distillation\n\nWATER PURIFICATION:\n\n1. Sedimentation: remove large particles\n2. Filtration: remove suspended matter\n3. Chlorination: kill bacteria\n4. Boiling: kill microorganisms\n\nWATER TEST:\n- Soap test: hard water doesn't lather easily\n- Limewater test: temporary hardness forms precipitate\n- Silver nitrate: tests for chlorides\n\nIMPORTANCE:\n- Solvent for biological reactions\n- Temperature regulation\n- Transportation in organisms\n- Photosynthesis\n- Habitat",
+    "examples": [
+      {
+        "title": "Removing Temporary Hardness",
+        "content": "Explain how boiling removes temporary hardness from water.",
+        "solution": "Temporary hardness is due to Ca(HCO₃)₂ and Mg(HCO₃)₂.\n\nWhen boiled:\nCa(HCO₃)₂ → CaCO₃ + H₂O + CO₂\n\nThe bicarbonate decomposes:\n- CaCO₃ precipitates out (scale/fur)\n- CO₂ escapes as gas\n- Water becomes soft\n\nThis is why kettles get scale buildup."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Hard water is caused by the presence of:",
+        "options": [
+          "Sodium and potassium ions",
+          "Calcium and magnesium ions",
+          "Hydrogen ions",
+          "Chloride ions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Hard water contains dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "Which can remove both temporary and permanent hardness?",
+        "options": [
+          "Boiling",
+          "Filtration",
+          "Adding washing soda",
+          "Sedimentation"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Washing soda (Na₂CO₃) removes both types of hardness by precipitating Ca²⁺ and Mg²⁺ ions."
+      }
+    ]
+  }
+]

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam Results | JAMB Study Hub</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <main class="container container-lg" style="padding-top: var(--spacing-3xl); padding-bottom: var(--spacing-3xl);">
+    <!-- Score Card -->
+    <div class="card slide-up" style="text-align: center; margin-bottom: var(--spacing-3xl); background: linear-gradient(135deg, <%= score.percentage >= 70 ? '#f0fdf4' : score.percentage >= 50 ? '#fef3c7' : '#fee2e2' %> 0%, <%= score.percentage >= 70 ? '#dcfce7' : score.percentage >= 50 ? '#fde68a' : '#fecaca' %> 100%); border: 3px solid <%= score.percentage >= 70 ? 'var(--success)' : score.percentage >= 50 ? 'var(--warning)' : 'var(--error)' %>;">
+      <h1 style="margin-bottom: var(--spacing-md);">🎯 Exam Results</h1>
+      <h2 style="margin-bottom: var(--spacing-lg);"><%= score.subject.name %></h2>
+      
+      <div style="font-size: 4rem; font-weight: 800; color: <%= score.percentage >= 70 ? 'var(--success)' : score.percentage >= 50 ? 'var(--warning)' : 'var(--error)' %>; margin-bottom: var(--spacing-md);">
+        <%= score.percentage %>%
+      </div>
+      
+      <p style="font-size: 1.5rem; margin-bottom: var(--spacing-lg);">
+        <%= score.score %> / <%= score.totalQuestions %> Correct
+      </p>
+      
+      <% if (score.percentage >= 70) { %>
+        <p style="font-size: 1.125rem; font-weight: 600; color: var(--success);">
+          🎉 Excellent Performance! Keep it up!
+        </p>
+      <% } else if (score.percentage >= 50) { %>
+        <p style="font-size: 1.125rem; font-weight: 600; color: var(--warning);">
+          👍 Good effort! Review the topics below to improve.
+        </p>
+      <% } else { %>
+        <p style="font-size: 1.125rem; font-weight: 600; color: var(--error);">
+          📚 More practice needed. Focus on the weak areas below.
+        </p>
+      <% } %>
+      
+      <p class="text-secondary" style="margin-top: var(--spacing-md); margin-bottom: 0;">
+        Time Taken: <%= Math.floor(score.timeSpent / 60) %> minutes <%= score.timeSpent % 60 %> seconds
+      </p>
+    </div>
+
+    <!-- Performance Analysis -->
+    <div class="grid grid-cols-2" style="margin-bottom: var(--spacing-3xl);">
+      <!-- Strengths -->
+      <% if (strengths.length > 0) { %>
+        <div class="card slide-up" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border: 2px solid var(--success);">
+          <h3 style="color: var(--success); margin-bottom: var(--spacing-lg);">💪 Strong Topics</h3>
+          <ul style="list-style: none; padding: 0;">
+            <% strengths.forEach(s => { %>
+              <li style="padding: var(--spacing-sm) 0; display: flex; justify-content: space-between;">
+                <span><%= s.topic %></span>
+                <span class="badge badge-success"><%= s.percentage %>%</span>
+              </li>
+            <% }) %>
+          </ul>
+        </div>
+      <% } else { %>
+        <div class="card slide-up" style="background: var(--bg-tertiary);">
+          <h3 style="margin-bottom: var(--spacing-md);">💪 Strong Topics</h3>
+          <p class="text-secondary">No strong topics identified in this exam.</p>
+        </div>
+      <% } %>
+
+      <!-- Weaknesses -->
+      <% if (weaknesses.length > 0) { %>
+        <div class="card slide-up" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border: 2px solid var(--warning);">
+          <h3 style="color: var(--warning); margin-bottom: var(--spacing-lg);">📚 Topics to Review</h3>
+          <ul style="list-style: none; padding: 0;">
+            <% weaknesses.forEach(w => { %>
+              <li style="padding: var(--spacing-sm) 0; display: flex; justify-content: space-between;">
+                <span><%= w.topic %></span>
+                <span class="badge badge-warning"><%= w.percentage %>%</span>
+              </li>
+            <% }) %>
+          </ul>
+        </div>
+      <% } else { %>
+        <div class="card slide-up" style="background: var(--bg-tertiary);">
+          <h3 style="margin-bottom: var(--spacing-md);">📚 Topics to Review</h3>
+          <p class="text-secondary">Great job! No weak areas identified.</p>
+        </div>
+      <% } %>
+    </div>
+
+    <!-- Question Review -->
+    <section>
+      <h2 style="margin-bottom: var(--spacing-xl);">📝 Question Review</h2>
+      
+      <% questions.forEach((question, index) => { %>
+        <div class="card slide-up" style="margin-bottom: var(--spacing-lg); border-left: 4px solid <%= question.isCorrect ? 'var(--success)' : 'var(--error)' %>;">
+          <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: var(--spacing-md);">
+            <h4>Question <%= index + 1 %></h4>
+            <span class="badge <%= question.isCorrect ? 'badge-success' : 'badge-error' %>">
+              <%= question.isCorrect ? '✓ Correct' : '✗ Incorrect' %>
+            </span>
+          </div>
+          
+          <p style="font-weight: 500; margin-bottom: var(--spacing-lg);">
+            <%= question.question %>
+          </p>
+          
+          <div style="display: grid; gap: var(--spacing-sm); margin-bottom: var(--spacing-lg);">
+            <% question.options.forEach((option, optIndex) => { %>
+              <div style="padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--radius-md); <%= optIndex === question.correctAnswer ? 'background: rgba(16, 185, 129, 0.1); border: 2px solid var(--success);' : optIndex === question.userAnswer && !question.isCorrect ? 'background: rgba(239, 68, 68, 0.1); border: 2px solid var(--error);' : 'background: var(--bg-tertiary);' %>">
+                <strong><%= String.fromCharCode(65 + optIndex) %>.</strong> <%= option %>
+                <% if (optIndex === question.correctAnswer) { %>
+                  <strong style="color: var(--success); margin-left: var(--spacing-sm);">✓ Correct Answer</strong>
+                <% } else if (optIndex === question.userAnswer && !question.isCorrect) { %>
+                  <strong style="color: var(--error); margin-left: var(--spacing-sm);">✗ Your Answer</strong>
+                <% } %>
+              </div>
+            <% }) %>
+          </div>
+          
+          <% if (question.explanation) { %>
+            <div class="definition">
+              <div class="definition-title">Explanation</div>
+              <p style="margin-bottom: 0;"><%= question.explanation %></p>
+            </div>
+          <% } %>
+        </div>
+      <% }) %>
+    </section>
+
+    <!-- Action Buttons -->
+    <div style="display: flex; gap: var(--spacing-md); justify-content: center; margin-top: var(--spacing-3xl);">
+      <a href="/mock-exam" class="btn btn-outline btn-lg">Take Another Exam</a>
+      <a href="/dashboard" class="btn btn-primary btn-lg">Go to Dashboard</a>
+    </div>
+  </main>
+  
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

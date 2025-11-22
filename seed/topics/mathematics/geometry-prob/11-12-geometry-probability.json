@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Geometry - Triangles and Polygons",
+    "slug": "triangles-polygons",
+    "order": 11,
+    "explanation": "Properties of triangles, types, angle relationships, theorems like Pythagoras, and understanding polygons.",
+    "detailedNotes": "Geometry studies shapes, sizes, and spatial relationships.\n\nTRIANGLES:\n\nTypes by sides:\n1. Equilateral: 3 equal sides, 3 equal angles (60° each)\n2. Isosceles: 2 equal sides, 2 equal base angles\n3. Scalene: all sides different, all angles different\n\nTypes by angles:\n1. Acute: all angles < 90°\n2. Right: one angle = 90°\n3. Obtuse: one angle > 90°\n\nTRIANGLE PROPERTIES:\n- Sum of angles = 180°\n- Exterior angle = sum of two opposite interior angles\n- Sum of any two sides > third side\n- Longest side opposite largest angle\n\nPYTHAGORAS THEOREM:\nFor right triangle:\na² + b² = c²\nwhere c = hypotenuse\n\nPythagorean triples:\n(3, 4, 5), (5, 12, 13), (8, 15, 17)\n\nSPECIAL TRIANGLES:\n30-60-90: sides in ratio 1:√3:2\n45-45-90: sides in ratio 1:1:√2\n\nAREA FORMULAS:\n- General: A = ½ × base × height\n- Heron's formula: A = √[s(s-a)(s-b)(s-c)]\n  where s = (a+b+c)/2\n\nCONGRUENCE CONDITIONS:\n- SSS (side-side-side)\n- SAS (side-angle-side)\n- ASA (angle-side-angle)\n- RHS (right angle-hypotenuse-side)\n\nPOLYGONS:\n\nRegular polygons: all sides and angles equal\n\nTypes:\n- Triangle: 3 sides\n- Quadrilateral: 4 sides\n- Pentagon: 5 sides\n- Hexagon: 6 sides\n- Octagon: 8 sides\n\nAngle properties:\n- Sum of interior angles = (n-2) × 180°\n- Each interior angle (regular) = (n-2) × 180° / n\n- Sum of exterior angles = 360°\n- Each exterior angle (regular) = 360°/n\n\nQUADRILATERALS:\n- Square: 4 equal sides, 4 right angles\n- Rectangle: opposite sides equal, 4 right angles\n- Parallelogram: opposite sides parallel and equal\n- Rhombus: 4 equal sides\n- Trapezium: one pair of parallel sides",
+    "examples": [
+      {
+        "title": "Pythagoras Theorem",
+        "content": "A ladder 13 m long leans against a wall. The foot is 5 m from the wall. How high up the wall does it reach?",
+        "solution": "Using a² + b² = c²\nwhere c = 13 m (hypotenuse)\na = 5 m (base)\nb = height (unknown)\n\n5² + b² = 13²\n25 + b² = 169\nb² = 144\nb = 12 m\n\nThe ladder reaches 12 m up the wall."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "The sum of interior angles of a hexagon is:",
+        "options": [
+          "360°",
+          "540°",
+          "720°",
+          "900°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sum = (n-2) × 180° = (6-2) × 180° = 4 × 180° = 720°."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "In a right triangle with sides 3 cm and 4 cm, the hypotenuse is:",
+        "options": [
+          "5 cm",
+          "7 cm",
+          "12 cm",
+          "25 cm"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Using Pythagoras: c² = 3² + 4² = 9 + 16 = 25, so c = 5 cm. This is the (3,4,5) Pythagorean triple."
+      }
+    ]
+  },
+  {
+    "title": "Probability",
+    "slug": "probability",
+    "order": 12,
+    "explanation": "Understanding probability concepts, calculating probabilities of events, and applying probability rules.",
+    "detailedNotes": "Probability measures the likelihood of an event occurring.\n\nBASIC PROBABILITY:\nP(Event) = Number of favorable outcomes / Total number of possible outcomes\n\nRange: 0 ≤ P ≤ 1\n- P = 0: impossible event\n- P = 1: certain event\n- 0 < P < 1: possible event\n\nAs percentage: 0% to 100%\n\nKEY TERMS:\n- Sample space (S): all possible outcomes\n- Event: subset of sample space\n- Complement of A: P(A') = 1 - P(A)\n\nTYPES OF EVENTS:\n\n1. MUTUALLY EXCLUSIVE:\n- Cannot occur together\n- P(A and B) = 0\n- P(A or B) = P(A) + P(B)\n- Example: heads or tails\n\n2. INDEPENDENT:\n- One doesn't affect the other\n- P(A and B) = P(A) × P(B)\n- Example: two coin tosses\n\n3. DEPENDENT:\n- One affects the other\n- Example: picking cards without replacement\n\nPROBABILITY RULES:\n\n1. Addition Rule:\n   P(A or B) = P(A) + P(B) - P(A and B)\n   \n2. Multiplication Rule:\n   P(A and B) = P(A) × P(B|A)\n   \n3. Complement Rule:\n   P(not A) = 1 - P(A)\n\nCOMMON PROBABILITY SITUATIONS:\n\n1. Coins:\n   - P(heads) = 1/2\n   - Two coins: outcomes = 4 (HH, HT, TH, TT)\n\n2. Dice:\n   - P(any number) = 1/6\n   - Two dice: outcomes = 36\n\n3. Cards:\n   - 52 cards total\n   - 13 of each suit\n   - 4 of each rank\n\nTREE DIAGRAMS:\n- Show all possible outcomes\n- Multiply along branches for probability\n- Add probabilities of different paths to same outcome",
+    "examples": [
+      {
+        "title": "Simple Probability",
+        "content": "A bag contains 5 red, 3 blue, and 2 green balls. What is the probability of picking a blue ball?",
+        "solution": "Total balls = 5 + 3 + 2 = 10\nBlue balls = 3\n\nP(blue) = 3/10 = 0.3 or 30%\n\nThe probability of picking a blue ball is 3/10."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "What is the probability of rolling an even number on a fair die?",
+        "options": [
+          "1/6",
+          "1/3",
+          "1/2",
+          "2/3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Even numbers: 2, 4, 6 (3 outcomes). P = 3/6 = 1/2."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "Two coins are tossed. What is the probability of getting two heads?",
+        "options": [
+          "1/4",
+          "1/2",
+          "3/4",
+          "1"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Outcomes: HH, HT, TH, TT (4 total). Only 1 is HH. P(HH) = 1/4."
+      }
+    ]
+  }
+]

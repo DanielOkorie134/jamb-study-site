@@ -1,0 +1,146 @@
+[
+  {
+    "name": "English",
+    "slug": "english",
+    "description": "Master English Language comprehension, grammar, and oral skills",
+    "icon": "📖",
+    "color": "#ec4899",
+    "syllabus": [
+      {
+        "section": "Comprehension",
+        "topics": [
+          "Reading comprehension passages",
+          "Vocabulary in context",
+          "Inference and deduction",
+          "Main ideas and supporting details"
+        ]
+      },
+      {
+        "section": "Lexis and Structure",
+        "topics": [
+          "Parts of speech",
+          "Sentence structure",
+          "Punctuation",
+          "Synonyms and antonyms",
+          "Idiomatic expressions"
+        ]
+      },
+      {
+        "section": "Oral English",
+        "topics": [
+          "Vowels and consonants",
+          "Stress and intonation",
+          "Rhymes"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Physics",
+    "slug": "physics",
+    "description": "Explore the fundamental laws governing matter and energy",
+    "icon": "⚛️",
+    "color": "#3b82f6",
+    "syllabus": [
+      {
+        "section": "Mechanics",
+        "topics": [
+          "Motion",
+          "Force and Newton's Laws",
+          "Work, Energy and Power",
+          "Momentum and Impulse"
+        ]
+      },
+      {
+        "section": "Electricity and Magnetism",
+        "topics": [
+          "Electric fields and potential",
+          "Current electricity",
+          "Magnetism",
+          "Electromagnetic induction"
+        ]
+      },
+      {
+        "section": "Waves and Optics",
+        "topics": [
+          "Wave motion",
+          "Sound waves",
+          "Light and reflection",
+          "Refraction and lenses"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chemistry",
+    "slug": "chemistry",
+    "description": "Understand the composition, properties, and reactions of matter",
+    "icon": "🧪",
+    "color": "#10b981",
+    "syllabus": [
+      {
+        "section": "Physical Chemistry",
+        "topics": [
+          "Atomic structure",
+          "Chemical bonding",
+          "States of matter",
+          "Kinetic theory"
+        ]
+      },
+      {
+        "section": "Inorganic Chemistry",
+        "topics": [
+          "Periodic table",
+          "Metals and non-metals",
+          "Acids, bases and salts",
+          "Oxidation and reduction"
+        ]
+      },
+      {
+        "section": "Organic Chemistry",
+        "topics": [
+          "Hydrocarbons",
+          "Functional groups",
+          "Polymers",
+          "Organic reactions"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mathematics",
+    "slug": "mathematics",
+    "description": "Build strong foundations in algebra, calculus, and geometry",
+    "icon": "📐",
+    "color": "#f59e0b",
+    "syllabus": [
+      {
+        "section": "Algebra",
+        "topics": [
+          "Number systems",
+          "Indices and logarithms",
+          "Polynomials",
+          "Sequences and series"
+        ]
+      },
+      {
+        "section": "Calculus",
+        "topics": [
+          "Differentiation",
+          "Integration",
+          "Applications of calculus",
+          "Rates of change"
+        ]
+      },
+      {
+        "section": "Geometry and Trigonometry",
+        "topics": [
+          "Angles and triangles",
+          "Circles",
+          "Trigonometric ratios",
+          "Trigonometric identities"
+        ]
+      }
+    ]
+  }
+]

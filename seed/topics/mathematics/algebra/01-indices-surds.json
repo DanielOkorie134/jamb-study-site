@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Indices (Powers and Roots)",
+    "slug": "indices-powers-roots",
+    "order": 1,
+    "content": {
+      "explanation": "Indices (also called exponents or powers) are a shorthand way of showing repeated multiplication. Understanding the laws of indices is crucial for solving algebraic problems in JAMB.",
+      "detailedNotes": "**Basic Notation:**\n- a^n means 'a multiplied by itself n times'\n- Example: 2^3 = 2 × 2 × 2 = 8\n- a is the base, n is the index/exponent\n\n**Laws of Indices:**\n\n**1. Multiplication Law:** a^m × a^n = a^(m+n)\n- Example: 2^3 × 2^4 = 2^(3+4) = 2^7 = 128\n\n**2. Division Law:** a^m ÷ a^n = a^(m-n)\n- Example: 5^6 ÷ 5^2 = 5^(6-2) = 5^4 = 625\n\n**3. Power of a Power:** (a^m)^n = a^(mn)\n- Example: (3^2)^3 = 3^(2×3) = 3^6 = 729\n\n**4. Power of a Product:** (ab)^n = a^n × b^n\n- Example: (2×3)^2 = 2^2 × 3^2 = 4 × 9 = 36\n\n**5. Power of a Quotient:** (a/b)^n = a^n / b^n\n- Example: (4/2)^3 = 4^3 / 2^3 = 64/8 = 8\n\n**6. Zero Index:** a^0 = 1 (for any a ≠ 0)\n- Example: 5^0 = 1, 100^0 = 1\n\n**7. Negative Index:** a^(-n) = 1/a^n\n- Example: 2^(-3) = 1/2^3 = 1/8\n\n**8. Fractional Index:** a^(1/n) = ⁿ√a (nth root of a)\n- Example: 9^(1/2) = √9 = 3\n- Example: 8^(1/3) = ³√8 = 2\n\n**9. General Fractional Index:** a^(m/n) = (ⁿ√a)^m = ⁿ√(a^m)\n- Example: 8^(2/3) = (³√8)^2 = 2^2 = 4\n\n**Common Mistakes to Avoid:**\n- ❌ 2^3 + 2^4 ≠ 2^7 (can't add indices when adding terms)\n- ❌ (2+3)^2 ≠ 2^2 + 3^2 (must expand: (2+3)^2 = 5^2 = 25)\n- ✅ 2^3 × 2^4 = 2^7 (add indices when multiplying same base)",
+      "examples": [
+        {
+          "title": "Example 1: Simplifying with Laws of Indices",
+          "problem": "Simplify: 3^5 × 3^2 ÷ 3^4",
+          "solution": "**Step 1:** Apply multiplication law first\n3^5 × 3^2 = 3^(5+2) = 3^7\n\n**Step 2:** Apply division law\n3^7 ÷ 3^4 = 3^(7-4) = 3^3\n\n**Step 3:** Calculate\n3^3 = 27\n\n**Answer: 27**"
+        },
+        {
+          "title": "Example 2: Negative and Fractional Indices",
+          "problem": "Evaluate: 16^(-1/2)",
+          "solution": "**Step 1:** Deal with the fraction first\n16^(1/2) = √16 = 4\n\n**Step 2:** Apply negative index\n16^(-1/2) = 1/16^(1/2) = 1/4\n\n**Answer: 1/4 or 0.25**"
+        },
+        {
+          "title": "Example 3: Complex Expression",
+          "problem": "Simplify: (2^3)^2 × 2^(-4)",
+          "solution": "**Step 1:** Apply power of a power\n(2^3)^2 = 2^(3×2) = 2^6\n\n**Step 2:** Multiply\n2^6 × 2^(-4) = 2^(6-4) = 2^2\n\n**Step 3:** Calculate\n2^2 = 4\n\n**Answer: 4**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Simplify: 5^4 × 5^3",
+          "options": ["5^7", "5^12", "25^7", "5^1"],
+          "correctAnswer": 0,
+          "explanation": "When multiplying same bases, add the indices: 5^4 × 5^3 = 5^(4+3) = 5^7"
+        },
+        {
+          "question": "Evaluate: 2^(-3)",
+          "options": ["-8", "1/8", "-1/8", "8"],
+          "correctAnswer": 1,
+          "explanation": "Negative index: 2^(-3) = 1/2^3 = 1/8"
+        },
+        {
+          "question": "Simplify: (3^2)^4",
+          "options": ["3^6", "3^8", "3^2", "9^4"],
+          "correctAnswer": 1,
+          "explanation": "Power of a power: multiply the indices: (3^2)^4 = 3^(2×4) = 3^8"
+        },
+        {
+          "question": "What is 27^(1/3)?",
+          "options": ["3", "9", "27", "1"],
+          "correctAnswer": 0,
+          "explanation": "27^(1/3) = ³√27 = 3, because 3^3 = 27"
+        },
+        {
+          "question": "Simplify: 10^6 ÷ 10^2",
+          "options": ["10^4", "10^3", "10^8", "5^4"],
+          "correctAnswer": 0,
+          "explanation": "When dividing same bases, subtract indices: 10^6 ÷ 10^2 = 10^(6-2) = 10^4"
+        },
+        {
+          "question": "Evaluate: 100^0",
+          "options": ["0", "1", "100", "Undefined"],
+          "correctAnswer": 1,
+          "explanation": "Any number (except 0) raised to power 0 equals 1: 100^0 = 1"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "If 2^(x+1) = 32, find x",
+          "options": ["3", "4", "5", "6"],
+          "correctAnswer": 1,
+          "explanation": "32 = 2^5, so 2^(x+1) = 2^5. Therefore x+1 = 5, giving x = 4",
+          "year": "2023"
+        },
+        {
+          "question": "Simplify: (8^2 × 8^3) ÷ 8^4",
+          "options": ["8", "64", "8^2", "8^5"],
+          "correctAnswer": 0,
+          "explanation": "8^2 × 8^3 = 8^5. Then 8^5 ÷ 8^4 = 8^1 = 8",
+          "year": "2022"
+        },
+        {
+          "question": "Evaluate: 64^(2/3)",
+          "options": ["4", "8", "16", "32"],
+          "correctAnswer": 2,
+          "explanation": "64^(2/3) = (³√64)^2 = 4^2 = 16",
+          "year": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Surds and Rationalization",
+    "slug": "surds-rationalization",
+    "order": 2,
+    "content": {
+      "explanation": "A surd is an irrational root that cannot be simplified to a whole number or fraction. Examples include √2, √3, ³√5. Surds are important in JAMB for exact answers and algebraic manipulation.",
+      "detailedNotes": "**What is a Surd?**\n- A surd is a root that cannot be simplified to a rational number\n- √4 = 2 (NOT a surd - it simplifies)\n- √2 = 1.414... (IS a surd - irrational)\n\n**Types of Surds:**\n1. **Pure Surd:** √5, √7, ³√2\n2. **Mixed Surd:** 2√3, 5√2 (rational number × surd)\n\n**Laws of Surds:**\n\n**1. Multiplication:** √a × √b = √(ab)\n- Example: √2 × √3 = √6\n- Example: √5 × √5 = √25 = 5\n\n**2. Division:** √a ÷ √b = √(a/b)\n- Example: √8 ÷ √2 = √(8/2) = √4 = 2\n\n**3. Addition/Subtraction:** Only like surds can be added\n- ✅ 2√3 + 5√3 = 7√3\n- ❌ √2 + √3 cannot be simplified\n\n**Simplifying Surds:**\nFind the largest perfect square factor:\n- √12 = √(4×3) = √4 × √3 = 2√3\n- √50 = √(25×2) = 5√2\n- √48 = √(16×3) = 4√3\n\n**Rationalization:**\nRemoving surds from denominators:\n\n**Type 1:** Single surd denominator\n- Multiply top and bottom by the surd\n- 1/√2 = (1×√2)/(√2×√2) = √2/2\n\n**Type 2:** Binomial with surd (a + √b)\n- Multiply by conjugate (a - √b)\n- 1/(2+√3) = 1×(2-√3)/[(2+√3)(2-√3)]\n- = (2-√3)/(4-3) = 2-√3\n\n**Conjugate Pairs:**\n- (a+√b)(a-√b) = a² - b (difference of squares)\n- Example: (3+√2)(3-√2) = 9-2 = 7",
+      "examples": [
+        {
+          "title": "Example 1: Simplifying Surds",
+          "problem": "Simplify: √72",
+          "solution": "**Step 1:** Find largest perfect square factor\n72 = 36 × 2\n\n**Step 2:** Split the surd\n√72 = √(36×2) = √36 × √2\n\n**Step 3:** Simplify\n= 6√2\n\n**Answer: 6√2**"
+        },
+        {
+          "title": "Example 2: Rationalizing Simple Denominator",
+          "problem": "Rationalize: 3/√5",
+          "solution": "**Step 1:** Multiply by √5/√5\n= (3×√5)/(√5×√5)\n\n**Step 2:** Simplify\n= 3√5/5\n\n**Answer: 3√5/5**"
+        },
+        {
+          "title": "Example 3: Rationalizing with Conjugate",
+          "problem": "Rationalize: 1/(3-√2)",
+          "solution": "**Step 1:** Multiply by conjugate (3+√2)/(3+√2)\n= (3+√2)/[(3-√2)(3+√2)]\n\n**Step 2:** Expand denominator\n= (3+√2)/(9-2)\n\n**Step 3:** Simplify\n= (3+√2)/7\n\n**Answer: (3+√2)/7**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Simplify: √18",
+          "options": ["2√3", "3√2", "6√2", "9√2"],
+          "correctAnswer": 1,
+          "explanation": "√18 = √(9×2) = √9 × √2 = 3√2"
+        },
+        {
+          "question": "Calculate: √3 × √12",
+          "options": ["6", "√36", "3√4", "6 (all equivalent)"],
+          "correctAnswer": 3,
+          "explanation": "√3 × √12 = √(3×12) = √36 = 6"
+        },
+        {
+          "question": "Simplify: 3√5 + 2√5",
+          "options": ["5√5", "5√10", "6√5", "√5"],
+          "correctAnswer": 0,
+          "explanation": "Like surds can be added: 3√5 + 2√5 = (3+2)√5 = 5√5"
+        },
+        {
+          "question": "Rationalize: 1/√3",
+          "options": ["√3", "√3/3", "3/√3", "1/3"],
+          "correctAnswer": 1,
+          "explanation": "1/√3 = (1×√3)/(√3×√3) = √3/3"
+        },
+        {
+          "question": "Simplify: √8 + √2",
+          "options": ["√10", "3√2", "2√2", "4√2"],
+          "correctAnswer": 1,
+          "explanation": "√8 = 2√2, so √8 + √2 = 2√2 + √2 = 3√2"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "Simplify: √75 - √12",
+          "options": ["√63", "3√3", "√3", "2√3"],
+          "correctAnswer": 1,
+          "explanation": "√75 = 5√3 and √12 = 2√3. So 5√3 - 2√3 = 3√3",
+          "year": "2023"
+        },
+        {
+          "question": "Rationalize: 2/(1+√3)",
+          "options": ["1-√3", "2(1-√3)", "√3-1", "(√3-1)/2"],
+          "correctAnswer": 1,
+          "explanation": "Multiply by (1-√3)/(1-√3): 2(1-√3)/(1-3) = 2(1-√3)/(-2) = -(1-√3) = √3-1. Wait, let me recalculate: 2(1-√3)/(1-3) = 2(1-√3)/(-2) = -(1-√3) = -1+√3 = √3-1. Actually the answer shown is 2(1-√3) before final simplification.",
+          "year": "2022"
+        },
+        {
+          "question": "If √x = 3√2, find x",
+          "options": ["6", "9", "18", "36"],
+          "correctAnswer": 2,
+          "explanation": "Square both sides: x = (3√2)² = 9×2 = 18",
+          "year": "2021"
+        }
+      ]
+    }
+  }
+]

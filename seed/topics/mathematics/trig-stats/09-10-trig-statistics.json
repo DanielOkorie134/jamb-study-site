@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Trigonometric Ratios and Identities",
+    "slug": "trig-ratios-identities",
+    "order": 9,
+    "explanation": "Understanding sine, cosine, tangent ratios in right triangles, special angles, and fundamental trigonometric identities.",
+    "detailedNotes": "Trigonometry studies relationships between angles and sides of triangles.\n\nTRIGONOMETRIC RATIOS (Right Triangle):\nFor angle θ:\n\nsin θ = Opposite/Hypotenuse\ncos θ = Adjacent/Hypotenuse\ntan θ = Opposite/Adjacent\n\nReciprocals:\ncsc θ = 1/sin θ\nsec θ = 1/cos θ\ncot θ = 1/tan θ\n\nAlso: tan θ = sin θ/cos θ\n\nSPECIAL ANGLES:\n\nθ     | 0° | 30° | 45° | 60° | 90°\nsin θ | 0  | 1/2 | √2/2| √3/2| 1\ncos θ | 1  | √3/2| √2/2| 1/2 | 0\ntan θ | 0  | 1/√3| 1   | √3  | ∞\n\nPYTHAGOREAN IDENTITIES:\n1. sin²θ + cos²θ = 1\n2. 1 + tan²θ = sec²θ\n3. 1 + cot²θ = csc²θ\n\nANGLE RELATIONSHIPS:\n- sin(90°-θ) = cos θ\n- cos(90°-θ) = sin θ\n- tan(90°-θ) = cot θ\n\nDOUBLE ANGLE FORMULAS:\n- sin 2θ = 2 sin θ cos θ\n- cos 2θ = cos²θ - sin²θ\n- tan 2θ = 2tan θ/(1-tan²θ)\n\nSOLVING TRIANGLES:\nGiven sides/angles, find unknowns using:\n- SOHCAHTOA\n- Pythagorean theorem\n- Trig ratios\n\nAPPLICATIONS:\n- Heights and distances\n- Navigation\n- Engineering\n- Physics (waves, oscillations)",
+    "examples": [
+      {
+        "title": "Finding Sides",
+        "content": "In a right triangle, if the hypotenuse is 10 cm and one angle is 30°, find the opposite side.",
+        "solution": "Using sin θ = Opposite/Hypotenuse\n\nsin 30° = Opposite/10\n1/2 = Opposite/10\nOpposite = 10 × 1/2\nOpposite = 5 cm\n\nThe opposite side is 5 cm."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "What is sin² θ + cos² θ equal to?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "tan θ"
+        ],
+        "correctAnswer": 1,
+        "explanation": "This is the Pythagorean identity: sin²θ + cos²θ = 1 for all angles θ."
+      },
+      {
+        "question": "If sin θ = 3/5, what is cos θ? (θ is acute)",
+        "options": [
+          "3/5",
+          "4/5",
+          "5/3",
+          "5/4"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Using sin²θ + cos²θ = 1: (3/5)² + cos²θ = 1, so cos²θ = 16/25, cos θ = 4/5."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "sin 60° equals:",
+        "options": [
+          "1/2",
+          "√2/2",
+          "√3/2",
+          "1"
+        ],
+        "correctAnswer": 2,
+        "explanation": "From the special angles table, sin 60° = √3/2."
+      }
+    ]
+  },
+  {
+    "title": "Statistics - Mean, Median, Mode",
+    "slug": "statistics-measures",
+    "order": 10,
+    "explanation": "Calculating measures of central tendency (mean, median, mode) and understanding their applications in data analysis.",
+    "detailedNotes": "Statistics deals with collecting, organizing, analyzing, and interpreting data.\n\nMEASURES OF CENTRAL TENDENCY:\nValues that represent the center or typical value of a dataset.\n\n1. MEAN (Average):\n- Sum of all values ÷ Number of values\n- Formula: Mean = Σx/n\n- Affected by extreme values (outliers)\n- Most commonly used\n\n2. MEDIAN:\n- Middle value when data is arranged in order\n- For odd n: middle value\n- For even n: average of two middle values\n- Not affected by outliers\n- Formula position: (n+1)/2\n\n3. MODE:\n- Most frequently occurring value\n- Can have no mode, one mode, or multiple modes\n- Unimodal: one mode\n- Bimodal: two modes\n- Multimodal: more than two modes\n\nGROUPED DATA:\nFor frequency distributions:\n\nMean = Σ(fx)/Σf\nwhere f = frequency, x = class midpoint\n\nModal Class: class with highest frequency\n\nMedian Class: class containing (n/2)th value\n\nRANGE:\n- Measure of dispersion\n- Range = Highest value - Lowest value\n\nCHOOSING THE BEST MEASURE:\n- Mean: for symmetric distributions\n- Median: for skewed data or with outliers\n- Mode: for categorical data\n\nAPPLICATIONS:\n- Test scores analysis\n- Income distribution\n- Business decisions\n- Population studies",
+    "examples": [
+      {
+        "title": "Calculating Mean, Median, Mode",
+        "content": "Find the mean, median, and mode of: 5, 8, 8, 12, 15, 18, 8, 22",
+        "solution": "MEAN:\nSum = 5+8+8+12+15+18+8+22 = 96\nMean = 96/8 = 12\n\nMEDIAN:\nArrange: 5, 8, 8, 8, 12, 15, 18, 22\nn = 8 (even), so median = average of 4th and 5th values\nMedian = (8+12)/2 = 10\n\nMODE:\n8 appears 3 times (most frequent)\nMode = 8\n\nMean=12, Median=10, Mode=8"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "What is the median of: 3, 7, 9, 12, 15?",
+        "options": [
+          "7",
+          "9",
+          "12",
+          "15"
+        ],
+        "correctAnswer": 1,
+        "explanation": "For odd number of values, median is the middle value. The middle of 5 values is the 3rd one: 9."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "The mode of a dataset is:",
+        "options": [
+          "The average value",
+          "The middle value",
+          "The most frequent value",
+          "The range"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Mode is defined as the value that appears most frequently in a dataset."
+      }
+    ]
+  }
+]

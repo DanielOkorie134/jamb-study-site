@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Motion and Speed",
+    "slug": "motion-speed",
+    "order": 1,
+    "content": {
+      "explanation": "Motion describes the change in position of an object over time. Understanding speed, velocity, and acceleration is fundamental to mechanics and frequently appears in JAMB physics.",
+      "detailedNotes": "**Key Concepts:**\n\n**1. Distance vs Displacement**\n- **Distance**: Total path length traveled (scalar)\n- **Displacement**: Straight-line distance from start to finish with direction (vector)\n\nExample: Walking 3m east, then 4m north\n- Distance = 7m\n- Displacement = 5m (using Pythagoras)\n\n**2. Speed vs Velocity**\n- **Speed**: Distance/Time (scalar, no direction)\n  - Formula: v = d/t\n  - Unit: m/s, km/h\n- **Velocity**: Displacement/Time (vector, has direction)\n  - Formula: v = s/t\n  - Unit: m/s\n\n**3. Types of Speed**\n- **Uniform/Constant Speed**: Same speed throughout\n- **Variable Speed**: Speed changes\n- **Average Speed**: Total distance / Total time\n- **Instantaneous Speed**: Speed at a particular moment\n\n**4. Acceleration**\n- Rate of change of velocity\n- Formula: a = (v-u)/t\n  - a = acceleration (m/s²)\n  - v = final velocity (m/s)\n  - u = initial velocity (m/s)\n  - t = time (s)\n\n**Equations of Motion** (for uniform acceleration):\n1. v = u + at\n2. s = ut + ½at²\n3. v² = u² + 2as\n4. s = (u+v)t/2\n\nWhere:\n- s = displacement\n- u = initial velocity\n- v = final velocity\n- a = acceleration\n- t = time\n\n**Free Fall:**\n- Objects falling under gravity only\n- Acceleration = g = 10 m/s² (or 9.8 m/s²)\n- Use equations of motion with a = g\n\n**Speed-Time Graphs:**\n- Gradient = acceleration\n- Area under graph = distance traveled\n\n**Distance-Time Graphs:**\n- Gradient = speed\n- Horizontal line = stationary\n- Straight line = constant speed\n- Curved line = changing speed",
+      "examples": [
+        {
+          "title": "Example 1: Average Speed",
+          "problem": "A car travels 120 km in 2 hours. Calculate its average speed.",
+          "solution": "**Given:**\n- Distance = 120 km\n- Time = 2 hours\n\n**Formula:** Speed = Distance/Time\n\n**Calculation:**\nSpeed = 120/2 = 60 km/h\n\n**Answer: 60 km/h**"
+        },
+        {
+          "title": "Example 2: Acceleration",
+          "problem": "A car accelerates from rest to 20 m/s in 5 seconds. Find the acceleration.",
+          "solution": "**Given:**\n- u = 0 m/s (from rest)\n- v = 20 m/s\n- t = 5 s\n\n**Formula:** a = (v-u)/t\n\n**Calculation:**\na = (20-0)/5 = 20/5 = 4 m/s²\n\n**Answer: 4 m/s²**"
+        },
+        {
+          "title": "Example 3: Equations of Motion",
+          "problem": "A ball is dropped from rest. How far does it fall in 3 seconds? (g = 10 m/s²)",
+          "solution": "**Given:**\n- u = 0 (dropped from rest)\n- t = 3 s\n- a = g = 10 m/s²\n\n**Formula:** s = ut + ½at²\n\n**Calculation:**\ns = 0(3) + ½(10)(3)²\ns = 0 + 5(9)\ns = 45 m\n\n**Answer: 45 m**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "A train travels 300 km in 5 hours. What is its average speed?",
+          "options": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
+          "correctAnswer": 1,
+          "explanation": "Speed = Distance/Time = 300/5 = 60 km/h"
+        },
+        {
+          "question": "Convert 72 km/h to m/s",
+          "options": ["10 m/s", "15 m/s", "20 m/s", "25 m/s"],
+          "correctAnswer": 2,
+          "explanation": "72 km/h = 72 × 1000/(60×60) = 72000/3600 = 20 m/s. Or use: km/h ÷ 3.6 = m/s"
+        },
+        {
+          "question": "A car decelerates from 30 m/s to 10 m/s in 4 seconds. Find acceleration.",
+          "options": ["-5 m/s²", "-10 m/s²", "5 m/s²", "10 m/s²"],
+          "correctAnswer": 0,
+          "explanation": "a = (v-u)/t = (10-30)/4 = -20/4 = -5 m/s² (negative = deceleration)"
+        },
+        {
+          "question": "Using v = u + at, if u=5 m/s, a=2 m/s², t=3s, find v",
+          "options": ["9 m/s", "11 m/s", "13 m/s", "15 m/s"],
+          "correctAnswer": 1,
+          "explanation": "v = 5 + 2(3) = 5 + 6 = 11 m/s"
+        },
+        {
+          "question": "An object falls freely for 2s. Distance fallen? (g=10 m/s²)",
+          "options": ["10 m", "20 m", "30 m", "40 m"],
+          "correctAnswer": 1,
+          "explanation": "s = ½gt² = ½(10)(2)² = 5(4) = 20 m"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "A body moving with uniform acceleration has a velocity of 10 m/s after 4s and 18 m/s after 6s. Calculate the acceleration.",
+          "options": ["2 m/s²", "4 m/s²", "6 m/s²", "8 m/s²"],
+          "correctAnswer": 1,
+          "explanation": "a = (v₂-v₁)/(t₂-t₁) = (18-10)/(6-4) = 8/2 = 4 m/s²",
+          "year": "2023"
+        },
+        {
+          "question": "A stone is thrown vertically upward with velocity 30 m/s. Maximum height reached? (g=10 m/s²)",
+          "options": ["30 m", "45 m", "60 m", "90 m"],
+          "correctAnswer": 1,
+          "explanation": "At max height, v=0. Use v²=u²-2gs: 0=900-20s, s=45 m",
+          "year": "2022"
+        },
+        {
+          "question": "A car travels the first half of a journey at 40 km/h and the second half at 60 km/h. Find average speed.",
+          "options": ["48 km/h", "50 km/h", "52 km/h", "55 km/h"],
+          "correctAnswer": 0,
+          "explanation": "For equal distances: Average = 2v₁v₂/(v₁+v₂) = 2(40)(60)/(40+60) = 4800/100 = 48 km/h",
+          "year": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Forces and Newton's Laws",
+    "slug": "forces-newtons-laws",
+    "order": 2,
+    "content": {
+      "explanation": "Forces cause objects to accelerate, decelerate, or change direction. Newton's three laws of motion describe the relationship between forces and motion, forming the foundation of classical mechanics.",
+      "detailedNotes": "**What is a Force?**\n- A push or pull on an object\n- Vector quantity (has magnitude and direction)\n- Unit: Newton (N)\n- 1 N = force needed to accelerate 1 kg at 1 m/s²\n\n**Types of Forces:**\n1. **Contact Forces**: Require physical contact\n   - Friction, Tension, Normal force, Air resistance\n2. **Non-contact Forces**: Act at a distance\n   - Gravity, Magnetic, Electric\n\n**Newton's First Law (Law of Inertia)**\n\"An object at rest stays at rest, and an object in motion stays in motion with constant velocity, unless acted upon by an unbalanced force.\"\n\n- Inertia: Resistance to change in motion\n- Greater mass = greater inertia\n- Examples:\n  - Passengers jerk forward when car brakes\n  - Objects slide forward when car accelerates\n\n**Newton's Second Law**\n\"Force = Mass × Acceleration\"\n\n**Formula:** F = ma\n- F = net force (N)\n- m = mass (kg)\n- a = acceleration (m/s²)\n\n**Implications:**\n- Larger force → larger acceleration\n- Larger mass → smaller acceleration (for same force)\n- F and a are in the same direction\n\n**Newton's Third Law**\n\"For every action, there is an equal and opposite reaction.\"\n\n- Forces always occur in pairs\n- Action and reaction are equal in magnitude\n- They act on different objects\n- Examples:\n  - Walking: foot pushes ground backward, ground pushes foot forward\n  - Rocket: gases pushed down, rocket pushed up\n  - Swimming: push water backward, water pushes you forward\n\n**Weight vs Mass:**\n- **Mass**: Amount of matter (kg), constant everywhere\n- **Weight**: Force due to gravity (N), varies with location\n- **Formula:** W = mg\n  - W = weight (N)\n  - m = mass (kg)\n  - g = gravitational field strength (10 m/s² on Earth)\n\n**Friction:**\n- Opposes motion\n- Types: Static (prevents motion), Kinetic (during motion)\n- Depends on: Surface roughness, Normal force\n- Formula: F = μN\n  - μ = coefficient of friction\n  - N = normal force\n\n**Resultant Force:**\n- Net force after combining all forces\n- Same direction: Add\n- Opposite direction: Subtract\n- At an angle: Use vector addition",
+      "examples": [
+        {
+          "title": "Example 1: Newton's Second Law",
+          "problem": "A force of 20 N acts on a mass of 5 kg. Calculate the acceleration.",
+          "solution": "**Given:**\n- F = 20 N\n- m = 5 kg\n\n**Formula:** F = ma, so a = F/m\n\n**Calculation:**\na = 20/5 = 4 m/s²\n\n**Answer: 4 m/s²**"
+        },
+        {
+          "title": "Example 2: Weight Calculation",
+          "problem": "Calculate the weight of a 6 kg object on Earth (g = 10 m/s²)",
+          "solution": "**Given:**\n- m = 6 kg\n- g = 10 m/s²\n\n**Formula:** W = mg\n\n**Calculation:**\nW = 6 × 10 = 60 N\n\n**Answer: 60 N**"
+        },
+        {
+          "title": "Example 3: Resultant Force",
+          "problem": "Two forces of 30 N and 40 N act on an object in opposite directions. Find the resultant force.",
+          "solution": "**Given:**\n- F₁ = 30 N (one direction)\n- F₂ = 40 N (opposite direction)\n\n**For opposite directions:** Subtract\nResultant = 40 - 30 = 10 N\n\n**Direction:** In the direction of the larger force (40 N)\n\n**Answer: 10 N in the direction of the 40 N force**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "A 10 kg object accelerates at 5 m/s². What force is applied?",
+          "options": ["2 N", "15 N", "50 N", "500 N"],
+          "correctAnswer": 2,
+          "explanation": "F = ma = 10 × 5 = 50 N"
+        },
+        {
+          "question": "What is the weight of a 12 kg mass on Earth? (g=10 m/s²)",
+          "options": ["12 N", "22 N", "120 N", "1200 N"],
+          "correctAnswer": 2,
+          "explanation": "W = mg = 12 × 10 = 120 N"
+        },
+        {
+          "question": "Which law explains why seatbelts are necessary?",
+          "options": ["Newton's 1st Law", "Newton's 2nd Law", "Newton's 3rd Law", "Law of Gravity"],
+          "correctAnswer": 0,
+          "explanation": "Newton's 1st Law (inertia): passengers continue moving forward when car stops suddenly"
+        },
+        {
+          "question": "Two forces of 50 N each act in the same direction. Resultant force?",
+          "options": ["0 N", "25 N", "50 N", "100 N"],
+          "correctAnswer": 3,
+          "explanation": "Same direction: add forces. 50 + 50 = 100 N"
+        },
+        {
+          "question": "A rocket expels gas downward. What pushes the rocket up?",
+          "options": ["Gravity", "Air pressure", "Reaction force from gas", "Engine power"],
+          "correctAnswer": 2,
+          "explanation": "Newton's 3rd Law: rocket pushes gas down (action), gas pushes rocket up (reaction)"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "A force of 100 N gives a mass an acceleration of 5 m/s². What force gives it 8 m/s²?",
+          "options": ["80 N", "120 N", "160 N", "200 N"],
+          "correctAnswer": 2,
+          "explanation": "First find mass: m=F/a=100/5=20 kg. Then F=ma=20×8=160 N",
+          "year": "2023"
+        },
+        {
+          "question": "An object of mass 4 kg on Earth weighs 40 N. What would it weigh on the moon where g=1.6 m/s²?",
+          "options": ["4 N", "6.4 N", "16 N", "40 N"],
+          "correctAnswer": 1,
+          "explanation": "Mass stays 4 kg. Weight on moon = mg = 4 × 1.6 = 6.4 N",
+          "year": "2022"
+        },
+        {
+          "question": "Forces of 3 N and 4 N act at right angles. Find resultant force.",
+          "options": ["1 N", "5 N", "7 N", "12 N"],
+          "correctAnswer": 1,
+          "explanation": "Use Pythagoras: R = √(3² + 4²) = √(9+16) = √25 = 5 N",
+          "year": "2021"
+        }
+      ]
+    }
+  }
+]

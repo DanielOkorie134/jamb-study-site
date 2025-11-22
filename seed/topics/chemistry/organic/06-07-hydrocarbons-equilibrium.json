@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Organic Chemistry - Hydrocarbons",
+    "slug": "hydrocarbons",
+    "order": 6,
+    "explanation": "Understanding alkanes, alkenes, alkynes, their properties, nomenclature, and chemical reactions.",
+    "detailedNotes": "Hydrocarbons are compounds containing only carbon and hydrogen.\n\nALKANES (Saturated Hydrocarbons):\n- General formula: CₙH₂ₙ₊₂\n- Single bonds only\n- Relatively unreactive\n- Suffix: -ane\n\nExamples:\n- Methane: CH₄\n- Ethane: C₂H₆\n- Propane: C₃H₈\n- Butane: C₄H₁₀\n\nProperties:\n- Non-polar\n- Low melting/boiling points\n- Insoluble in water\n- Used as fuels\n\nReactions:\n1. Combustion: CₙH₂ₙ₊₂ + O₂ → CO₂ + H₂O\n2. Substitution: with halogens (e.g., chlorination)\n\nALKENES (Unsaturated):\n- General formula: CₙH₂ₙ\n- One C=C double bond\n- More reactive than alkanes\n- Suffix: -ene\n\nExamples:\n- Ethene: C₂H₄\n- Propene: C₃H₆\n\n Properties:\n- Can undergo addition reactions\n- Test: decolorize bromine water\n- Used to make plastics (polymerization)\n\nReactions:\n1. Addition: adding across double bond\n   - Hydrogenation: C₂H₄ + H₂ → C₂H₆\n   - Halogenation: C₂H₄ + Br₂ → C₂H₄Br₂\n2. Polymerization: n(C₂H₄) → (-C₂H₄-)ₙ\n\nALKYNES:\n- General formula: CₙH₂ₙ₋₂\n- One C≡C triple bond\n- Suffix: -yne\n- Example: Ethyne (acetylene) C₂H₂\n- Very reactive\n\nNOMENCLATURE:\n1. Count longest carbon chain\n2. Identify functional group\n3. Number from end nearest functional group\n4. Name substituents with positions\n\nISOMERISM:\n- Same molecular formula, different structures\n- Structural isomers: different arrangements\n- Example: butane has 2 isomers",
+    "examples": [
+      {
+        "title": "Combustion of Alkane",
+        "content": "Write the balanced equation for complete combustion of methane.",
+        "solution": "CH₄ + O₂ → CO₂ + H₂O\n\nBalancing:\nCH₄ + 2O₂ → CO₂ + 2H₂O\n\nMethane burns with oxygen to produce carbon dioxide and water."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which is the general formula for alkanes?",
+        "options": [
+          "CₙH₂ₙ₊₂",
+          "CₙH₂ₙ",
+          "CₙH₂ₙ₋₂",
+          "CₙH₂ₙ₊₁"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Alkanes (saturated hydrocarbons) have the general formula CₙH₂ₙ₊₂."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "Alkenes can be distinguished from alkanes by their ability to:",
+        "options": [
+          "Burn in air",
+          "Dissolve in water",
+          "Decolorize bromine water",
+          "React with sodium"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Alkenes decolorize bromine water due to the double bond undergoing addition reaction, while alkanes do not."
+      }
+    ]
+  },
+  {
+    "title": "Chemical Equilibrium",
+    "slug": "chemical-equilibrium",
+    "order": 7,
+    "explanation": "Understanding reversible reactions, equilibrium state, Le Chatelier's principle, and factors affecting equilibrium.",
+    "detailedNotes": "Chemical equilibrium occurs when forward and reverse reaction rates are equal.\n\nREVERSIBLE REACTIONS:\n- Can proceed in both directions\n- Notation: A + B ⇌ C + D\n- Reached equilibrium when rates equal\n- Concentrations remain constant (not zero!)\n\nEQUILIBRIUM STATE:\n- Dynamic equilibrium (reactions still occurring)\n- No net change in concentrations\n- Can be reached from either direction\n- Macroscopic properties constant\n\nEQUILIBRIUM CONSTANT (Kc):\nFor aA + bB ⇌ cC + dD\nKc = [C]ᶜ[D]ᵈ/[A]ᵃ[B]ᵇ\n\n- Large Kc: products favored\n- Small Kc: reactants favored\n- Kc = 1: neither favored\n\nLE CHATELIER'S PRINCIPLE:\nIf stress is applied to a system at equilibrium, the system shifts to counteract the stress.\n\nFACTORS AFFECTING EQUILIBRIUM:\n\n1. CONCENTRATION:\n- Increase reactant → shift right (more products)\n- Increase product → shift left (more reactants)\n\n2. PRESSURE (for gases):\n- Increase pressure → shift to side with fewer moles\n- Decrease pressure → shift to side with more moles\n\n3. TEMPERATURE:\n- Exothermic reaction:\n  - Increase temp → shift left (favor endothermic)\n  - Decrease temp → shift right (favor exothermic)\n- Endothermic reaction: opposite\n\n4. CATALYST:\n- Speeds up both reactions equally\n- Does NOT shift equilibrium position\n- Reaches equilibrium faster\n\nAPPLICATIONS:\n- Haber process (ammonia synthesis)\n- Contact process (sulfuric acid)\n- Industrial chemical production",
+    "examples": [
+      {
+        "title": "Le Chatelier's Principle",
+        "content": "For N₂ + 3H₂ ⇌ 2NH₃ (exothermic), what happens if temperature is increased?",
+        "solution": "Increasing temperature favors the endothermic direction (reverse reaction).\n\nThe equilibrium shifts LEFT (toward reactants).\n\nResult:\n- Less NH₃ produced\n- More N₂ and H₂ present\n- Equilibrium constant decreases\n\nTo maximize NH₃ production, use lower temperature (but not too low, as reaction becomes slow)."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "At equilibrium, the rate of forward reaction is:",
+        "options": [
+          "Greater than reverse reaction",
+          "Less than reverse reaction",
+          "Equal to reverse reaction",
+          "Zero"
+        ],
+        "correctAnswer": 2,
+        "explanation": "At equilibrium, forward and reverse reaction rates are equal, resulting in no net change."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "A catalyst affects equilibrium by:",
+        "options": [
+          "Shifting it to the right",
+          "Shifting it to the left",
+          "Increasing the rate of reaching equilibrium",
+          "Changing the equilibrium constant"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Catalysts do not shift equilibrium or change Kc; they only help the system reach equilibrium faster."
+      }
+    ]
+  }
+]

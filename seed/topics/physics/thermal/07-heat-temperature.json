@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Heat and Temperature",
+    "slug": "heat-temperature",
+    "order": 7,
+    "explanation": "Difference between heat and temperature, heat transfer methods (conduction, convection, radiation), and thermal expansion.",
+    "detailedNotes": "Heat and temperature are related but different concepts in thermal physics.\n\nTEMPERATURE:\n- Measure of average kinetic energy of particles\n- Indication of how hot or cold\n- Scalar quantity\n- Units: Celsius (°C), Kelvin (K), Fahrenheit (°F)\n- Conversion: K = °C + 273\n\nHEAT:\n- Energy transferred due to temperature difference\n- Flows from hot to cold\n- Measured in Joules (J) or calories\n- Heat capacity: Q = mcΔT\n  - Q = heat energy\n  - m = mass\n  - c = specific heat capacity\n  - ΔT = temperature change\n\nHEAT TRANSFER METHODS:\n\n1. CONDUCTION:\n- Through direct contact\n- Particle to particle energy transfer\n- Good conductors: metals\n- Poor conductors (insulators): wood, plastic, air\n- Example: spoon in hot coffee\n\n2. CONVECTION:\n- Through fluid movement (liquid/gas)\n- Hot fluid rises, cold sinks\n- Creates convection currents\n- Example: boiling water, sea breeze\n\n3. RADIATION:\n- Through electromagnetic waves\n- No medium needed\n- All objects radiate heat\n- Dark surfaces absorb/emit better\n- Example: sun's heat, fire warmth\n\nTHERMAL EXPANSION:\n- Most materials expand when heated\n- Linear expansion: ΔL = αLΔT\n- Applications:\n  - Railway track gaps\n  - Bimetallic strips in thermostats\n  - Bridges have expansion joints",
+    "examples": [
+      {
+        "title": "Heat Capacity Calculation",
+        "content": "How much heat is needed to raise the temperature of 2 kg of water from 20°C to 80°C? (Specific heat capacity of water = 4200 J/kg°C)",
+        "solution": "Q = mcΔT\nQ = 2 × 4200 × (80 - 20)\nQ = 2 × 4200 × 60\nQ = 504,000 J = 504 kJ\n\n504 kilojoules of heat energy is needed."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which is the best conductor of heat?",
+        "options": [
+          "Wood",
+          "Plastic",
+          "Copper",
+          "Air"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Copper is a metal and an excellent conductor of heat, unlike wood, plastic, or air which are insulators."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "Heat transfer that does NOT require a medium is:",
+        "options": [
+          "Conduction",
+          "Convection",
+          "Radiation",
+          "Evaporation"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Radiation can occur through a vacuum (no medium needed), unlike conduction and convection which require matter."
+      }
+    ]
+  }
+]

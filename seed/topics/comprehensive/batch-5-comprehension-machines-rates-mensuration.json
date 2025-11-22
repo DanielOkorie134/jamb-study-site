@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Comprehension Skills - Inference and Deduction",
+    "slug": "inference-deduction",
+    "order": 14,
+    "explanation": "Reading between the lines, making logical conclusions, and understanding implied meanings in texts.",
+    "detailedNotes": "Inference involves drawing conclusions not explicitly stated in the text.\n\nINFERENCE:\n- Using clues to reach logical conclusions\n- Reading between the lines\n- Understanding what's suggested, not stated\n\nSTEPS FOR MAKING INFERENCES:\n1. Read carefully\n2. Look for context clues\n3. Consider what you already know\n4. Draw logical conclusions\n5. Check if evidence supports your inference\n\nDEDUCTION:\n- Using logic and evidence to reach conclusions\n- Eliministing impossible options\n- Narrowing down to most likely answer\n\nCLUES FOR INFERENCE:\n- Character actions and reactions\n- Descriptive language and tone\n- Setting and atmosphere\n- Dialogue and interactions\n- What's NOT said\n\nCOMMON INFERENCE QUESTIONS:\n- What can you infer about...?\n- The passage suggests that...\n- Which best describes...?\n- What is implied by...?\n- The author's attitude is probably...\n\nDIFFERENCE FROM FACTS:\n- Fact: directly stated\n- Inference: concluded from evidence",
+    "examples": [
+      {
+        "title": "Making an Inference",
+        "content": "'Sarah rushed out the door without breakfast, her bag half-zipped and shoes untied. She kept checking her watch and muttering under her breath.'\n\nWhat can you infer?",
+        "solution": "Inference: Sarah is late or in a hurry.\n\nEvidence:\n- Rushed (speed)\n- No breakfast (no time)\n- Bag half-zipped (hasty preparation)\n- Shoes untied (no time to tie)\n- Checking watch (time-conscious)\n- Muttering (stressed/anxious)\n\nAll clues point to being late/hurried."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "'The room was silent except for nervous coughing. Students gripped their pens tightly, eyes fixed on the papers before them.' This suggests:",
+        "options": [
+          "A party is happening",
+          "An exam is taking place",
+          "A meeting is occurring",
+          "Students are relaxing"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Clues like 'nervous', 'gripped pens', and 'silent' suggest exam conditions, not a party or relaxation."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "Inference differs from direct statement because it:",
+        "options": [
+          "Is clearly stated in the text",
+          "Requires reading between the lines",
+          "Is always incorrect",
+          "Needs no evidence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Inference requires reading between lines and drawing conclusions from clues, not direct statements."
+      }
+    ]
+  },
+  {
+    "title": "Simple Machines and Mechanical Advantage",
+    "slug": "simple-machines",
+    "order": 12,
+    "explanation": "Understanding levers, pulleys, inclined planes, and how mechanical advantage reduces effort needed.",
+    "detailedNotes": "Simple machines make work easier by changing force direction or magnitude.\n\nSIX SIMPLE MACHINES:\n1. Lever\n2. Pulley\n3. Inclined plane\n4. Wedge\n5. Screw\n6. Wheel and axle\n\nMECHANICAL ADVANTAGE (MA):\nMA = Load/Effort\nOR\nMA = Distance moved by effort / Distance moved by load\n\n- MA > 1: effort force reduced\n- MA < 1: effort force increased (but distance/speed gained)\n- MA = 1: no advantage\n\nEFFICIENCY:\nEfficiency = (MA actual / MA ideal) × 100%\nOR\nEfficiency = (Work output / Work input) × 100%\n\nAlways < 100% due to friction\n\nLEVERS:\nThree classes based on fulcrum, effort, load positions:\n\nClass 1: Fulcrum between effort and load\n- Examples: seesaw, crowbar, scissors\n- Can have MA > 1 or < 1\n\nClass 2: Load between fulcrum and effort\n- Examples: wheelbarrow, nutcracker, bottle opener\n- MA > 1 (force advantage)\n\nClass 3: Effort between fulcrum and load\n- Examples: tweezers, fishing rod, human arm\n- MA < 1 (distance/speed advantage)\n\nPrinciple of moments:\nClockwise moments = Anticlockwise moments\nEffort × Effort arm = Load × Load arm\n\nPULLEYS:\n- Fixed: changes direction only (MA = 1)\n- Movable: MA = 2\n- Block and tackle: MA = number of supporting ropes\n\nINCLINED PLANE:\n- Ramp reducing effort\n- MA = length / height\n- Longer plane = less effort\n\nAPPLICATIONS:\n- Construction\n- Transportation\n- Manufacturing\n- Daily tools",
+    "examples": [
+      {
+        "title": "Mechanical Advantage",
+        "content": "A person uses a crowbar (lever) to lift a 600 N rock. If they apply 150 N of force, what is the mechanical advantage?",
+        "solution": "MA = Load / Effort\nMA = 600 / 150\nMA = 4\n\nThe mechanical advantage is 4.\n\nThis means the lever multiplies the effort force by 4, making the task easier."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which simple machine is a screwdriver?",
+        "options": [
+          "Lever",
+          "Pulley",
+          "Wheel and axle",
+          "Wedge"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A screwdriver is a wheel (handle) and axle (shaft) system that provides mechanical advantage."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "If a machine has MA = 5 and requires 20 N effort, the load is:",
+        "options": [
+          "4 N",
+          "25 N",
+          "100 N",
+          "200 N"
+        ],
+        "correctAnswer": 2,
+        "explanation": "MA = Load/Effort, so 5 = Load/20, therefore Load = 100 N."
+      }
+    ]
+  },
+  {
+    "title": "Rates of Reaction",
+    "slug": "reaction-rates",
+    "order": 11,
+    "explanation": "Understanding factors affecting reaction speed: concentration, temperature, surface area, and catalysts.",
+    "detailedNotes": "Rate of reaction is how fast reactants are converted to products.\n\nMEASURING RATE:\n- Volume of gas produced per time\n- Mass change per time\n- Color change intensity\n- pH change\n- Disappearance of cross (turbidity)\n\nFACTORS AFFECTING RATE:\n\n1. CONCENTRATION:\n- Higher concentration → faster reaction\n- More particles in same volume\n- More frequent collisions\n- Example: HCl concentration vs marble chips\n\n2. TEMPERATURE:\n- Higher temperature → faster reaction\n- Particles move faster\n- More energetic collisions\n- More particles exceed activation energy\n- Rule: +10°C approximately doubles rate\n\n3. SURFACE AREA:\n- Larger surface area → faster reaction\n- More particles exposed\n- More collision sites\n- Example: powder vs lump\n\n4. CATALYST:\n- Speeds up reaction\n- Provides alternative pathway\n- Lowers activation energy\n- Not consumed in reaction\n- Can be recovered unchanged\n- Example: MnO₂ in H₂O₂ decomposition\n\n5. PRESSURE (gases):\n- Higher pressure → faster reaction\n- Particles closer together\n- More frequent collisions\n\nCOLLISION THEORY:\nFor reaction to occur:\n1. Particles must collide\n2. With sufficient energy (activation energy)\n3. With correct orientation\n\nACTIVATION ENERGY:\n- Minimum energy needed for reaction\n- Catalysts lower it\n- Temperature increases kinetic energy\n\nGRAPHS:\n- Steeper gradient = faster rate\n- Curve levels off when reaction complete\n- Same final amount (for same reactant mass)\n\nAPPLICATIONS:\n- Industrial processes (optimize conditions)\n- Food preservation (slow reactions)\n- Enzyme reactions in biology",
+    "examples": [
+      {
+        "title": "Effect of Temperature",
+        "content": "Explain why milk spoils faster at room temperature than in a refrigerator.",
+        "solution": "Milk spoilage is caused by bacterial reactions.\n\nAt higher temperature (room temp):\n- Bacteria more active\n- Reaction rate increases\n- Faster decomposition\n- Quicker spoilage\n\nIn refrigerator (lower temp):\n- Reaction rate decreases\n- Bacteria less active\n- Slower spoilage\n- Milk stays fresh longer\n\nThis demonstrates temperature's effect on reaction rate."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which will react fastest with dilute HCl?",
+        "options": [
+          "Large marble chip",
+          "Small marble chips",
+          "Marble powder",
+          "Marble block"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Marble powder has the largest surface area, exposing more particles to react simultaneously."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "A catalyst speeds up a reaction by:",
+        "options": [
+          "Increasing temperature",
+          "Increasing concentration",
+          "Lowering activation energy",
+          "Increasing pressure"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Catalysts provide an alternative pathway with lower activation energy, speeding up the reaction."
+      }
+    ]
+  },
+  {
+    "title": "Mensuration - Areas and Volumes",
+    "slug": "mensuration",
+    "order": 13,
+    "explanation": "Calculating areas of 2D shapes and volumes of 3D solids including circles, cylinders, cones, and spheres.",
+    "detailedNotes": "Mensuration involves measuring geometric figures.\n\n2D SHAPES - AREA:\n\nCircle:\n- Area = πr²\n- Circumference = 2πr = πd\n- r = radius, d = diameter\n\nRectangle:\n- Area = length × width\n- Perimeter = 2(l + w)\n\nSquare:\n- Area = side²\n- Perimeter = 4 × side\n\nTriangle:\n- Area = ½ × base × height\n\nTrapezium:\n- Area = ½(a + b)h\n- a, b = parallel sides, h = height\n\nSector (part of circle):\n- Area = (θ/360) × πr²\n- Arc length = (θ/360) × 2πr\n- θ = angle in degrees\n\n3D SOLIDS - VOLUME AND SURFACE AREA:\n\nCube:\n- Volume = side³\n- Surface area = 6side²\n\nCuboid:\n- Volume = length × width × height\n- Surface area = 2(lw  + lh + wh)\n\nCylinder:\n- Volume = πr²h\n-  Curved surface area = 2πrh\n- Total surface area = 2πrh + 2πr²\n\nCone:\n- Volume = ⅓πr²h\n- Curved surface area = πrl\n- l = slant height = √(r² + h²)\n\nSphere:\n- Volume = ⅔πr³\n- Surface area = 4πr²\n\nPyramid:\n- Volume = ⅓ × base area × height\n\nPrism:\n- Volume = base area × height\n\nCONVERSIONS:\n- 1 m = 100 cm = 1000 mm\n- 1 m² = 10,000 cm²\n- 1 m³ = 1,000,000 cm³\n- 1 litre = 1000 cm³\n\nπ ≈ 3.14 or 22/7",
+    "examples": [
+      {
+        "title": "Cylinder Volume",
+        "content": "Find the volume of a cylindrical tank with radius 7 cm and height 10 cm. (Use π = 22/7)",
+        "solution": "V = πr²h\nV = (22/7) × 7² × 10\nV = (22/7) × 49 × 10\nV = 22 × 7 × 10\nV = 1540 cm³\n\nThe volume is 1540 cm³ or 1.54 litres."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "The area of a circle with radius 14 cm is: (π = 22/7)",
+        "options": [
+          "44 cm²",
+          "88 cm²",
+          "308 cm²",
+          "616 cm²"
+        ],
+        "correctAnswer": 3,
+        "explanation": "A = πr² = (22/7) × 14² = (22/7) × 196 = 616 cm²."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "The volume of a sphere with radius 3 cm is: (π = 3.14)",
+        "options": [
+          "28.26 cm³",
+          "37.68 cm³",
+          "113.04 cm³",
+          "339.12 cm³"
+        ],
+        "correctAnswer": 2,
+        "explanation": "V = ⁴⁄₃πr³ = ⁴⁄₃ × 3.14 × 3³ = ⁴⁄₃ × 3.14 × 27 = 113.04 cm³."
+      }
+    ]
+  }
+]

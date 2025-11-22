@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Quadratic Equations",
+    "slug": "quadratic-equations",
+    "order": 3,
+    "content": {
+      "explanation": "A quadratic equation is an equation of the form ax² + bx + c = 0, where a ≠ 0. Quadratic equations are among the most frequently tested topics in JAMB mathematics.",
+      "detailedNotes": "**Standard Form:** ax² + bx + c = 0\n- a, b, c are constants\n- a ≠ 0 (otherwise it's linear, not quadratic)\n- x is the variable\n\n**Methods of Solving:**\n\n**1. Factorization Method**\nBest when equation factors easily\n- Example: x² + 5x + 6 = 0\n- Factor: (x+2)(x+3) = 0\n- Solutions: x = -2 or x = -3\n\n**2. Completing the Square**\nUseful for deriving quadratic formula\n- Example: x² + 6x + 5 = 0\n- x² + 6x = -5\n- x² + 6x + 9 = -5 + 9\n- (x+3)² = 4\n- x+3 = ±2\n- x = -1 or x = -5\n\n**3. Quadratic Formula** (Most reliable)\nx = [-b ± √(b²-4ac)] / 2a\n\n**The Discriminant:** Δ = b² - 4ac\n- If Δ > 0: Two distinct real roots\n- If Δ = 0: One repeated real root (equal roots)\n- If Δ < 0: No real roots (complex roots)\n\n**Sum and Product of Roots:**\nFor equation ax² + bx + c = 0 with roots α and β:\n- Sum: α + β = -b/a\n- Product: α × β = c/a\n\n**Forming Quadratic Equations:**\nIf roots are α and β:\nx² - (α+β)x + αβ = 0\n\nExample: Roots are 2 and 3\nx² - (2+3)x + (2×3) = 0\nx² - 5x + 6 = 0\n\n**Common Patterns:**\n- x² - a² = (x-a)(x+a) [Difference of squares]\n- x² + 2ax + a² = (x+a)²\n- x² - 2ax + a² = (x-a)²",
+      "examples": [
+        {
+          "title": "Example 1: Factorization",
+          "problem": "Solve: x² - 7x + 12 = 0",
+          "solution": "**Step 1:** Find two numbers that multiply to 12 and add to -7\nNumbers: -3 and -4\n\n**Step 2:** Factor\n(x-3)(x-4) = 0\n\n**Step 3:** Solve\nx-3 = 0 or x-4 = 0\nx = 3 or x = 4\n\n**Answer: x = 3 or x = 4**"
+        },
+        {
+          "title": "Example 2: Quadratic Formula",
+          "problem": "Solve: 2x² + 5x - 3 = 0",
+          "solution": "**Given:** a=2, b=5, c=-3\n\n**Step 1:** Calculate discriminant\nΔ = b² - 4ac = 25 - 4(2)(-3) = 25 + 24 = 49\n\n**Step 2:** Apply formula\nx = [-5 ± √49] / (2×2)\nx = [-5 ± 7] / 4\n\n**Step 3:** Find both solutions\nx = (-5+7)/4 = 2/4 = 1/2\nx = (-5-7)/4 = -12/4 = -3\n\n**Answer: x = 1/2 or x = -3**"
+        },
+        {
+          "title": "Example 3: Sum and Product of Roots",
+          "problem": "Find the quadratic equation whose roots are 5 and -2",
+          "solution": "**Step 1:** Calculate sum and product\nSum = 5 + (-2) = 3\nProduct = 5 × (-2) = -10\n\n**Step 2:** Use formula x² - (sum)x + product = 0\nx² - 3x + (-10) = 0\nx² - 3x - 10 = 0\n\n**Answer: x² - 3x - 10 = 0**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Solve: x² + 3x - 10 = 0",
+          "options": ["x = 2 or -5", "x = -2 or 5", "x = 2 or 5", "x = -2 or -5"],
+          "correctAnswer": 0,
+          "explanation": "Factor: (x+5)(x-2) = 0, giving x = -5 or x = 2"
+        },
+        {
+          "question": "What is the discriminant of x² + 4x + 4 = 0?",
+          "options": ["0", "4", "16", "8"],
+          "correctAnswer": 0,
+          "explanation": "Δ = b² - 4ac = 16 - 4(1)(4) = 16 - 16 = 0 (equal roots)"
+        },
+        {
+          "question": "If the roots of x² - 6x + k = 0 are equal, find k",
+          "options": ["6", "9", "12", "36"],
+          "correctAnswer": 1,
+          "explanation": "For equal roots, Δ = 0: 36 - 4k = 0, so k = 9"
+        },
+        {
+          "question": "Solve: x² - 9 = 0",
+          "options": ["x = 3 only", "x = -3 only", "x = ±3", "x = 9"],
+          "correctAnswer": 2,
+          "explanation": "x² = 9, so x = ±√9 = ±3. Or factor: (x-3)(x+3) = 0"
+        },
+        {
+          "question": "Sum of roots of 3x² - 12x + 5 = 0 is:",
+          "options": ["4", "-4", "5/3", "-12/3"],
+          "correctAnswer": 0,
+          "explanation": "Sum = -b/a = -(-12)/3 = 12/3 = 4"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "Solve: 2x² - 5x - 3 = 0",
+          "options": ["x = 3 or -1/2", "x = -3 or 1/2", "x = 3 or 1/2", "x = -3 or -1/2"],
+          "correctAnswer": 0,
+          "explanation": "Factor: (2x+1)(x-3) = 0, giving x = -1/2 or x = 3",
+          "year": "2023"
+        },
+        {
+          "question": "If α and β are roots of x² - 5x + 6 = 0, find α + β",
+          "options": ["5", "-5", "6", "-6"],
+          "correctAnswer": 0,
+          "explanation": "Sum of roots = -b/a = -(-5)/1 = 5",
+          "year": "2022"
+        },
+        {
+          "question": "For what value of k does x² + kx + 9 = 0 have equal roots?",
+          "options": ["±3", "±6", "±9", "±12"],
+          "correctAnswer": 1,
+          "explanation": "For equal roots: k² - 36 = 0, so k² = 36, k = ±6",
+          "year": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Simultaneous Equations",
+    "slug": "simultaneous-equations",
+    "order": 4,
+    "content": {
+      "explanation": "Simultaneous equations are two or more equations with two or more unknowns that must be solved together. The solution satisfies all equations simultaneously.",
+      "detailedNotes": "**Types of Simultaneous Equations:**\n\n**1. Linear-Linear (Both equations are linear)**\nExample:\n2x + y = 7\nx - y = 2\n\n**2. Linear-Quadratic (One linear, one quadratic)**\nExample:\ny = x + 1\ny = x² - 3\n\n**Methods of Solution:**\n\n**Method 1: Elimination**\nBest when coefficients can be easily matched\n\nSteps:\n1. Make coefficients of one variable equal\n2. Add or subtract equations to eliminate that variable\n3. Solve for remaining variable\n4. Substitute back to find other variable\n\nExample:\n2x + 3y = 12 ... (1)\n3x - 3y = 3  ... (2)\n\nAdd equations: 5x = 15, so x = 3\nSubstitute: 2(3) + 3y = 12, so y = 2\n\n**Method 2: Substitution**\nBest when one equation is already solved for a variable\n\nSteps:\n1. Express one variable in terms of the other\n2. Substitute into the second equation\n3. Solve the resulting equation\n4. Find the other variable\n\nExample:\ny = 2x - 1  ... (1)\n3x + 2y = 16 ... (2)\n\nSubstitute (1) into (2):\n3x + 2(2x-1) = 16\n3x + 4x - 2 = 16\n7x = 18\nx = 18/7\n\n**Method 3: Graphical**\nPlot both equations; solution is intersection point\n\n**For Linear-Quadratic:**\nUse substitution method:\n1. Express y from linear equation\n2. Substitute into quadratic\n3. Solve resulting quadratic\n4. May have 0, 1, or 2 solutions\n\nExample:\ny = x + 2\ny = x²\n\nSubstitute: x + 2 = x²\nx² - x - 2 = 0\n(x-2)(x+1) = 0\nx = 2 or x = -1\n\nWhen x=2: y=4\nWhen x=-1: y=1\n\nSolutions: (2,4) and (-1,1)",
+      "examples": [
+        {
+          "title": "Example 1: Elimination Method",
+          "problem": "Solve:\n3x + 2y = 13\n2x - 2y = 2",
+          "solution": "**Step 1:** Notice y coefficients are opposites\nAdd equations directly:\n(3x+2y) + (2x-2y) = 13+2\n5x = 15\nx = 3\n\n**Step 2:** Substitute x=3 into first equation\n3(3) + 2y = 13\n9 + 2y = 13\n2y = 4\ny = 2\n\n**Answer: x = 3, y = 2**"
+        },
+        {
+          "title": "Example 2: Substitution Method",
+          "problem": "Solve:\ny = 3x - 4\n2x + y = 6",
+          "solution": "**Step 1:** Substitute y = 3x-4 into second equation\n2x + (3x-4) = 6\n5x - 4 = 6\n5x = 10\nx = 2\n\n**Step 2:** Find y\ny = 3(2) - 4 = 6 - 4 = 2\n\n**Answer: x = 2, y = 2**"
+        },
+        {
+          "title": "Example 3: Linear-Quadratic",
+          "problem": "Solve:\ny = 2x\ny = x² - 3",
+          "solution": "**Step 1:** Equate the expressions\n2x = x² - 3\n\n**Step 2:** Rearrange\nx² - 2x - 3 = 0\n\n**Step 3:** Factor\n(x-3)(x+1) = 0\nx = 3 or x = -1\n\n**Step 4:** Find corresponding y values\nWhen x=3: y=2(3)=6\nWhen x=-1: y=2(-1)=-2\n\n**Answer: (3, 6) and (-1, -2)**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Solve: x + y = 5 and x - y = 1",
+          "options": ["x=3, y=2", "x=2, y=3", "x=4, y=1", "x=1, y=4"],
+          "correctAnswer": 0,
+          "explanation": "Add equations: 2x=6, x=3. Then y=2"
+        },
+        {
+          "question": "Solve: 2x + 3y = 12 and x = 3",
+          "options": ["y=2", "y=3", "y=4", "y=6"],
+          "correctAnswer": 0,
+          "explanation": "Substitute x=3: 2(3)+3y=12, 6+3y=12, 3y=6, y=2"
+        },
+        {
+          "question": "How many solutions: y=x and y=x²?",
+          "options": ["0", "1", "2", "3"],
+          "correctAnswer": 2,
+          "explanation": "x=x² gives x²-x=0, x(x-1)=0, so x=0 or x=1. Two solutions: (0,0) and (1,1)"
+        },
+        {
+          "question": "Solve: 3x + y = 10 and 2x - y = 5",
+          "options": ["x=3, y=1", "x=2, y=4", "x=1, y=7", "x=4, y=-2"],
+          "correctAnswer": 0,
+          "explanation": "Add equations: 5x=15, x=3. Substitute: 3(3)+y=10, y=1"
+        },
+        {
+          "question": "If 2x + y = 8 and x + y = 5, find x",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": 1,
+          "explanation": "Subtract second from first: x=3"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "Solve: 5x - 2y = 11 and 3x + 2y = 13",
+          "options": ["x=3, y=2", "x=2, y=3", "x=4, y=1", "x=1, y=5"],
+          "correctAnswer": 0,
+          "explanation": "Add equations: 8x=24, x=3. Substitute: 5(3)-2y=11, 15-2y=11, y=2",
+          "year": "2023"
+        },
+        {
+          "question": "Solve: y = x + 1 and y = x² - 5",
+          "options": ["(3,4) and (-2,-1)", "(2,3) and (-3,-2)", "(4,5) and (-1,0)", "(1,2) and (-6,-5)"],
+          "correctAnswer": 0,
+          "explanation": "x+1=x²-5 gives x²-x-6=0, (x-3)(x+2)=0, x=3 or -2. Points: (3,4) and (-2,-1)",
+          "year": "2022"
+        },
+        {
+          "question": "If 4x + 3y = 18 and 2x + 3y = 12, find y",
+          "options": ["2", "3", "4", "6"],
+          "correctAnswer": 0,
+          "explanation": "Subtract: 2x=6, x=3. Substitute: 2(3)+3y=12, 6+3y=12, y=2",
+          "year": "2021"
+        }
+      ]
+    }
+  }
+]

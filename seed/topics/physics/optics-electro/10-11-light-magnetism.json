@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Light - Reflection and Mirrors",
+    "slug": "light-reflection",
+    "order": 10,
+    "explanation": "Properties of light, laws of reflection, plane and curved mirrors, image formation, and applications.",
+    "detailedNotes": "Light is electromagnetic radiation visible to the human eye.\n\nPROPERTIES OF LIGHT:\n- Travels in straight lines\n- Speed in vacuum: c = 3 × 10⁸ m/s\n- Can be reflected, refracted, diffracted\n- Exhibits wave-particle duality\n\nLAWS OF REFLECTION:\n1. Incident ray, reflected ray, and normal lie in same plane\n2. Angle of incidence = Angle of reflection (i = r)\n\nPLANE MIRRORS:\n- Flat reflecting surface\n- Forms virtual, upright, same-size image\n- Image distance = Object distance\n- Laterally inverted (left-right reversed)\n\nCURVED MIRRORS:\n\n1. CONCAVE MIRROR (converging):\n- Curves inward\n- Can form real or virtual images\n- Used in: telescopes, makeup mirrors, headlights\n- Focal point: where parallel rays converge\n\n2. CONVEX MIRROR (diverging):\n- Curves outward\n- Forms virtual, diminished, upright images\n- Used in: vehicle side mirrors, security mirrors\n- Wider field of view\n\nMIRROR TERMS:\n- Principal axis: line through center\n- Pole (P): mirror center\n- Focus (F): focal point\n- Center of curvature (C): sphere center\n- Focal length (f): distance from pole to focus\n- Radius of curvature (r): r = 2f\n\nMIRROR FORMULA:\n1/f = 1/v + 1/u\nwhere:\nf = focal length\nv = image distance\nu = object distance\n\nMAGNIFICATION:\nm = Image height/Object height = v/u\nm > 1: magnified\nm < 1: diminished\nm = 1: same size",
+    "examples": [
+      {
+        "title": "Mirror Formula",
+        "content": "An object is 20 cm from a concave mirror with focal length 10 cm. Find image distance.",
+        "solution": "Using 1/f = 1/v + 1/u\n\nGiven: f = 10 cm, u = -20 cm (object distance negative by convention)\n\n1/10 = 1/v + 1/(-20)\n1/10 = 1/v - 1/20\n1/v = 1/10 + 1/20\n1/v = 3/20\nv = 20/3 = 6.67 cm\n\nPositive v means real image 6.67 cm in front of mirror."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "According to the law of reflection:",
+        "options": [
+          "Angle of incidence is greater than angle of reflection",
+          "Angle of incidence equals angle of reflection",
+          "Angle of incidence is less than angle of reflection",
+          "There is no relationship"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The law of reflection states that angle of incidence always equals angle of reflection."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "Convex mirrors are used in vehicle side mirrors because they:",
+        "options": [
+          "Magnify objects",
+          "Form real images",
+          "Provide wider field of view",
+          "Focus light to a point"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Convex mirrors provide a wider field of view, allowing drivers to see more area  behind them."
+      }
+    ]
+  },
+  {
+    "title": "Magnetism and Magnetic Fields",
+    "slug": "magnetism",
+    "order": 11,
+    "explanation": "Properties of magnets, magnetic fields, magnetic materials, and electromagnets.",
+    "detailedNotes": "Magnetism is the force of attraction or repulsion between magnetic materials.\n\nMAGNETIC PROPERTIES:\n- Every magnet has two poles: North and South\n- Like poles repel, unlike poles attract\n- Magnetic field: region of magnetic influence\n- Field lines: N → S outside magnet\n- Cannot have isolated poles (magnetic monopole doesn't exist)\n\nTYPES OF MAGNETIC MATERIALS:\n\n1. FERROMAGNETIC:\n- Strongly attracted (iron, nickel, cobalt, steel)\n- Can be permanently magnetized\n- Used in permanent magnets\n\n2. PARAMAGNETIC:\n- Weakly attracted (aluminum, platinum)\n- Not permanently magnetized\n\n3. DIAMAGNETIC:\n- Weakly repelled (copper, gold, water)\n- Repelled by magnetic fields\n\nMAKING MAGNETS:\n1. Stroking with another magnet\n2. Electrical method (electromagnet)\n3. Hammering in Earth's field\n\nDEMAGNETIZATION:\n- Heating above Curie temperature\n- Hammering\n- AC current method\n\nELECTROMAGNETS:\n- Temporary magnet from electric current\n- Solenoid + iron core\n- Strength increased by:\n  - More current\n  - More coil turns\n  - Iron core\n\nAPPLICATIONS:\n- Electric motors\n- Generators\n- Loudspeakers\n- MRI machines\n- Magnetic levitation\n\nEARTH'S MAGNETISM:\n- Acts like giant bar magnet\n- Magnetic North ≠ Geographic North\n- Compass aligns with Earth's field",
+    "examples": [
+      {
+        "title": "Magnetic Field Pattern",
+        "content": "Describe the magnetic field pattern around a bar magnet.",
+        "solution": "Field lines:\n- Emerge from North pole\n- Enter at South pole\n- Never cross each other\n- Closer lines = stronger field\n- Strongest at the poles\n- Form closed loops\n\nPattern shows direction a compass needle would point at any location."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which is a ferromagnetic material?",
+        "options": [
+          "Copper",
+          "Iron",
+          "Aluminum",
+          "Gold"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Iron is ferromagnetic - strongly magnetic and can be permanently magnetized."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "Like magnetic poles:",
+        "options": [
+          "Attract each other",
+          "Repel each other",
+          "Have no effect",
+          "Create a neutral field"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Like poles (N-N or S-S) repel each other, while unlike poles (N-S) attract."
+      }
+    ]
+  }
+]

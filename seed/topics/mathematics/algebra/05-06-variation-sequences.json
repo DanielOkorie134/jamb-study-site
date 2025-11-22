@@ -1,0 +1,111 @@
+[
+  {
+    "title": "Variation - Direct and Inverse",
+    "slug": "variation",
+    "order": 5,
+    "explanation": "Understanding relationships where one quantity varies directly or inversely with another, including joint and partial variation.",
+    "detailedNotes": "Variation describes how one variable changes in relation to another.\n\nDIRECT VARIATION (y ∝ x):\nAs one increases, the other increases proportionally\n\n- Formula: y = kx\n- k = constant of variation\n- Graph: straight line through origin\n- Example: Distance ∝ Time (at constant speed)\n\nFinding k:\n1. Substitute known values\n2. Solve for k\n3. Write equation with k\n4. Use to find unknowns\n\nINVERSE VARIATION (y ∝ 1/x):\nAs one increases, the other decreases\n\n- Formula: y = k/x or xy = k\n- Graph: hyperbola\n- Example: Speed ∝ 1/Time (for fixed distance)\n\nJOINT VARIATION:\nOne variable varies with product of two or more\n\n- y ∝ xz means y = kxz\n- Example: Volume ∝ length × width × height\n\nPARTIAL VARIATION:\nOne variable is partly constant, partly variable\n\n- Formula: y = kx + c\n- c is the constant part\n- Example: Total cost = Fixed cost + Variable cost per unit\n\nCOMBINED VARIATION:\nCombination of direct and inverse\n\n- Example: y ∝ x/z means y = kx/z\n\nSOLVING PROBLEMS:\n1. Write variation equation\n2. Substitute known values to find k\n3. Write complete equation\n4. Find required values",
+    "examples": [
+      {
+        "title": "Direct Variation",
+        "content": "If y varies directly as x, and y = 20 when x = 4, find y when x = 7.",
+        "solution": "Step 1: y ∝ x, so y = kx\n\nStep 2: Find k using known values\n20 = k(4)\nk = 5\n\nStep 3: Equation is y = 5x\n\nStep 4: Find y when x = 7\ny = 5(7) = 35\n\nAnswer: y = 35"
+      },
+      {
+        "title": "Inverse Variation",
+        "content": "y varies inversely as x. If y = 12 when x = 3, find y when x = 6.",
+        "solution": "Step 1: y ∝ 1/x, so y = k/x\n\nStep 2: Find k\n12 = k/3\nk = 36\n\nStep 3: Equation is y = 36/x\n\nStep 4: Find y when x = 6\ny = 36/6 = 6\n\nAnswer: y = 6"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "If y varies directly as x and y = 15 when x = 3, what is the constant of variation?",
+        "options": [
+          "3",
+          "5",
+          "12",
+          "45"
+        ],
+        "correctAnswer": 1,
+        "explanation": "y = kx, so 15 = k(3), therefore k = 15/3 = 5."
+      },
+      {
+        "question": "In inverse variation, as x increases, y:",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Stays the same",
+          "Becomes zero"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In inverse variation (y = k/x), as x increases, y decreases proportionally."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "If p varies inversely as q², and p = 4 when q = 2, find p when q = 4.",
+        "options": [
+          "1",
+          "2",
+          "8",
+          "16"
+        ],
+        "correctAnswer": 0,
+        "explanation": "p = k/q², so 4 = k/4, k = 16. When q = 4: p = 16/16 = 1."
+      }
+    ]
+  },
+  {
+    "title": "Sequences and Series",
+    "slug": "sequences-series",
+    "order": 6,
+    "explanation": "Understanding arithmetic and geometric progressions, finding nth terms, and calculating sums of series.",
+    "detailedNotes": "A sequence is an ordered list of numbers, while a series is the sum of sequence terms.\n\nARITHMETIC PROGRESSION (AP):\nEach term differs from previous by constant difference\n\n- General form: a, a+d, a+2d, a+3d, ...\n- a = first term\n- d = common difference\n- nth term: Tₙ = a + (n-1)d\n- Sum of n terms: Sₙ = n/2[2a + (n-1)d]\n- Or: Sₙ = n/2(a + l) where l = last term\n\nFinding common difference:\nd = T₂ - T₁\n\nGEOMETRIC PROGRESSION (GP):\nEach term is previous term multiplied by constant ratio\n\n- General form: a, ar, ar², ar³, ...\n- a = first term\n- r = common ratio\n- nth term: Tₙ = arⁿ⁻¹\n- Sum of n terms: Sₙ = a(rⁿ - 1)/(r - 1) when r ≠ 1\n- Sum to infinity: S∞ = a/(1-r) when |r| < 1\n\nFinding common ratio:\nr = T₂/T₁\n\nIDENTIFYING TYPE:\n- AP: Subtract consecutive terms (constant difference)\n- GP: Divide consecutive terms (constant ratio)\n\nAPPLICATIONS:\n- Simple interest (AP)\n- Compound interest (GP)\n- Population growth (GP)\n- Loan repayments",
+    "examples": [
+      {
+        "title": "Arithmetic Progression",
+        "content": "Find the 10th term and sum of first 10 terms of the AP: 3, 7, 11, 15, ...",
+        "solution": "First, identify a and d:\na = 3, d = 7 - 3 = 4\n\n10th term:\nT₁₀ = a + (n-1)d\nT₁₀ = 3 + (10-1)(4)\nT₁₀ = 3 + 36 = 39\n\nSum of first 10 terms:\nS₁₀ = n/2[2a + (n-1)d]\nS₁₀ = 10/2[2(3) + 9(4)]\nS₁₀ = 5[6 + 36]\nS₁₀ = 5(42) = 210\n\nAnswer: T₁₀ = 39, S₁₀ = 210"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "What is the  common difference in the AP: 2, 7, 12, 17, ...?",
+        "options": [
+          "2",
+          "5",
+          "7",
+          "9"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Common difference d = 7 - 2 = 5 (or any term minus the previous term)."
+      },
+      {
+        "question": "In a GP with first term 2 and common ratio 3, the 4th term is:",
+        "options": [
+          "18",
+          "24",
+          "54",
+          "162"
+        ],
+        "correctAnswer": 2,
+        "explanation": "T₄ = ar³ = 2(3)³ = 2(27) = 54."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "The nth term of an AP is given by Tₙ = 3n + 2. What is the common difference?",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Tₙ = 3n + 2, the coefficient of n is the common difference, so d = 3."
+      }
+    ]
+  }
+]

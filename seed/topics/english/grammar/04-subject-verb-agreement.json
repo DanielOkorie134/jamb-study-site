@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Subject-Verb Agreement (Concord)",
+    "slug": "subject-verb-agreement",
+    "order": 4,
+    "content": {
+      "explanation": "Subject-verb agreement (concord) means that the subject and verb in a sentence must agree in number. A singular subject takes a singular verb, while a plural subject takes a plural verb. This is one of the most tested grammar rules in JAMB.",
+      "detailedNotes": "**Basic Rule:**\nSingular subject + Singular verb\nPlural subject + Plural verb\n\n**Key Rules for JAMB:**\n\n**1. Singular Subjects:**\n- Each, every, either, neither, one, everyone, someone, nobody, anybody → SINGULAR verb\n- Example: 'Each student has a book.' (NOT 'have')\n- Example: 'Everyone is present.' (NOT 'are')\n\n**2. Plural Subjects:**\n- Both, few, many, several → PLURAL verb\n- Example: 'Many students are here.'\n- Example: 'Both boys have arrived.'\n\n**3. Compound Subjects:**\n- Subjects joined by 'and' → PLURAL verb\n  Example: 'John and Mary are friends.'\n- Subjects joined by 'or', 'nor', 'either...or', 'neither...nor' → verb agrees with the NEAREST subject\n  Example: 'Neither the teacher nor the students are ready.'\n  Example: 'Neither the students nor the teacher is ready.'\n\n**4. Collective Nouns:**\n- Treated as singular when acting as a unit\n  Example: 'The team is winning.'\n- Treated as plural when members act individually\n  Example: 'The team are arguing among themselves.'\n\n**5. Uncountable Nouns:**\n- Always singular: information, furniture, equipment, news, advice\n  Example: 'The news is good.'\n  Example: 'The furniture is expensive.'\n\n**6. Special Cases:**\n- 'A number of' → PLURAL verb\n  Example: 'A number of students are absent.'\n- 'The number of' → SINGULAR verb\n  Example: 'The number of students is increasing.'\n\n**7. Expressions of Quantity:**\n- With plural countable nouns → PLURAL verb\n  Example: 'Some of the books are missing.'\n- With uncountable nouns → SINGULAR verb\n  Example: 'Some of the water is contaminated.'\n\n**8. Proximity Concord:**\n- Verb agrees with the nearest subject when using 'or', 'nor', 'either...or', 'neither...nor'\n  Example: 'Either the students or the teacher has the key.'\n\n**Common Errors to Avoid:**\n- ❌ 'The group of students are...' → ✅ 'The group of students is...'\n- ❌ 'Each of the boys have...' → ✅ 'Each of the boys has...'\n- ❌ 'The news are good.' → ✅ 'The news is good.'",
+      "examples": [
+        {
+          "title": "Example 1: Indefinite Pronouns",
+          "problem": "Choose the correct verb:\n'Everyone in the class _______ passed the exam.'\n\nA) have\nB) has\nC) are\nD) were",
+          "solution": "**Answer: B) has**\n\n**Explanation:**\n- 'Everyone' is a singular indefinite pronoun\n- Singular pronouns take singular verbs\n- 'Has' is the singular form\n- Even though 'everyone' refers to multiple people, it's grammatically singular"
+        },
+        {
+          "title": "Example 2: Compound Subjects with 'Or'",
+          "problem": "Select the correct sentence:\n\nA) Either the manager or the workers is responsible.\nB) Either the manager or the workers are responsible.\nC) Either the manager or the workers was responsible.\nD) Either the manager or the workers were responsible.",
+          "solution": "**Answer: B) Either the manager or the workers are responsible**\n\n**Explanation:**\n- With 'either...or', the verb agrees with the nearest subject\n- The nearest subject is 'workers' (plural)\n- Therefore, use 'are' (plural verb)\n- If reversed: 'Either the workers or the manager is responsible'"
+        },
+        {
+          "title": "Example 3: Collective Nouns",
+          "problem": "Which is correct?\n\nA) The committee have reached a decision.\nB) The committee has reached a decision.\nC) The committee are reached a decision.\nD) The committee were reached a decision.",
+          "solution": "**Answer: B) The committee has reached a decision**\n\n**Explanation:**\n- 'Committee' is a collective noun\n- When acting as a single unit, use singular verb\n- 'Has reached' is correct (singular)\n- The committee is making one decision together"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Complete: 'Neither of the students _______ the answer.'",
+          "options": [
+            "know",
+            "knows",
+            "are knowing",
+            "have known"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Neither' is singular and takes a singular verb. 'Knows' is correct."
+        },
+        {
+          "question": "Which sentence is correct?",
+          "options": [
+            "The scissors is on the table",
+            "The scissors are on the table",
+            "The scissors was on the table",
+            "The scissors has on the table"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Scissors' is always plural and takes a plural verb. 'Are' is correct."
+        },
+        {
+          "question": "'A number of applicants _______ waiting.' Fill the gap:",
+          "options": [
+            "is",
+            "was",
+            "are",
+            "has"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'A number of' takes a plural verb. 'Are' is correct. (Note: 'The number of' would take a singular verb)"
+        },
+        {
+          "question": "Choose the correct verb: 'The team _______ won the championship.'",
+          "options": [
+            "have",
+            "has",
+            "are",
+            "were"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Team' is a collective noun acting as a single unit, so it takes a singular verb 'has'."
+        },
+        {
+          "question": "'Mathematics _______ my favorite subject.' Complete:",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "have been"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Subject names ending in '-ics' (Mathematics, Physics, Economics) are singular and take singular verbs."
+        },
+        {
+          "question": "Which is grammatically correct?",
+          "options": [
+            "The furniture are expensive",
+            "The furniture is expensive",
+            "The furnitures is expensive",
+            "The furnitures are expensive"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Furniture' is an uncountable noun, always singular, and has no plural form. 'Is' is correct."
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "'Each of the girls _______ a prize.' Choose the correct option:",
+          "options": [
+            "receive",
+            "receives",
+            "are receiving",
+            "have received"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Each' is singular and requires a singular verb. 'Receives' is correct.",
+          "year": "2023"
+        },
+        {
+          "question": "Select the grammatically correct sentence:",
+          "options": [
+            "The news are disturbing",
+            "The news is disturbing",
+            "The news were disturbing",
+            "The news have disturbing"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'News' is always singular despite ending in 's'. It takes a singular verb 'is'.",
+          "year": "2022"
+        },
+        {
+          "question": "'Either the principal or the teachers _______ to attend.' Fill in:",
+          "options": [
+            "is",
+            "was",
+            "are",
+            "has"
+          ],
+          "correctAnswer": 2,
+          "explanation": "With 'either...or', the verb agrees with the nearest subject. 'Teachers' is plural, so 'are' is correct.",
+          "year": "2021"
+        },
+        {
+          "question": "'The number of accidents _______ increasing.' Complete:",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "have"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'The number of' takes a singular verb. 'Is' is correct. (Note: 'A number of' would take a plural verb)",
+          "year": "2020"
+        }
+      ]
+    }
+  }
+]

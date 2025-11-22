@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> | JAMB Study Hub</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <main class="container" style="padding-top: var(--spacing-3xl); padding-bottom: var(--spacing-3xl);">
+    <h1 style="text-align: center; margin-bottom: var(--spacing-2xl);" class="slide-up">📊 Your Dashboard</h1>
+    
+    <!-- Overall Progress -->
+    <div class="card slide-up" style="margin-bottom: var(--spacing-2xl); text-align: center; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);">
+      <h2 style="color: var(--info); margin-bottom: var(--spacing-lg);">Overall Progress</h2>
+      <div style="max-width: 600px; margin: 0 auto;">
+        <div class="progress-bar" style="height: 20px;">
+          <div class="progress-fill" style="width: <%= overallProgress %>%;"></div>
+        </div>
+        <p style="font-size: 2rem; font-weight: 700; color: var(--primary); margin-top: var(--spacing-md); margin-bottom: 0;">
+          <%= overallProgress %>%
+        </p>
+      </div>
+    </div>
+
+    <!-- Subject Progress -->
+    <section style="margin-bottom: var(--spacing-3xl);">
+      <h2 style="margin-bottom: var(--spacing-xl);">Progress by Subject</h2>
+      <div class="grid grid-cols-2">
+        <% subjectProgress.forEach((sp, index) => { %>
+          <div class="card hover-lift slide-up stagger-<%= (index % 4) + 1 %>" style="border-top: 4px solid <%= sp.color %>;">
+            <h3 style="margin-bottom: var(--spacing-md);"><%= sp.subject %></h3>
+            <div class="progress-bar" style="margin-bottom: var(--spacing-md);">
+              <div class="progress-fill" style="width: <%= sp.percentage %>%; background: linear-gradient(90deg, <%= sp.color %> 0%, <%= sp.color %> 100%);"></div>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.875rem; color: var(--text-secondary);">
+              <span><%= sp.completed %> / <%= sp.total %> topics</span>
+              <span style="font-weight: 700; color: <%= sp.color %>;"><%= sp.percentage %>%</span>
+            </div>
+            <a href="/subjects/<%= sp.slug %>" class="btn btn-outline btn-sm" style="width: 100%; margin-top: var(--spacing-md);">
+              Continue →
+            </a>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+
+    <!-- Strengths and Weaknesses -->
+    <div class="grid grid-cols-2" style="margin-bottom: var(--spacing-3xl);">
+      <!-- Strengths -->
+      <div class="card slide-up" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border: 2px solid var(--success);">
+        <h3 style="color: var(--success); margin-bottom: var(--spacing-lg);">💪 Your Strengths</h3>
+        <% if (strengths.length > 0) { %>
+          <ul style="list-style: none; padding: 0;">
+            <% strengths.forEach(strength => { %>
+              <li style="padding: var(--spacing-sm) 0; display: flex; justify-content: space-between; align-items: center;">
+                <span><%= strength.subject %></span>
+                <span class="badge badge-success"><%= strength.percentage %>%</span>
+              </li>
+            <% }) %>
+          </ul>
+        <% } else { %>
+          <p class="text-secondary">Take mock exams to identify your strengths!</p>
+        <% } %>
+      </div>
+
+      <!-- Weaknesses -->
+      <div class="card slide-up" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border: 2px solid var(--warning);">
+        <h3 style="color: var(--warning); margin-bottom: var(--spacing-lg);">📚 Areas to Improve</h3>
+        <% if (weaknesses.length > 0) { %>
+          <ul style="list-style: none; padding: 0;">
+            <% weaknesses.forEach(weakness => { %>
+              <li style="padding: var(--spacing-sm) 0; display: flex; justify-content: space-between; align-items: center;">
+                <span><%= weakness.subject %></span>
+                <span class="badge badge-warning"><%= weakness.percentage %>%</span>
+              </li>
+            <% }) %>
+          </ul>
+        <% } else { %>
+          <p class="text-secondary">Great job! No weak areas identified yet.</p>
+        <% } %>
+      </div>
+    </div>
+
+    <!-- Suggested Topics -->
+    <% if (suggestedTopics.length > 0) { %>
+      <section class="card slide-up" style="margin-bottom: var(--spacing-3xl);">
+        <h3 style="margin-bottom: var(--spacing-lg);">🎯 Suggested Topics to Study</h3>
+        <div class="grid grid-cols-1" style="gap: var(--spacing-md);">
+          <% suggestedTopics.forEach(st => { %>
+            <a href="/topics/<%= st.topicId %>" class="card hover-lift" style="text-decoration: none; color: inherit; padding: var(--spacing-md); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <h4 style="margin-bottom: var(--spacing-xs);"><%= st.topic %></h4>
+                <p class="small text-secondary" style="margin-bottom: 0;"><%= st.subject %></p>
+              </div>
+              <span style="color: var(--primary); font-size: 1.5rem;">→</span>
+            </a>
+          <% }) %>
+        </div>
+      </section>
+    <% } %>
+
+    <!-- Recent Mock Exam Scores -->
+    <% if (recentScores.length > 0) { %>
+      <section class="slide-up">
+        <h3 style="margin-bottom: var(--spacing-lg);">📈 Recent Mock Exam Results</h3>
+        <div class="grid grid-cols-1" style="gap: var(--spacing-md);">
+          <% recentScores.forEach(score => { %>
+            <div class="card" style="display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <h4 style="margin-bottom: var(--spacing-xs);"><%= score.subject.name %></h4>
+                <p class="small text-secondary" style="margin-bottom: 0;">
+                  <%= new Date(score.completedAt).toLocaleDateString() %>
+                </p>
+              </div>
+              <div style="text-align: right;">
+                <p style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0; color: <%= score.percentage >= 70 ? 'var(--success)' : score.percentage >= 50 ? 'var(--warning)' : 'var(--error)' %>;">
+                  <%= score.percentage %>%
+                </p>
+                <p class="small text-secondary" style="margin-bottom: 0;">
+                  <%= score.score %>/<%= score.totalQuestions %>
+                </p>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      </section>
+    <% } %>
+  </main>
+  
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

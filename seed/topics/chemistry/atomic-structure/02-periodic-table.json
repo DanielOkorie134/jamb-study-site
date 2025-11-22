@@ -1,0 +1,54 @@
+[
+  {
+    "title": "The Periodic Table and Periodicity",
+    "slug": "periodic-table",
+    "order": 2,
+    "explanation": "Organization of elements based on atomic structure, understanding groups, periods, and trends in properties across the periodic table.",
+    "detailedNotes": "The Periodic Table arranges elements by increasing atomic number, revealing patterns in properties.\n\nSTRUCTURE:\n- Periods: Horizontal rows (7 periods)\n- Groups: Vertical columns (18 groups)\n- Blocks: s, p, d, f (based on electron configuration)\n\nMAJOR GROUPS:\n- Group 1: Alkali metals (very reactive)\n- Group 2: Alkaline earth metals\n- Group 17: Halogens (very reactive non-metals)\n- Group 18: Noble gases (unreactive)\n- Group 3-12: Transition metals\n\nPERIODIC TRENDS:\n\n1. Atomic Radius:\n- Increases down a group (more electron shells)\n- Decreases across a period (stronger nuclear attraction)\n\n2. Ionization Energy:\n- Energy needed to remove an electron\n- Decreases down a group\n- Increases across a period\n\n3. Electronegativity:\n- Ability to attract electrons in a bond\n- Decreases down a group\n- Increases across a period\n- Fluorine is most electronegative\n\n4. Metallic Character:\n- Increases down a group\n- Decreases across a period\n\nELEMENT CLASSIFICATION:\n- Metals: left and center (conduct electricity, malleable)\n- Non-metals: right side (poor conductors, brittle)\n- Metalloids: border between metals and non-metals\n\nVALENY:\n- Group number indicates common valency\n- Group 1: valency 1\n- Group 2: valency 2\n- Group 17: valency 1\n- Group 18: valency 0 (stable)",
+    "examples": [
+      {
+        "title": "Identifying Trends",
+        "content": "Compare the atomic radius of sodium (Na) and chlorine (Cl), both in Period 3.",
+        "solution": "Sodium (Na) has a larger atomic radius than chlorine (Cl).\n\nReason: Across a period from left to right, atomic radius decreases due to increased nuclear charge pulling electrons closer. Sodium is on the left of Period 3, chlorine on the right, so sodium has the larger radius."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which element has the highest electronegativity?",
+        "options": [
+          "Oxygen",
+          "Fluorine",
+          "Chlorine",
+          "Nitrogen"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Fluorine has the highest electronegativity of all elements, as it's at the top right of the periodic table (excluding noble gases)."
+      },
+      {
+        "question": "Elements in the same group have similar properties because they have the same:",
+        "options": [
+          "Atomic mass",
+          "Number of electron shells",
+          "Number of valence electrons",
+          "Number of neutrons"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Elements in the same group have the same number of valence (outer shell) electrons, which determines their chemical properties."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "Which of these is a noble gas?",
+        "options": [
+          "Nitrogen",
+          "Oxygen",
+          "Argon",
+          "Chlorine"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Argon is a noble gas (Group 18), characterized by a full outer electron shell making it unreactive."
+      }
+    ]
+  }
+]

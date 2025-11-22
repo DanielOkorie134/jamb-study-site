@@ -1,0 +1,125 @@
+[
+  {
+    "title": "Argumentative Writing",
+    "slug": "argumentative-writing",
+    "order": 11,
+    "explanation": "Writing persuasive essays with clear thesis statements, supporting evidence, and logical reasoning.",
+    "detailedNotes": "Argumentative writing presents a position and supports it with evidence and reasoning.\n\nSTRUCTURE:\n1. Introduction:\n   - Hook (attention grabber)\n   - Background information\n   - Thesis statement (clear position)\n\n2. Body Paragraphs:\n   - Topic sentence\n   - Evidence/examples\n   - Explanation/analysis\n   - Link to thesis\n\n3. Counter-argument:\n   - Acknowledge opposing view\n   - Refute with evidence\n\n4. Conclusion:\n   - Restate thesis\n   - Summarize key points\n   - Call to action/final thought\n\nKEY ELEMENTS:\n- Clear thesis\n- Logical organization\n- Strong evidence\n- Counter-arguments addressed\n- Formal tone\n\nTYPES OF EVIDENCE:\n- Statistics and facts\n- Expert opinions\n- Examples and anecdotes\n- Logical reasoning\n\nTRANSITION WORDS:\n- Furthermore, moreover (add points)\n- However, nevertheless (contrast)\n- Therefore, thus (conclusion)\n- For example, specifically (illustrate)",
+    "examples": [
+      {
+        "title": "Thesis Statement",
+        "content": "Write a thesis statement for: 'Should students wear uniforms?'",
+        "solution": "Strong thesis: 'School uniforms should be mandatory because they promote equality, reduce distractions, and enhance school identity.'\n\nThis thesis:\n- Takes a clear position (should be mandatory)\n- Provides three reasons\n- Is specific and debatable\n- Sets up the essay structure"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "A thesis statement should be:",
+        "options": [
+          "A question",
+          "A fact",
+          "A clear position that can be argued",
+          "A summary of the essay"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A thesis statement presents a debatable position that the rest of the essay will support with evidence."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "In argumentative writing, addressing counter-arguments:",
+        "options": [
+          "Weakens your position",
+          "Should be avoided",
+          "Strengthens your argument",
+          "Is unnecessary"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Addressing and refuting counter-arguments demonstrates thorough thinking and strengthens your overall argument."
+      }
+    ]
+  },
+  {
+    "title": "Narrative Writing Techniques",
+    "slug": "narrative-writing",
+    "order": 12,
+    "explanation": "Creating engaging stories with plot, characters, setting, conflict, and resolution.",
+    "detailedNotes": "Narrative writing tells a story with characters, plot, and setting.\n\nELEMENTS OF NARRATIVE:\n\n1. PLOT:\n   - Exposition (introduction)\n   - Rising action (building tension)\n   - Climax (turning point)\n   - Falling action\n   - Resolution (conclusion)\n\n2. CHARACTERS:\n   - Protagonist (main character)\n   - Antagonist (opposing force)\n   - Supporting characters\n   - Character development\n\n3. SETTING:\n   - Time and place\n   - Atmosphere/mood\n   - Cultural context\n\n4. CONFLICT:\n   - Person vs Person\n   - Person vs Self\n   - Person vs Nature\n   - Person vs Society\n\n5. THEME:\n   - Central message/lesson\n   - Universal truth\n\nPOINT OF VIEW:\n- First person (I, we)\n- Second person (you)\n- Third person limited (he/she, one character)\n- Third person omniscient (all-knowing)\n\nNARRATIVE TECHNIQUES:\n- Dialogue\n- Descriptive details\n- Sensory language\n- Show, don't tell\n- Foreshadowing\n- Flashbacks",
+    "examples": [
+      {
+        "title": "Showing vs Telling",
+        "content": "Rewrite 'She was angry' using 'show, don't tell'.",
+        "solution": "Showing: 'Her face flushed red, fists clenched at her sides as she glared at him without saying a word.'\n\nThis demonstrates emotions through:\n- Physical descriptions (flushed, clenched)\n- Actions (glared)\n- Body language\n\nMore engaging than simply stating the emotion."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "The climax of a story is:",
+        "options": [
+          "The introduction",
+          "The turning point",
+          "The conclusion",
+          "The background information"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The climax is the turning point or moment of highest tension in the story."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "'Show, don't tell' means:",
+        "options": [
+          "Use dialogue only",
+          "Describe actions and details instead of stating  facts",
+          "Avoid descriptions",
+          "Write in present tense"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Show, don't tell' means demonstrating emotions/situations through actions and details rather than direct statements."
+      }
+    ]
+  },
+  {
+    "title": "Punctuation Rules",
+    "slug": "advanced-punctuation",
+    "order": 13,
+    "explanation": "Proper use of commas, semicolons, colons, apostrophes, quotation marks, and other punctuation marks.",
+    "detailedNotes": "Punctuation marks guide reading and clarify meaning.\n\nCOMMA (,):\n- List items: apples, oranges, and bananas\n- After introductory words: However, I agree.\n- Between independent clauses with conjunction: I ran, but he walked.\n- After dependent clause at start: When it rains, I stay home.\n- Around non-essential information: My friend, who lives nearby, visited.\n\nSEMICOLON (;):\n- Join closely related independent clauses: I study hard; I pass exams.\n- Separate complex list items: We visited Paris, France; Rome, Italy; and Madrid, Spain.\n\nCOLON (:):\n- Introduce lists: Buy: milk, bread, eggs.\n- After independent clause before explanation: One thing is certain: we must act now.\n- Before quotations (formal)\n\nAPOSTROPHE ('):\n- Possession: John's book, students' books\n- Contractions: don't, it's (it is)\n- NOT for plurals: apples (not apple's)\n\nQUOTATION MARKS (\"):\n- Direct speech: She said, \"Hello.\"\n- Quotations from texts\n- Titles of short works\n\nPERIOD (.):\n- End declarative sentences\n- Abbreviations: Dr., Mr.\n\nQUESTION MARK (?):\n- End questions\n\nEXCLAMATION MARK (!):\n- Show strong emotion\n- Commands\n\nDASH (—):\n- Emphasis or interruption\n- Parenthetical information",
+    "examples": [
+      {
+        "title": "Comma Usage",
+        "content": "Correct: 'The teacher who is very strict gives lots of homework.'\n\nAdd commas if needed.",
+        "solution": "Depends on meaning:\n\n1. If identifying which teacher: NO commas\n'The teacher who is very strict gives lots of homework.'\n(Specifies which teacher among many)\n\n2. If adding extra info: USE commas\n'The teacher, who is very strict, gives lots of homework.'\n(Additional information about the one teacher)\n\nCommas make the clause non-essential."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which sentence is correctly punctuated?",
+        "options": [
+          "Its a beautiful day.",
+          "It's a beautiful day.",
+          "Its' a beautiful day.",
+          "It's a beautiful day"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'It's' is the contraction of 'it is'. Possessive 'its' has no apostrophe. Sentences need ending punctuation."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "A semicolon is used to:",
+        "options": [
+          "End a sentence",
+          "Join two related independent clauses",
+          "Introduce a list",
+          "Show possession"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Semicolons connect two closely related independent clauses without a conjunction."
+      }
+    ]
+  }
+]

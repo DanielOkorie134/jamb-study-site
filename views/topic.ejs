@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> | JAMB Study Hub</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <main class="container container-lg" style="padding-top: var(--spacing-3xl); padding-bottom: var(--spacing-3xl);">
+    <!-- Breadcrumb -->
+    <nav style="margin-bottom: var(--spacing-xl);" class="slide-up">
+      <a href="/" style="color: var(--text-secondary);">Home</a>
+      <span style="margin: 0 var(--spacing-sm); color: var(--text-tertiary);">/</span>
+      <a href="/subjects/<%= topic.subject.slug %>" style="color: var(--text-secondary);"><%= topic.subject.name %></a>
+      <span style="margin: 0 var(--spacing-sm); color: var(--text-tertiary);">/</span>
+      <span style="color: var(--text-primary); font-weight: 600;"><%= topic.title %></span>
+    </nav>
+
+    <!-- Topic Header -->
+    <div class="card slide-up" style="margin-bottom: var(--spacing-2xl); background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);">
+      <div style="display: flex; justify-content: space-between; align-items: start; gap: var(--spacing-lg);">
+        <div style="flex: 1;">
+          <h1 style="margin-bottom: var(--spacing-md);"><%= topic.title %></h1>
+          <p class="text-secondary" style="margin-bottom: 0;">
+            <strong><%= topic.subject.name %></strong> • Topic <%= topic.order %>
+          </p>
+        </div>
+        
+        <% if (locals.user) { %>
+          <button id="completeBtn" class="btn <%= isCompleted ? 'btn-success' : 'btn-outline' %>" onclick="toggleComplete()">
+            <%= isCompleted ? '✓ Completed' : 'Mark as Complete' %>
+          </button>
+        <% } %>
+      </div>
+    </div>
+
+    <!-- Simple Explanation -->
+    <section class="card slide-up" style="margin-bottom: var(--spacing-2xl);">
+      <h2 style="color: var(--primary); margin-bottom: var(--spacing-lg);">💡 Simple Explanation</h2>
+      <div class="note-content">
+        <%- topic.explanation.replace(/\n/g, '<br>') %>
+      </div>
+    </section>
+
+    <!-- Detailed Notes -->
+    <section class="card slide-up" style="margin-bottom: var(--spacing-2xl);">
+      <h2 style="color: var(--primary); margin-bottom: var(--spacing-lg);">📖 Detailed Notes</h2>
+      <div class="note-content">
+        <%- topic.detailedNotes.replace(/\n/g, '<br>') %>
+      </div>
+    </section>
+
+    <!-- Examples -->
+    <% if (topic.examples && topic.examples.length > 0) { %>
+      <section class="slide-up" style="margin-bottom: var(--spacing-2xl);">
+        <h2 style="margin-bottom: var(--spacing-xl);">📝 Examples</h2>
+        
+        <% topic.examples.forEach((example, index) => { %>
+          <div class="example" style="margin-bottom: var(--spacing-lg);">
+            <h4 class="example-title">Example <%= index + 1 %><% if (example.title) { %>: <%= example.title %><% } %></h4>
+            <div class="note-content">
+              <% if (example.content) { %>
+                <p><strong>Problem:</strong></p>
+                <p><%- example.content.replace(/\n/g, '<br>') %></p>
+              <% } %>
+              
+              <% if (example.solution) { %>
+                <p><strong>Solution:</strong></p>
+                <p><%- example.solution.replace(/\n/g, '<br>') %></p>
+              <% } %>
+            </div>
+          </div>
+        <% }) %>
+      </section>
+    <% } %>
+
+    <!-- Exercises -->
+    <% if (topic.exercises && topic.exercises.length > 0) { %>
+      <section class="card slide-up" style="margin-bottom: var(--spacing-2xl);">
+        <h2 style="color: var(--success); margin-bottom: var(--spacing-xl);">✏️ Practice Exercises</h2>
+        
+        <% topic.exercises.forEach((exercise, index) => { %>
+          <div class="exercise-item" style="margin-bottom: var(--spacing-2xl); padding-bottom: var(--spacing-2xl); border-bottom: 1px solid var(--border-light);">
+            <h4 style="margin-bottom: var(--spacing-md);">Question <%= index + 1 %></h4>
+            <p style="margin-bottom: var(--spacing-lg); font-weight: 500;"><%= exercise.question %></p>
+            
+            <div class="options" style="display: grid; gap: var(--spacing-md);">
+              <% exercise.options.forEach((option, optIndex) => { %>
+                <label class="option-label" style="display: flex; align-items: center; gap: var(--spacing-md); padding: var(--spacing-md); border: 2px solid var(--border-color); border-radius: var(--radius-md); cursor: pointer; transition: all var(--transition-base);">
+                  <input type="radio" name="exercise-<%= index %>" value="<%= optIndex %>" style="width: 20px; height: 20px;">
+                  <span><strong><%= String.fromCharCode(65 + optIndex) %>.</strong> <%= option %></span>
+                </label>
+              <% }) %>
+            </div>
+            
+            <button class="btn btn-primary btn-sm" style="margin-top: var(--spacing-md);" onclick="checkAnswer(<%= index %>, <%= exercise.correctAnswer %>)">
+              Check Answer
+            </button>
+            
+            <div id="feedback-<%= index %>" style="margin-top: var(--spacing-md); display: none;"></div>
+            
+            <% if (exercise.explanation) { %>
+              <div id="explanation-<%= index %>" style="margin-top: var(--spacing-md); display: none;" class="definition">
+                <div class="definition-title">Explanation</div>
+                <p style="margin-bottom: 0;"><%= exercise.explanation %></p>
+              </div>
+            <% } %>
+          </div>
+        <% }) %>
+      </section>
+    <% } %>
+
+    <!-- Past Questions -->
+    <% if (topic.pastQuestions && topic.pastQuestions.length > 0) { %>
+      <section class="card slide-up" style="margin-bottom: var(--spacing-2xl);">
+        <h2 style="color: var(--warning); margin-bottom: var(--spacing-xl);">🎯 Past JAMB Questions</h2>
+        
+        <% topic.pastQuestions.forEach((pq, index) => { %>
+          <div class="past-question-item" style="margin-bottom: var(--spacing-2xl); padding-bottom: var(--spacing-2xl); border-bottom: 1px solid var(--border-light);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-md);">
+              <h4>Question <%= index + 1 %></h4>
+              <span class="badge badge-warning">JAMB <%= pq.year %></span>
+            </div>
+            
+            <p style="margin-bottom: var(--spacing-lg); font-weight: 500;"><%= pq.question %></p>
+            
+            <div class="options" style="display: grid; gap: var(--spacing-md);">
+              <% pq.options.forEach((option, optIndex) => { %>
+                <label class="option-label" style="display: flex; align-items: center; gap: var(--spacing-md); padding: var(--spacing-md); border: 2px solid var(--border-color); border-radius: var(--radius-md); cursor: pointer; transition: all var(--transition-base);">
+                  <input type="radio" name="past-<%= index %>" value="<%= optIndex %>" style="width: 20px; height: 20px;">
+                  <span><strong><%= String.fromCharCode(65 + optIndex) %>.</strong> <%= option %></span>
+                </label>
+              <% }) %>
+            </div>
+            
+            <button class="btn btn-primary btn-sm" style="margin-top: var(--spacing-md);" onclick="checkPastAnswer(<%= index %>, <%= pq.correctAnswer %>)">
+              Check Answer
+            </button>
+            
+            <div id="past-feedback-<%= index %>" style="margin-top: var(--spacing-md); display: none;"></div>
+            
+            <% if (pq.explanation) { %>
+              <div id="past-explanation-<%= index %>" style="margin-top: var(--spacing-md); display: none;" class="definition">
+                <div class="definition-title">Explanation</div>
+                <p style="margin-bottom: 0;"><%= pq.explanation %></p>
+              </div>
+            <% } %>
+          </div>
+        <% }) %>
+      </section>
+    <% } %>
+
+    <!-- Navigation -->
+    <div style="display: flex; justify-content: space-between; gap: var(--spacing-md); margin-top: var(--spacing-3xl);">
+      <% if (previousTopic) { %>
+        <a href="/topics/<%= previousTopic._id %>" class="btn btn-outline">
+          ← Previous Topic
+        </a>
+      <% } else { %>
+        <div></div>
+      <% } %>
+      
+      <a href="/subjects/<%= topic.subject.slug %>" class="btn btn-secondary">
+        Back to <%= topic.subject.name %>
+      </a>
+      
+      <% if (nextTopic) { %>
+        <a href="/topics/<%= nextTopic._id %>" class="btn btn-primary">
+          Next Topic →
+        </a>
+      <% } else { %>
+        <div></div>
+      <% } %>
+    </div>
+  </main>
+  
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+  <script src="/js/exercises.js"></script>
+  <script>
+    const topicId = '<%= topic._id %>';
+    let timeSpent = 0;
+    
+    // Track time on page
+    setInterval(() => {
+      timeSpent += 30;
+      if (timeSpent % 60 === 0 && '<%= locals.user %>') {
+        fetch(`/topics/${topicId}/time`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ timeSpent: 1 })
+        });
+      }
+    }, 30000);
+    
+    async function toggleComplete() {
+      try {
+        const response = await fetch(`/topics/${topicId}/complete`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' }
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+          const btn = document.getElementById('completeBtn');
+          if (data.completed) {
+            btn.className = 'btn btn-success';
+            btn.innerHTML = '✓ Completed';
+          } else {
+            btn.className = 'btn btn-outline';
+            btn.innerHTML = 'Mark as Complete';
+          }
+        }
+      } catch (error) {
+        console.error('Error toggling completion:', error);
+      }
+    }
+  </script>
+</body>
+</html>

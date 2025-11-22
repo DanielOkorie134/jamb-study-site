@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> | JAMB Study Hub</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/icons.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <%- include('partials/header') %>
+  
+  <main class="container" style="padding-top: var(--spacing-3xl); padding-bottom: var(--spacing-3xl);">
+    <!-- Hero Section -->
+    <section class="hero slide-up" style="text-align: center; margin-bottom: var(--spacing-4xl); position: relative; padding: var(--spacing-3xl) 0;">
+      <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 800px; height: 300px; background: var(--gradient-hero); opacity: 0.1; filter: blur(80px); border-radius: 50%; z-index: -1;"></div>
+      <div style="display: inline-flex; align-items: center; justify-content: center; width: 80px; height: 80px; background: var(--gradient-primary); border-radius: var(--radius-2xl); margin-bottom: var(--spacing-xl); box-shadow: var(--shadow-xl);">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      </div>
+      <h1 style="background: var(--gradient-hero); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: var(--spacing-lg); font-size: 3rem; font-weight: 800;">
+        Welcome to JAMB Study Hub
+      </h1>
+      <p class="lead" style="max-width: 700px; margin: 0 auto var(--spacing-xl); font-size: 1.25rem; color: var(--text-secondary);">
+        Your comprehensive platform for JAMB exam preparation. Master all subjects with detailed notes, practice exercises, and mock exams.
+      </p>
+      
+      <% if (overallProgress > 0) { %>
+        <div style="max-width: 400px; margin: 0 auto var(--spacing-xl);">
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: <%= overallProgress %>%;"></div>
+          </div>
+          <p class="progress-text">Overall Progress: <%= overallProgress %>%</p>
+        </div>
+      <% } %>
+      
+      <% if (!locals.user) { %>
+        <div class="flex gap-md justify-center" style="margin-top: var(--spacing-xl);">
+          <a href="/register" class="btn btn-primary btn-lg">Get Started</a>
+          <a href="/login" class="btn btn-outline btn-lg">Login</a>
+        </div>
+      <% } %>
+    </section>
+
+    <!-- Subjects Grid -->
+    <section style="margin-bottom: var(--spacing-3xl);">
+      <h2 style="text-align: center; margin-bottom: var(--spacing-2xl);">Choose Your Subject</h2>
+      
+      <div class="grid grid-cols-4">
+        <% subjects.forEach((subject, index) => { 
+          const icons = {
+            english: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 10h.01"/><path d="M12 10h.01"/><path d="M16 10h.01"/></svg>',
+            physics: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>',
+            chemistry: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin"round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg>',
+            mathematics: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M9.5 8h5"/><path d="M8 12h8"/><path d="M10 16h4"/></svg>'
+          };
+        %>
+          <a href="/subjects/<%= subject.slug %>" class="subject-card card hover-lift slide-up stagger-<%= (index % 4) + 1 %>" style="--card-color: var(--<%= subject.slug %>); text-decoration: none; color: inherit;">
+            <div class="subject-icon"><%- icons[subject.slug] || icons.english %></div>
+            <h3 class="subject-name"><%= subject.name %></h3>
+            <p class="subject-description"><%= subject.description %></p>
+            <div class="btn btn-primary" style="width: 100%; margin-top: var(--spacing-md);">
+              Start Learning
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-sm"><path d="m9 18 6-6-6-6"/></svg>
+            </div>
+          </a>
+        <% }) %>
+      </div>
+    </section>
+
+    <!-- Continue Studying Section -->
+    <% if (continueStudying) { %>
+      <section class="card slide-up hover-lift" style="margin-bottom: var(--spacing-3xl); background: linear-gradient(135deg, var(--info-light) 0%, rgba(59, 130, 246, 0.05) 100%); border: 2px solid var(--info);">
+        <div style="display: flex; align-items: start; gap: var(--spacing-lg);">
+          <div class="icon-wrapper icon-wrapper-info">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-lg"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="m9 9.5 2 2 4-4"/></svg>
+          </div>
+          <div style="flex: 1;">
+            <h3 style="color: var(--info); margin-bottom: var(--spacing-md); display: flex; align-items: center; gap: var(--spacing-sm);">
+              Continue Where You Left Off
+            </h3>
+            <p style="color: var(--text-secondary); margin-bottom: var(--spacing-lg);">
+              <strong><%= continueStudying.subject.name %>:</strong> <%= continueStudying.topic.title %>
+            </p>
+            <a href="/topics/<%= continueStudying.topic._id %>" class="btn btn-info">
+              Continue Learning
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-sm"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    <% } %>
+
+    <!-- Daily Reminder Section -->
+    <section class="card slide-up" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border: 2px solid var(--warning); text-align: center;">
+      <h3 style="color: var(--warning); margin-bottom: var(--spacing-md);">💡 Daily Motivation</h3>
+      <p style="font-size: 1.125rem; font-style: italic; color: var(--text-primary); margin-bottom: 0;">
+        "Success is the sum of small efforts repeated day in and day out."
+      </p>
+      <p style="color: var(--text-secondary); margin-top: var(--spacing-sm); margin-bottom: 0;">
+        Keep studying consistently to achieve your JAMB goals! 🎯
+      </p>
+    </section>
+  </main>
+  
+  <%- include('partials/footer') %>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

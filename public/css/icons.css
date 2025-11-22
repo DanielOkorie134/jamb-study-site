@@ -1,0 +1,203 @@
+/* Icon Styles for Lucide Icons */
+
+/* Icon Sizes */
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.icon-xs {
+  width: 14px;
+  height: 14px;
+  stroke-width: 2.5;
+}
+
+.icon-sm {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2;
+}
+
+.icon-md {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2;
+}
+
+.icon-lg {
+  width: 32px;
+  height: 32px;
+  stroke-width: 1.5;
+}
+
+.icon-xl {
+  width: 48px;
+  height: 48px;
+  stroke-width: 1.5;
+}
+
+.icon-2xl {
+  width: 64px;
+  height: 64px;
+  stroke-width: 1.25;
+}
+
+/* Icon Colors */
+.icon-primary {
+  color: var(--primary);
+  stroke: var(--primary);
+}
+
+.icon-secondary {
+  color: var(--secondary);
+  stroke: var(--secondary);
+}
+
+.icon-success {
+  color: var(--success);
+  stroke: var(--success);
+}
+
+.icon-warning {
+  color: var(--warning);
+  stroke: var(--warning);
+}
+
+.icon-error {
+  color: var(--error);
+  stroke: var(--error);
+}
+
+.icon-info {
+  color: var(--info);
+  stroke: var(--info);
+}
+
+.icon-muted {
+  color: var(--text-tertiary);
+  stroke: var(--text-tertiary);
+}
+
+/* Subject Icon Colors */
+.icon-english {
+  color: var(--english);
+  stroke: var(--english);
+}
+
+.icon-physics {
+  color: var(--physics);
+  stroke: var(--physics);
+}
+
+.icon-chemistry {
+  color: var(--chemistry);
+  stroke: var(--chemistry);
+}
+
+.icon-mathematics {
+  color: var(--mathematics);
+  stroke: var(--mathematics);
+}
+
+/* Icon Animations */
+@keyframes icon-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+}
+
+@keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes icon-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.icon-pulse {
+  animation: icon-pulse 2s ease-in-out infinite;
+}
+
+.icon-spin {
+  animation: icon-spin 1s linear infinite;
+}
+
+.icon-bounce {
+  animation: icon-bounce 1s ease-in-out infinite;
+}
+
+/* Icon in Button */
+.btn .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-sm .icon {
+  width: 16px;
+  height: 16px;
+}
+
+.btn-lg .icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Icon Wrapper for Backgrounds */
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-md);
+  transition: all var(--transition-base);
+}
+
+.icon-wrapper-primary {
+  background: var(--primary-ultra-light);
+  color: var(--primary);
+}
+
+.icon-wrapper-secondary {
+  background: var(--secondary-ultra-light);
+  color: var(--secondary);
+}
+
+.icon-wrapper-success {
+  background: var(--success-light);
+  color: var(--success);
+}
+
+.icon-wrapper-warning {
+  background: var(--warning-light);
+  color: var(--warning);
+}
+
+.icon-wrapper-error {
+  background: var(--error-light);
+  color: var(--error);
+}
+
+.icon-wrapper-info {
+  background: var(--info-light);
+  color: var(--info);
+}
+
+.icon-wrapper:hover {
+  transform: scale(1.05);
+}

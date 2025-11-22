@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Inequalities and Linear Inequalities",
+    "slug": "inequalities",
+    "order": 4,
+    "explanation": "Solving and graphing inequalities, understanding inequality symbols, and solving systems of linear inequalities.",
+    "detailedNotes": "Inequalities express relationships where values are not equal but greater than, less than, or between certain limits.\n\nINEQUALITY SYMBOLS:\n- > greater than\n- < less than\n- ≥ greater than or equal to\n- ≤ less than or equal to\n\nRULES FOR SOLVING INEQUALITIES:\n1. Addition/Subtraction: Same as equations\n   Example: x + 3 < 7 → x < 4\n\n2. Multiplication/Division by positive number: Direction unchanged\n   Example: 2x < 6 → x < 3\n\n3. Multiplication/Division by negative number: REVERSE the inequality sign\n   Example: -2x < 6 → x > -3\n\n4. Can add/subtract same value to all parts\n\nSOLVING LINEAR INEQUALITIES:\nExample: 3x - 5 < 7\nStep 1: Add 5 to both sides: 3x < 12\nStep 2: Divide by 3: x < 4\nSolution: all values less than 4\n\nCOMPOUND INEQUALITIES:\nTwo types:\n1. AND (conjunction): x > 2 AND x < 5 → 2 < x < 5\n2. OR (disjunction): x < 2 OR x > 5\n\nNUMBER LINE REPRESENTATION:\n- Open circle (○) for < or >\n- Closed circle (●) for ≤ or ≥\n- Arrow shows direction of solutions\n\nGRAPHING ON COORDINATE PLANE:\n- Broken line for < or >\n- Solid line for ≤ or ≥\n- Shade region containing solutions\n- Test point to determine which side to shade\n\nWORD PROBLEMS:\nKey phrases:\n- \"at least\" → ≥\n- \"at most\" → ≤\n- \"more than\" → >\n- \"less than\" → <\n- \"between\" → compound inequality\n\nSYSTEMS OF INEQUALITIES:\n- Graph each inequality\n- Solution is overlapping shaded region\n- Use test points to verify",
+    "examples": [
+      {
+        "title": "Solving a Linear Inequality",
+        "content": "Solve: 5x + 3 ≥ 18",
+        "solution": "5x + 3 ≥ 18\n\nStep 1: Subtract 3 from both sides\n5x ≥ 15\n\nStep 2: Divide both sides by 5\nx ≥ 3\n\nSolution: x is greater than or equal to 3\nOn number line: closed circle at 3, arrow pointing right"
+      },
+      {
+        "title": "Inequality with Negative Coefficient",
+        "content": "Solve: -4x + 8 < 20",
+        "solution": "-4x + 8 < 20\n\nStep 1: Subtract 8 from both sides\n-4x < 12\n\nStep 2: Divide by  -4 (REVERSE the sign!)\nx > -3\n\nSolution: x is greater than -3\nNote: Sign reversed because we divided by negative number"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Solve: 2x - 7 > 11",
+        "options": [
+          "x > 4",
+          "x > 9",
+          "x < 4",
+          "x < 9"
+        ],
+        "correctAnswer": 1,
+        "explanation": "2x - 7 > 11 → 2x > 18 → x > 9"
+      },
+      {
+        "question": "If -3x ≤ 15, then x is:",
+        "options": [
+          "x ≤ -5",
+          "x ≥ -5",
+          "x ≤ 5",
+          "x ≥ 5"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dividing both sides by -3 reverses the sign: x ≥ -5"
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "Which value of x satisfies the inequality 3x + 4 < 19?",
+        "options": [
+          "x = 6",
+          "x = 5",
+          "x = 4",
+          "x = 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "3x + 4 < 19 → 3x < 15 → x < 5. Only x = 3 and x = 4 satisfy this, but x = 3 is the only option given that works."
+      }
+    ]
+  }
+]

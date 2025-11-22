@@ -1,0 +1,125 @@
+[
+  {
+    "title": "Refraction of Light and Lenses",
+    "slug": "refraction-lenses",
+    "order": 16,
+    "explanation": "Understanding how light bends when passing through different media, laws of refraction, refractive index, and image formation by lenses.",
+    "detailedNotes": "Refraction is the bending of light as it passes from one medium to another.\n\nLAWS OF REFRACTION:\n\n1. First Law:\n- Incident ray, refracted ray, and normal lie in same plane\n\n2. Second Law (Snell's Law):\n- n₁sinθ₁ = n₂sinθ₂\n- Or: sin i / sin r = n₂/n₁ = constant\n\nREFRACTIVE INDEX (n):\n- Measure of how much light bends\n- n = speed in vacuum / speed in medium\n- n = c/v\n- Also: n = real depth / apparent depth\n- Higher n = more bending\n\nExamples:\n- Air: n ≈ 1.0\n- Water: n ≈ 1.33\n- Glass: n ≈ 1.5\n- Diamond: n ≈ 2.42\n\nCRITICAL ANGLE (C):\n- Angle of incidence that gives 90° refraction\n- sin C = 1/n (when going from denser to less dense)\n- Beyond critical angle: total internal reflection\n\nTOTAL INTERNAL REFLECTION:\n- Light reflects back into denser medium\n- Conditions: denser to less dense, angle > critical angle\n- Applications: optical fibers, prisms, diamonds sparkle\n\nLENSES:\n\nTypes:\n1. CONVEX (Converging):\n- Thicker at center\n- Converges parallel rays to focus\n- Forms real or virtual images\n- Used in: magnifying glass, cameras, eyes\n\n2. CONCAVE (Diverging):\n- Thinner at center\n- Diverges parallel rays\n- Forms virtual, diminished images\n- Used in: correcting short-sight\n\nLENS TERMS:\n- Principal focus (F): where parallel rays converge/appear to diverge\n- Focal length (f): distance from lens to focus\n- Optical center (O): center of lens\n\nLENS FORMULA:\n1/f = 1/v - 1/u\nwhere:\nf = focal length\nv = image distance\nu = object distance\n\nMAGNIFICATION:\nm = image size / object size = v/u\n\nPOWER OF LENS:\nP = 1/f (f in meters)\nUnit: Diopter (D)\nConvex: positive power\nConcave: negative power\n\nAPPLICATIONS:\n- Microscopes\n- Telescopes\n- Spectacles\n- Cameras\n- Projectors",
+    "examples": [
+      {
+        "title": "Refractive Index Calculation",
+        "content": "Light travels from air into glass. If the angle of incidence is 60° and angle of refraction is 35°, calculate the refractive index of glass.",
+        "solution": "Using Snell's law: n₁sin θ₁ = n₂sin θ₂\n\nFor air to glass:\n1 × sin 60° = n_glass × sin 35°\n1 × 0.866 = n_glass × 0.574\nn_glass = 0.866 / 0.574\nn_glass ≈ 1.51\n\nThe refractive index of glass is approximately 1.51."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which lens is used to correct short-sightedness?",
+        "options": [
+          "Convex lens",
+          "Concave lens",
+          "Cylindrical lens",
+          "Plane mirror"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Concave (diverging) lenses are used to correct short-sightedness (myopia) by diverging light before it enters the eye."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "The critical angle for light going from glass (n=1.5) to air is:",
+        "options": [
+          "30°",
+          "42°",
+          "48°",
+          "60°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "sin C = 1/n = 1/1.5 = 0.667, so C = sin⁻¹(0.667) ≈ 42°."
+      }
+    ]
+  },
+  {
+    "title": "Pressure - Atmospheric and Gas Laws",
+    "slug": "gas-laws-pressure",
+    "order": 17,
+    "explanation": "Understanding gas behavior, Boyle's law, Charles' law, pressure law, and the general gas equation.",
+    "detailedNotes": "Gas laws describe relationships between pressure, volume, and temperature.\n\nGAS PROPERTIES:\n- Gases expand to fill container\n- Easily compressed\n- Low density\n- Particles in random motion\n\nPRESSURE:\n- Due to collisions of gas molecules with walls\n- More collisions = higher pressure\n\nBOYLE'S LAW (Temperature constant):\n- P ∝ 1/V\n- P₁V₁ = P₂V₂\n- Pressure inversely proportional to volume\n- Example: compressing a syringe\n\nCHARLES' LAW (Pressure constant):\n- V ∝ T (temperature in Kelvin)\n- V₁/T₁ = V₂/T₂\n- Volume directly proportional to absolute temperature\n- Example: hot air balloon\n\nPRESSURE LAW (Volume constant):\n- P ∝ T\n- P₁/T₁ = P₂/T₂\n- Pressure directly proportional to absolute temperature\n- Example: tire pressure increases when hot\n\nGENERAL GAS EQUATION:\nP₁V₁/T₁ = P₂V₂/T₂\n\nCombines all three laws\n\nIDEAL GAS EQUATION:\nPV = nRT\nwhere:\nP = pressure (Pa)\nV = volume (m³)\nn = number of moles\nR = gas constant = 8.31 J/(mol·K)\nT = temperature (K)\n\nOr: PV = NkT\nwhere:\nN = number of molecules\nk = Boltzmann constant\n\nTEMPERATURE SCALES:\n- Celsius to Kelvin: K = °C + 273\n- Absolute zero = 0 K = -273°C\n- Must use Kelvin in gas law calculations\n\nSTANDARD TEMPERATURE AND PRESSURE (STP):\n- T = 273 K (0°C)\n- P = 101,325 Pa (1 atm)\n- 1 mole of gas = 22.4 dm³ at STP\n\nAPPLICATIONS:\n- Weather balloons\n- Scuba diving\n- Refrigeration\n- Internal combustion engines",
+    "examples": [
+      {
+        "title": "Boyle's Law Problem",
+        "content": "A gas occupies 5 L at 2 atm pressure. What volume will it occupy at 5 atm if temperature is constant?",
+        "solution": "Using Boyle's Law: P₁V₁ = P₂V₂\n\nGiven:\nP₁ = 2 atm, V₁ = 5 L\nP₂ = 5 atm, V₂ = ?\n\n2 × 5 = 5 × V₂\n10 = 5V₂\nV₂ = 2 L\n\nThe gas will occupy 2 liters at 5 atm."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "At constant temperature, if the volume of a gas is halved, the pressure:",
+        "options": [
+          "Is halved",
+          "Doubles",
+          "Remains the same",
+          "Quadruples"
+        ],
+        "correctAnswer": 1,
+        "explanation": "By Boyle's Law (P₁V₁ = P₂V₂), if volume is halved, pressure must double to maintain the equation."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "Convert 27°C to Kelvin:",
+        "options": [
+          "246 K",
+          "273 K",
+          "300 K",
+          "327 K"
+        ],
+        "correctAnswer": 2,
+        "explanation": "K = °C + 273 = 27 + 273 = 300 K."
+      }
+    ]
+  },
+  {
+    "title": "Density and Relative Density",
+    "slug": "density-relative-density",
+    "order": 18,
+    "explanation": "Understanding density, relative density (specific gravity), and their applications in determining purity and identification of substances.",
+    "detailedNotes": "Density measures how much mass is packed into a given volume.\n\nDENSITY:\n- Mass per unit volume\n- ρ = m/V\n- Unit: kg/m³ or g/cm³\n- 1 g/cm³ = 1000 kg/m³\n\nExamples:\n- Water: 1000 kg/m³ (1 g/cm³)\n- Ice: 917 kg/m³ (floats on water)\n- Iron: 7874 kg/m³\n- Gold: 19,300 kg/m³\n- Air: 1.2 kg/m³\n\nFACTORS AFFECTING DENSITY:\n- Temperature (usually decreases with heating)\n- Pressure (for gases)\n- State of matter (solid > liquid > gas)\n\nRELATIVE DENSITY (RD) / SPECIFIC GRAVITY:\n- Ratio of density of substance to density of water\n- RD = Density of substance / Density of water\n- No unit (it's a ratio)\n- RD = Weight in air / Loss of weight in water\n- RD = Weight in air / (Weight in air - Weight in water)\n\nFor liquids:\nRD = Mass of any volume of liquid / Mass of equal volume of water\n\nFINDING DENSITY:\n\n1. Regular solids:\n- Measure mass (balance)\n- Calculate volume (L×W×H)\n- Density = mass/volume\n\n2. Irregular solids:\n- Measure mass\n- Find volume by displacement\n- Density = mass/volume\n\n3. Liquids:\n- Density bottle or measuring cylinder\n- Measure mass and volume\n- Density = mass/volume\n\nHYDROMETER:\n- Instrument to measure RD of liquids\n- Floats higher in denser liquids\n- Calibrated stem shows RD directly\n- Used for: battery acid, milk purity, alcohol content\n\nAPPLICATIONS:\n- Quality control (milk, petrol)\n- Identification of substances\n- Determining purity\n- Flotation (ships, submarines)\n- Separating mixtures",
+    "examples": [
+      {
+        "title": "Calculating Density",
+        "content": "A metal block has mass 270 g and volume 100 cm³. Calculate its density and identify if it could be aluminum (ρ = 2.7 g/cm³).",
+        "solution": "ρ = m/V\nρ = 270 g / 100 cm³\nρ = 2.7 g/cm³\n\nThe density is 2.7 g/cm³, which matches aluminum. The block is likely aluminum."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "A substance has relative density 0.8. This means it will:",
+        "options": [
+          "Sink in water",
+          "Float on water",
+          "Dissolve in water",
+          "React with water"
+        ],
+        "correctAnswer": 1,
+        "explanation": "RD < 1 means the substance is less dense than water, so it will float."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "An object weighs 50 N in air and 30 N in water. Its relative density is:",
+        "options": [
+          "1.5",
+          "2.0",
+          "2.5",
+          "3.0"
+        ],
+        "correctAnswer": 2,
+        "explanation": "RD = Weight in air / Loss of weight in water = 50 / (50-30) = 50/20 = 2.5."
+      }
+    ]
+  }
+]

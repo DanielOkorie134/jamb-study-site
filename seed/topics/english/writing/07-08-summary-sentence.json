@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Summary Writing Techniques",
+    "slug": "summary-writing",
+    "order": 7,
+    "explanation": "Condensing longer texts into shorter versions while retaining key information, main ideas, and essential details.",
+    "detailedNotes": "Summary writing tests your ability to identify and concisely present the most important information from a passage.\n\nKEY PRINCIPLES:\n1. Read the passage carefully 2-3 times\n2. Identify the main idea and supporting points\n3. Eliminate examples, repetitions, and minor details\n4. Use your own words (paraphrase)\n5. Maintain the original meaning and tone\n6. Stay within the word limit\n7. Write in continuous prose (not bullet points)\n\nSTEPS TO WRITE A SUMMARY:\n1. Read and understand the passage\n2. Underline or note key points\n3. Identify topic sentences in each paragraph\n4. Group related ideas together\n5. Draft your summary\n6. Check word count and revise\n7. Proofread for errors\n\nWHAT TO INCLUDE:\n- Main idea/thesis\n- Key supporting arguments\n- Important facts and figures\n- Conclusion or final point\n\nWHAT TO EXCLUDE:\n- Your own opinions\n- Minor details and examples\n- Repetitive information\n- Introductory  phrases\n- Direct quotations (paraphrase instead)\n\nLANGUAGE TIPS:\n- Use linking words (however, therefore, moreover)\n- Maintain formal tone\n- Use present tense\n- Write in third person\n- Keep sentences clear and concise",
+    "examples": [
+      {
+        "title": "Summarizing a Paragraph",
+        "content": "Original (50 words): 'Climate change is causing significant problems worldwide. Rising temperatures are melting ice caps, leading to higher sea levels. Extreme weather events are becoming more frequent. Scientists warn that immediate action is needed to reduce carbon emissions and prevent catastrophic consequences for future generations.'\n\nTask: Summarize in 20-25 words.",
+        "solution": "Summary (22 words): 'Climate change causes rising temperatures, melting ice, and extreme weather. Scientists urge immediate carbon emission reductions to prevent future catastrophe.'\n\nKey techniques used:\n- Combined related ideas\n- Removed repetition\n- Used concise language\n- Maintained main points"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Which is the BEST summary technique?",
+        "options": [
+          "Copy exact sentences from the passage",
+          "Include your personal opinion",
+          "Paraphrase main ideas in your own words",
+          "Add extra examples to clarify"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Summarizing requires paraphrasing main ideas in your own words while maintaining the original meaning."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "In summary writing, which should be excluded?",
+        "options": [
+          "Main idea",
+          "Key supporting points",  
+          "Minor details and examples",
+          "Conclusion"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Summaries focus on main ideas and key points, excluding minor details, examples, and repetitions."
+      }
+    ]
+  },
+  {
+    "title": "Sentence Structure and Types",
+    "slug": "sentence-structure",
+    "order": 8,
+    "explanation": "Understanding simple, compound, complex, and compound-complex sentences, including proper punctuation and clause combinations.",
+    "detailedNotes": "Sentence structure refers to how words, phrases, and clauses are arranged to create meaning.\n\nTYPES OF SENTENCES:\n\n1. SIMPLE SENTENCE:\n- One independent clause\n- Subject + Verb (+ Object)\n- Example: 'The cat sleeps.'\n- Example: 'John reads books every day.'\n\n2. COMPOUND SENTENCE:\n- Two or more independent clauses\n- Joined by coordinating conjunctions (FANBOYS: For, And, Nor, But, Or, Yet, So)\n- Or joined by semicolon\n- Example: 'I studied hard, and I passed the exam.'\n- Example: 'She loves music; he prefers silence.'\n\n3. COMPLEX SENTENCE:\n- One independent clause + one or more dependent clauses\n- Uses subordinating conjunctions (because, although, when, if, since, while, etc.)\n- Example: 'Although it rained, we went outside.'\n- Example: 'I will help you if you ask nicely.'\n\n4. COMPOUND-COMPLEX SENTENCE:\n- Two or more independent clauses + one or more dependent clauses\n- Example: 'I studied hard because the exam was important, and I passed with high marks.'\n\nCLAUSE TYPES:\n- Independent clause: can stand alone as a sentence\n- Dependent clause: cannot stand alone, needs independent clause\n\nPUNCTUATION RULES:\n- Comma before FANBOYS in compound sentences\n- Comma after dependent clause when it starts the sentence\n- Semicolon can join independent clauses without conjunction",
+    "examples": [
+      {
+        "title": "Identifying Sentence Types",
+        "content": "Identify the sentence type: 'When the bell rang, students left the classroom, and the teacher closed the door.'",
+        "solution": "This is a COMPOUND-COMPLEX sentence.\n\nBreakdown:\n- 'When the bell rang' = dependent clause\n- 'students left the classroom' = independent clause\n- 'the teacher closed the door' = independent clause\n\nIt has one dependent clause and two independent clauses joined by 'and'."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "'The dog barked loudly.' This is a:",
+        "options": [
+          "Simple sentence",
+          "Compound sentence",
+          "Complex sentence",
+          "Compound-complex sentence"
+        ],
+        "correctAnswer": 0,
+        "explanation": "This is a simple sentence with one subject (dog), one verb (barked), and one complete thought."
+      },
+      {
+        "question": "Which contains a dependent clause?",
+        "options": [
+          "I like tea, and she likes coffee.",
+          "The sun shines brightly.",
+          "Because it was late, we went home.",
+          "He ran; she walked."
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Because it was late' is a dependent clause; it cannot stand alone and needs the independent clause 'we went home'."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2020,
+        "question": "A compound sentence contains:",
+        "options": [
+          "One independent clause only",
+          "Two or more independent clauses",
+          "One dependent clause only",
+          "No complete thought"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Compound sentences consist of two or more independent clauses joined by conjunctions or semicolons."
+      }
+    ]
+  }
+]

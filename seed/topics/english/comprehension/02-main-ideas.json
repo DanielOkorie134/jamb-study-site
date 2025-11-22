@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Identifying Main Ideas and Topic Sentences",
+    "slug": "main-ideas-topic-sentences",
+    "order": 2,
+    "content": {
+      "explanation": "The main idea is the central point or message of a passage, while a topic sentence explicitly states the main idea of a paragraph. Mastering this skill helps you quickly understand what you read and answer comprehension questions accurately.",
+      "detailedNotes": "**Understanding Main Ideas:**\n\nThe main idea is what the passage is primarily about. It's the central message the author wants to convey. To find it:\n- Ask yourself: 'What is this passage mostly about?'\n- Look for repeated concepts or themes\n- Identify what most sentences support or explain\n\n**Topic Sentences:**\n\nA topic sentence is usually the first or last sentence of a paragraph and states the paragraph's main point. It:\n- Introduces the subject of the paragraph\n- Sets the tone for what follows\n- Is supported by other sentences in the paragraph\n\n**Key Strategies:**\n\n1. **Skim First**: Read the first and last paragraphs, and the first sentence of each paragraph\n2. **Look for Repetition**: Words or ideas mentioned multiple times are likely central\n3. **Identify Supporting Details**: These explain, prove, or illustrate the main idea\n4. **Eliminate Specifics**: Main ideas are general; specific facts are supporting details\n\n**Common Mistakes to Avoid:**\n- Confusing a supporting detail with the main idea\n- Choosing an idea that's too broad or too narrow\n- Selecting information from only one paragraph in a multi-paragraph passage\n\n**Formula for Success:**\nMain Idea = Topic + What the author says about the topic",
+      "examples": [
+        {
+          "title": "Example 1: Finding the Main Idea",
+          "problem": "Read this passage and identify the main idea:\n\n'Nigeria's film industry, known as Nollywood, has grown tremendously over the past two decades. It now produces more than 2,500 films annually, making it the second-largest film industry in the world by volume. Nollywood films are watched across Africa and in the diaspora. The industry provides employment for thousands of actors, directors, and crew members. Despite challenges like piracy and limited funding, Nollywood continues to thrive and gain international recognition.'\n\nWhat is the main idea?",
+          "solution": "**Main Idea:** Nollywood has experienced significant growth and success despite facing challenges.\n\n**Explanation:**\n- The passage discusses Nollywood's growth (2,500 films annually, second-largest)\n- It mentions positive impacts (employment, international recognition)\n- It acknowledges challenges but emphasizes continued success\n- All sentences support the idea of Nollywood's remarkable development"
+        },
+        {
+          "title": "Example 2: Identifying Topic Sentences",
+          "problem": "Identify the topic sentence in this paragraph:\n\n'Regular exercise improves cardiovascular health by strengthening the heart muscle. It helps control weight by burning calories and boosting metabolism. Exercise also reduces stress and anxiety through the release of endorphins. Additionally, it improves sleep quality and increases energy levels. Physical activity is essential for maintaining overall health and well-being.'\n\nWhich sentence is the topic sentence?",
+          "solution": "**Topic Sentence:** 'Physical activity is essential for maintaining overall health and well-being.'\n\n**Explanation:**\n- This is the last sentence (concluding topic sentence)\n- It summarizes all the benefits mentioned\n- All other sentences provide specific examples supporting this general statement\n- It captures the paragraph's central message"
+        },
+        {
+          "title": "Example 3: Main Idea vs. Supporting Detail",
+          "problem": "Read this passage:\n\n'Climate change is affecting agricultural productivity in West Africa. Rainfall patterns have become unpredictable, making it difficult for farmers to plan planting seasons. Temperatures have risen by an average of 1.5°C over the past 30 years. Droughts are more frequent and severe, leading to crop failures. Many farmers are being forced to abandon traditional crops and seek alternative livelihoods.'\n\nWhich is the main idea?\nA) Temperatures have risen by 1.5°C\nB) Climate change is negatively impacting West African agriculture\nC) Farmers are abandoning traditional crops\nD) Rainfall patterns are unpredictable",
+          "solution": "**Answer: B) Climate change is negatively impacting West African agriculture**\n\n**Explanation:**\n- Option A is a specific supporting detail (temperature data)\n- Option B captures the overall message of the entire passage\n- Option C is a consequence mentioned, not the main point\n- Option D is one effect, not the comprehensive main idea\n- All sentences in the passage support option B"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "What is the primary purpose of a topic sentence?",
+          "options": [
+            "To provide specific examples",
+            "To state the main point of a paragraph",
+            "To conclude the entire passage",
+            "To introduce the author's biography"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A topic sentence states the main point or central idea of a paragraph. It introduces what the paragraph will discuss and is supported by the other sentences."
+        },
+        {
+          "question": "Read this passage: 'Social media has revolutionized communication. People can now connect instantly across continents. Businesses use it for marketing. However, it has also led to privacy concerns and misinformation.' What is the main idea?",
+          "options": [
+            "Businesses use social media for marketing",
+            "Social media causes privacy concerns",
+            "Social media has transformed communication with both benefits and drawbacks",
+            "People connect instantly across continents"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The main idea encompasses both the positive aspects (revolutionized communication, instant connection) and negative aspects (privacy concerns, misinformation) mentioned in the passage."
+        },
+        {
+          "question": "Where is the topic sentence most commonly found?",
+          "options": [
+            "Always in the middle of a paragraph",
+            "Only at the end of a paragraph",
+            "Usually at the beginning or end of a paragraph",
+            "Never in the first sentence"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Topic sentences are most commonly found at the beginning of a paragraph (to introduce the main idea) or at the end (to summarize it), though they can occasionally appear elsewhere."
+        },
+        {
+          "question": "Which of the following is a supporting detail rather than a main idea? 'Education is crucial for national development. It reduces poverty rates. Educated citizens contribute more to the economy. Literacy rates have improved by 15% in the last decade.'",
+          "options": [
+            "Education is crucial for national development",
+            "It reduces poverty rates",
+            "Literacy rates have improved by 15%",
+            "Both B and C"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Both 'reduces poverty rates' and the '15% literacy improvement' are specific supporting details that explain why education is crucial for development. The main idea is that education is crucial for national development."
+        },
+        {
+          "question": "To find the main idea of a passage, you should:",
+          "options": [
+            "Focus only on the first paragraph",
+            "Look for the most specific detail",
+            "Identify what most sentences support or explain",
+            "Choose the longest sentence"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The main idea is what most sentences in the passage support, explain, or provide details about. It's the central message that ties all the information together."
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "In a passage about renewable energy, which statement would most likely be the main idea?",
+          "options": [
+            "Solar panels convert sunlight to electricity",
+            "Renewable energy sources are essential for sustainable development",
+            "Wind turbines are installed in coastal areas",
+            "Hydroelectric dams generate 20% of global electricity"
+          ],
+          "correctAnswer": 1,
+          "explanation": "This is a general statement that would encompass all the specific details about different renewable energy sources. The other options are specific supporting details.",
+          "year": "2023"
+        },
+        {
+          "question": "The topic sentence of a paragraph serves to:",
+          "options": [
+            "Provide statistical evidence",
+            "Introduce the paragraph's central point",
+            "List all supporting details",
+            "Conclude the entire essay"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The topic sentence introduces the central point or main idea that the paragraph will develop and support.",
+          "year": "2022"
+        },
+        {
+          "question": "Read: 'Deforestation in the Amazon rainforest has accelerated. Illegal logging accounts for 80% of tree loss. Indigenous communities are being displaced. Biodiversity is declining rapidly.' The main idea is:",
+          "options": [
+            "Illegal logging is widespread",
+            "Indigenous communities face displacement",
+            "Amazon deforestation is causing multiple serious problems",
+            "Biodiversity is declining"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The main idea encompasses all the problems mentioned (logging, displacement, biodiversity loss) as consequences of accelerating deforestation.",
+          "year": "2021"
+        }
+      ]
+    }
+  }
+]

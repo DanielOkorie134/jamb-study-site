@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Ratios and Proportions",
+    "slug": "ratios-proportions",
+    "order": 19,
+    "explanation": "Understanding ratios, equivalent ratios, proportions, and solving problems involving direct and inverse proportions.",
+    "detailedNotes": "Ratios and proportions are used to compare quantities and solve real-world problems.\n\nRATIOS:\nComparison of two or more quantities\n\nNotation:\n- a:b (read \"a to b\")\n- a/b (fraction form)\n\nSimplifying:\n- Divide by HCF\n- 6:9 = 2:3 (÷3)\n- 12:18:24 = 2:3:4 (÷6)\n\nEQUIVALENT RATIOS:\n- Same relationship\n- Multiply/divide by same number\n- 2:3 = 4:6 = 6:9 = 8:12\n\nSHARING IN A RATIO:\nTotal = sum of parts\nEach share = (ratio number / total parts) × total amount\n\nExample: Share 60 in ratio 2:3\n- Total parts = 2+3 = 5\n- First share = 2/5 × 60 = 24\n- Second share = 3/5 × 60 = 36\n\nMAP SCALES:\n- Ratio of map distance to actual distance\n- 1:50,000 means 1 cm = 50,000 cm = 0.5 km\n\nPROPORTION:\nStatement that two ratios are equal\na/b = c/d means a:b = c:d\n\nCross multiplication:\nIf a/b = c/d, then ad = bc\n\nSOLVING PROPORTIONS:\n\nDirect Proportion:\n- As one increases, other increases\n- y ∝ x\n- y/x = constant\n- y₁/x₁ = y₂/x₂\n\nInverse Proportion:\n- As one increases, other decreases\n- y ∝ 1/x\n- xy = constant  \n- x₁y₁ = x₂y₂\n\nUNITARY METHOD:\n1. Find value of one unit\n2. Multiply to get required amount\n\nExample: If 5 pens cost $15, find cost of 8 pens\n- 1 pen = 15/5 = $3\n- 8 pens = 8 × 3 = $24\n\nAPPLICATIONS:\n- Recipes (scaling)\n- Currency conversion\n- Speed-distance-time\n- Business (profit/loss ratios)\n- Mixtures",
+    "examples": [
+      {
+        "title": "Sharing in Ratio",
+        "content": "Divide $120 between John and Mary in the ratio 3:5.",
+        "solution": "Ratio = 3:5\nTotal parts = 3 + 5 = 8\n\nJohn's share:\n= 3/8 × 120\n= 3 × 15\n= $45\n\nMary's share:\n= 5/8 × 120\n= 5 × 15\n= $75\n\nCheck: 45 + 75 = 120 ✓\n\nJohn gets $45, Mary gets $75."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Simplify the ratio 15:25:",
+        "options": [
+          "1:2",
+          "2:3",
+          "3:5",
+          "5:3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Divide both by HCF (5): 15÷5 : 25÷5 = 3:5."
+      }
+    ],
+    "pastQuestions": [
+      {
+        "year": 2022,
+        "question": "If 6 workers can complete a task in 8 days, how many days will 4 workers take?",
+        "options": [
+          "6 days",
+          "10 days",
+          "12 days",
+          "16 days"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Inverse proportion: 6×8 = 4×x, so x = 48/4 = 12 days."
+      }
+    ]
+  },
+  {
+    "title": "Simple and Compound Interest",
+    "slug": "simple-compound-interest",
+    "order": 20,
+    "explanation": "Calculating simple interest, compound interest, and solving financial problems involving loans and investments.",
+    "detailedNotes": "Interest is money paid for borrowing or earned on investments.\n\nSIMPLE INTEREST (SI):\nInterest calculated on principal only\n\nFormula:\nSI = PRT/100\n\nWhere:\nP = Principal (initial amount)\nR = Rate (% per annum)\nT = Time (years)\n\nAmount = Principal + Interest\nA = P + SI\nA = P(1 + RT/100)\n\nFinding other values:\n- P = (SI × 100)/(R × T)\n- R = (SI × 100)/(P × T)\n- T = (SI × 100)/(P × R)\n\nCOMPOUND INTEREST (CI):\nInterest calculated on principal + accumulated interest\n\"Interest on interest\"\n\nFormula:\nA = P(1 + R/100)ⁿ\n\nWhere:\nA = Final amount\nP = Principal\nR = Rate (% per annum)\nn = Number of years\n\nCI = A - P\nCI = P[(1 + R/100)ⁿ - 1]\n\nCOMPOUNDING PERIODS:\n\nAnnually: n = years\nSemi-annually: n = 2 × years, R/2\nQuarterly: n = 4 × years, R/4\nMonthly: n = 12 × years, R/12\n\nGeneral formula:\nA = P(1 + r/100k)^(kn)\n\nWhere:\nk = compounding frequency per year\nn = years\n\nDIFFERENCE:\n- Simple: Interest constant each year\n- Compound: Interest increases each year\n- CI > SI (for same P, R, T)\n\nDEPRECIATION:\n- Decrease in value\n- Uses compound interest formula\n- A = P(1 - R/100)ⁿ\n\nAPPLICATIONS:\n- Bank savings\n- Loans and mortgages\n- Investments\n- HP (hire purchase)\n- Depreciation of assets",
+    "examples": [
+      {
+        "title": "Simple Interest Calculation",
+        "content": "Find the simple interest on $5000 at 4% per annum for 3 years.",
+        "solution": "Given:\nP = $5000\nR = 4%\nT = 3 years\n\nSI = PRT/100\nSI = (5000 × 4 × 3)/100\nSI = 60000/100\nSI = $600\n\nAmount = P + SI = 5000 + 600 = $5600\n\nSimple interest = $600\nTotal amount = $5600"
+      },
+      {
+        "title": "Compound Interest",
+        "content": "Find compound interest on $10,000 at 5% per annum for 2 years.",
+        "solution": "Given:\nP = $10,000\nR = 5%\nn = 2 years\n\nA = P(1 + R/100)ⁿ\nA = 10000(1 + 5/100)²\nA = 10000(1.05)²\nA = 10000(1.1025)\nA = $11,025\n\nCI = A - P\nCI = 11025 - 10000\nCI = $1,025\n\nCompound interest = $1,025"
+      }
+    ],
+    "exercises": [
+      {
+        "question": "What is the simple interest on $2000 at 6% for 5 years?",
+        "options": [
+          "$300",
+          "$600",
+          "$900",
+          "$1200"
+        ],
+        "correctAnswer": 1,
+        "explanation": "SI = (2000 × 6 × 5)/100 = 60000/100 = $600."
+      }  
+    ],
+    "pastQuestions": [
+      {
+        "year": 2021,
+        "question": "The difference between compound and simple interest on a sum for 2 years at 10% p.a. is $20. Find the sum.",
+        "options": [
+          "$1000",
+          "$2000",
+          "$3000",
+          "$4000"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Difference = P(R/100)² = 20, so P × (10/100)² = 20, P × 0.01 = 20, P = $2000."
+      }
+    ]
+  }
+]

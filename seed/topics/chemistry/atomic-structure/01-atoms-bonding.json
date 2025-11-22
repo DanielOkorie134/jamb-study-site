@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Atomic Structure and Electron Configuration",
+    "slug": "atomic-structure-electron-config",
+    "order": 1,
+    "content": {
+      "explanation": "Atoms are the basic building blocks of matter. Understanding atomic structure and how electrons are arranged is fundamental to chemistry and frequently tested in JAMB.",
+      "detailedNotes": "**Structure of an Atom:**\n\n**1. Subatomic Particles:**\n\n| Particle | Symbol | Charge | Mass | Location |\n|----------|--------|--------|------|----------|\n| Proton | p⁺ | +1 | 1 amu | Nucleus |\n| Neutron | n | 0 | 1 amu | Nucleus |\n| Electron | e⁻ | -1 | 1/1840 amu | Shells/Orbitals |\n\n**2. Atomic Number and Mass Number:**\n- **Atomic Number (Z)**: Number of protons\n  - Defines the element\n  - In neutral atom: Z = number of electrons\n- **Mass Number (A)**: Protons + Neutrons\n  - A = Z + N (where N = neutrons)\n\n**Notation:** ᴬ𝗭X (e.g., ²³₁₁Na)\n\n**3. Isotopes:**\n- Atoms of same element with different mass numbers\n- Same number of protons, different neutrons\n- Examples:\n  - ¹²₆C and ¹⁴₆C (Carbon-12 and Carbon-14)\n  - ¹H, ²H, ³H (Protium, Deuterium, Tritium)\n\n**4. Electron Configuration:**\n\n**Energy Levels (Shells):**\n- K shell (n=1): max 2 electrons\n- L shell (n=2): max 8 electrons\n- M shell (n=3): max 18 electrons\n- N shell (n=4): max 32 electrons\n- Formula: Maximum = 2n²\n\n**Subshells (Orbitals):**\n- s orbital: max 2 electrons\n- p orbital: max 6 electrons\n- d orbital: max 10 electrons\n- f orbital: max 14 electrons\n\n**Filling Order (Aufbau Principle):**\n1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p\n\n**Rules for Electron Configuration:**\n1. **Aufbau Principle**: Fill lowest energy levels first\n2. **Pauli Exclusion**: Max 2 electrons per orbital (opposite spins)\n3. **Hund's Rule**: Fill orbitals singly before pairing\n\n**Examples:**\n- H (Z=1): 1s¹\n- C (Z=6): 1s² 2s² 2p²\n- Na (Z=11): 1s² 2s² 2p⁶ 3s¹\n- Cl (Z=17): 1s² 2s² 2p⁶ 3s² 3p⁵\n- Ca (Z=20): 1s² 2s² 2p⁶ 3s² 3p⁶ 4s²\n\n**Valence Electrons:**\n- Electrons in outermost shell\n- Determine chemical properties\n- Example: Na (2,8,1) has 1 valence electron\n\n**Ions:**\n- **Cation**: Positive ion (loses electrons)\n  - Na → Na⁺ + e⁻\n  - Config: Na⁺ = 1s² 2s² 2p⁶\n- **Anion**: Negative ion (gains electrons)\n  - Cl + e⁻ → Cl⁻\n  - Config: Cl⁻ = 1s² 2s² 2p⁶ 3s² 3p⁶",
+      "examples": [
+        {
+          "title": "Example 1: Finding Subatomic Particles",
+          "problem": "An atom of ²³₁₁Na has how many protons, neutrons, and electrons?",
+          "solution": "**Given:** ²³₁₁Na\n- Bottom number (11) = Atomic number = Protons\n- Top number (23) = Mass number\n\n**Protons:** Z = 11\n\n**Electrons:** In neutral atom = protons = 11\n\n**Neutrons:** N = A - Z = 23 - 11 = 12\n\n**Answer: 11 protons, 12 neutrons, 11 electrons**"
+        },
+        {
+          "title": "Example 2: Electron Configuration",
+          "problem": "Write the electron configuration of Oxygen (Z=8)",
+          "solution": "**Given:** Z = 8 (8 electrons to place)\n\n**Step 1:** Fill orbitals in order\n- 1s: 2 electrons (6 remaining)\n- 2s: 2 electrons (4 remaining)\n- 2p: 4 electrons (0 remaining)\n\n**Configuration:** 1s² 2s² 2p⁴\n\n**Shell notation:** 2, 6\n\n**Answer: 1s² 2s² 2p⁴**"
+        },
+        {
+          "title": "Example 3: Ion Configuration",
+          "problem": "Write the electron configuration of Mg²⁺ (Z=12)",
+          "solution": "**Neutral Mg:** 1s² 2s² 2p⁶ 3s² (12 electrons)\n\n**Mg²⁺:** Lost 2 electrons from outermost shell\n- Remove 2 electrons from 3s\n\n**Configuration:** 1s² 2s² 2p⁶\n\n**Note:** Mg²⁺ has same configuration as Neon (isoelectronic)\n\n**Answer: 1s² 2s² 2p⁶**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "An atom has 17 protons and 18 neutrons. What is its mass number?",
+          "options": ["17", "18", "35", "1"],
+          "correctAnswer": 2,
+          "explanation": "Mass number = Protons + Neutrons = 17 + 18 = 35"
+        },
+        {
+          "question": "Maximum number of electrons in M shell (n=3)?",
+          "options": ["2", "8", "18", "32"],
+          "correctAnswer": 2,
+          "explanation": "Maximum = 2n² = 2(3)² = 2(9) = 18"
+        },
+        {
+          "question": "Electron configuration of Nitrogen (Z=7)?",
+          "options": ["1s² 2s² 2p³", "1s² 2s³ 2p²", "1s² 2s² 2p⁵", "1s² 2p⁵"],
+          "correctAnswer": 0,
+          "explanation": "7 electrons: 1s² (2), 2s² (2), 2p³ (3). Total = 7"
+        },
+        {
+          "question": "¹²C and ¹⁴C are:",
+          "options": ["Isotopes", "Isobars", "Isotones", "Isomers"],
+          "correctAnswer": 0,
+          "explanation": "Same atomic number (6), different mass numbers - these are isotopes"
+        },
+        {
+          "question": "How many valence electrons does Chlorine (2,8,7) have?",
+          "options": ["2", "7", "8", "17"],
+          "correctAnswer": 1,
+          "explanation": "Valence electrons are in the outermost shell: 7"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "An element X has electron configuration 1s² 2s² 2p⁶ 3s¹. What is X?",
+          "options": ["Lithium", "Sodium", "Potassium", "Magnesium"],
+          "correctAnswer": 1,
+          "explanation": "Total electrons = 2+2+6+1 = 11. Atomic number 11 is Sodium (Na)",
+          "year": "2023"
+        },
+        {
+          "question": "³⁵₁₇Cl and ³⁷₁₇Cl differ in their number of:",
+          "options": ["Protons", "Electrons", "Neutrons", "Valence electrons"],
+          "correctAnswer": 2,
+          "explanation": "Same Z (17) but different A (35 vs 37). Difference is in neutrons: 18 vs 20",
+          "year": "2022"
+        },
+        {
+          "question": "The ion O²⁻ has the same electron configuration as:",
+          "options": ["F⁻", "Ne", "Na⁺", "All of the above"],
+          "correctAnswer": 3,
+          "explanation": "O²⁻ has 10 electrons (8+2). F⁻ (9+1=10), Ne (10), Na⁺ (11-1=10) all have 10 electrons",
+          "year": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Chemical Bonding",
+    "slug": "chemical-bonding",
+    "order": 2,
+    "content": {
+      "explanation": "Chemical bonds are forces that hold atoms together in compounds. The three main types are ionic, covalent, and metallic bonds. Understanding bonding is crucial for predicting compound properties.",
+      "detailedNotes": "**Why Atoms Bond:**\n- To achieve stable electron configuration\n- Noble gas configuration (full outer shell)\n- Lower energy state\n\n**Types of Chemical Bonds:**\n\n**1. IONIC BONDING**\n- Transfer of electrons from metal to non-metal\n- Forms ions (cations + anions)\n- Electrostatic attraction between opposite charges\n\n**Formation:**\nMetal (loses electrons) → Cation\nNon-metal (gains electrons) → Anion\n\nExample: NaCl\n- Na → Na⁺ + e⁻ (loses 1 electron)\n- Cl + e⁻ → Cl⁻ (gains 1 electron)\n- Na⁺Cl⁻ (ionic bond)\n\n**Properties of Ionic Compounds:**\n- High melting/boiling points\n- Conduct electricity when molten or dissolved (not solid)\n- Soluble in water\n- Hard but brittle\n- Form crystalline structures\n\n**2. COVALENT BONDING**\n- Sharing of electrons between non-metals\n- Forms molecules\n- Shared pair of electrons\n\n**Types:**\n- **Single bond**: 1 shared pair (e.g., H-H)\n- **Double bond**: 2 shared pairs (e.g., O=O)\n- **Triple bond**: 3 shared pairs (e.g., N≡N)\n\n**Examples:**\n- H₂: H-H (single bond)\n- O₂: O=O (double bond)\n- N₂: N≡N (triple bond)\n- H₂O: H-O-H (2 single bonds)\n- CO₂: O=C=O (2 double bonds)\n\n**Properties of Covalent Compounds:**\n- Low melting/boiling points\n- Don't conduct electricity\n- May be soluble in organic solvents\n- Exist as gases, liquids, or soft solids\n\n**3. METALLIC BONDING**\n- In metals only\n- 'Sea of electrons' model\n- Positive metal ions in sea of delocalized electrons\n\n**Properties of Metals:**\n- Conduct electricity (mobile electrons)\n- Conduct heat\n- Malleable and ductile\n- Lustrous (shiny)\n- High melting points\n\n**Electronegativity:**\n- Ability to attract bonding electrons\n- Increases across period, decreases down group\n- Difference determines bond type:\n  - Large difference (>1.7): Ionic\n  - Small difference (<1.7): Covalent\n  - Zero difference: Pure covalent\n\n**Coordinate (Dative) Bonding:**\n- Both electrons in shared pair come from one atom\n- Example: NH₃ + H⁺ → NH₄⁺\n- Shown as: N→H\n\n**Dot-and-Cross Diagrams:**\n- Show outer electrons only\n- Dots for one atom, crosses for another\n- Shared electrons shown in overlap\n\nExample for H₂O:\n```\n    H × O × H\n        ×\n```",
+      "examples": [
+        {
+          "title": "Example 1: Ionic Bonding",
+          "problem": "Describe the bonding in MgO",
+          "solution": "**Mg:** 2,8,2 (2 valence electrons)\n**O:** 2,6 (6 valence electrons)\n\n**Step 1:** Mg loses 2 electrons\nMg → Mg²⁺ + 2e⁻\nConfig: 2,8 (stable)\n\n**Step 2:** O gains 2 electrons\nO + 2e⁻ → O²⁻\nConfig: 2,8 (stable)\n\n**Step 3:** Electrostatic attraction\nMg²⁺ + O²⁻ → MgO\n\n**Answer: Ionic bond formed by transfer of 2 electrons from Mg to O**"
+        },
+        {
+          "title": "Example 2: Covalent Bonding",
+          "problem": "Explain bonding in Cl₂",
+          "solution": "**Cl:** 2,8,7 (needs 1 more electron)\n\n**Step 1:** Each Cl shares 1 electron\nCl· + ·Cl → Cl-Cl\n\n**Step 2:** Both atoms now have 8 outer electrons\nEach Cl: 7 (own) + 1 (shared) = 8\n\n**Bond type:** Single covalent bond\n\n**Answer: Single covalent bond formed by sharing one pair of electrons**"
+        },
+        {
+          "title": "Example 3: Predicting Bond Type",
+          "problem": "Predict the type of bonding in: (a) KBr (b) CH₄",
+          "solution": "**(a) KBr:**\n- K = metal, Br = non-metal\n- Large electronegativity difference\n- **Answer: Ionic bonding**\n\n**(b) CH₄:**\n- C = non-metal, H = non-metal\n- Small electronegativity difference\n- **Answer: Covalent bonding**"
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Which compound has ionic bonding?",
+          "options": ["CO₂", "H₂O", "NaCl", "CH₄"],
+          "correctAnswer": 2,
+          "explanation": "NaCl is formed between metal (Na) and non-metal (Cl) - ionic bonding"
+        },
+        {
+          "question": "How many covalent bonds in N₂?",
+          "options": ["1", "2", "3", "4"],
+          "correctAnswer": 2,
+          "explanation": "N₂ has a triple bond (N≡N) - 3 covalent bonds"
+        },
+        {
+          "question": "Ionic compounds conduct electricity when:",
+          "options": ["Solid", "Molten", "In powder form", "Never"],
+          "correctAnswer": 1,
+          "explanation": "Ions are mobile when molten or dissolved, allowing conduction"
+        },
+        {
+          "question": "Which has the highest melting point?",
+          "options": ["H₂O", "NaCl", "CO₂", "CH₄"],
+          "correctAnswer": 1,
+          "explanation": "Ionic compounds (NaCl) have high melting points due to strong electrostatic forces"
+        },
+        {
+          "question": "In water (H₂O), each O-H bond is:",
+          "options": ["Ionic", "Single covalent", "Double covalent", "Metallic"],
+          "correctAnswer": 1,
+          "explanation": "H₂O has two single covalent bonds (H-O-H)"
+        }
+      ],
+      "pastQuestions": [
+        {
+          "question": "Which property is NOT typical of covalent compounds?",
+          "options": ["Low melting point", "Poor electrical conductivity", "Soluble in water", "Exist as molecules"],
+          "correctAnswer": 2,
+          "explanation": "Most covalent compounds are NOT soluble in water (polar solvent). They dissolve in organic solvents.",
+          "year": "2023"
+        },
+        {
+          "question": "The bond in NH₄⁺ ion includes:",
+          "options": ["Only ionic bonds", "Only covalent bonds", "Covalent and coordinate bonds", "Metallic bonds"],
+          "correctAnswer": 2,
+          "explanation": "NH₄⁺ has 3 normal covalent bonds (N-H) and 1 coordinate bond (N→H⁺)",
+          "year": "2022"
+        },
+        {
+          "question": "Metals conduct electricity because they have:",
+          "options": ["High melting points", "Delocalized electrons", "Ionic bonds", "Low density"],
+          "correctAnswer": 1,
+          "explanation": "Metallic bonding involves delocalized electrons that can move freely, conducting electricity",
+          "year": "2021"
+        }
+      ]
+    }
+  }
+]
