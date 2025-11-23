@@ -14,6 +14,7 @@ const subjectRoutes = require('./routes/subjects');
 const topicRoutes = require('./routes/topics');
 const mockExamRoutes = require('./routes/mockExam');
 const dashboardRoutes = require('./routes/dashboard');
+const chatbotRoutes = require('./routes/chatbot');
 
 // Import middleware
 const { optionalAuth } = require('./middleware/auth');
@@ -56,6 +57,7 @@ app.use('/subjects', subjectRoutes);
 app.use('/topics', topicRoutes);
 app.use('/mock-exam', mockExamRoutes);
 app.use('/dashboard', dashboardRoutes);
+app.use('/chatbot', chatbotRoutes);
 
 // 404 handler
 app.use((req, res) => {

@@ -23,6 +23,12 @@
   --gradient-secondary: linear-gradient(135deg, #0A1A2F 0%, #1E3A5F 100%);
   --gradient-hero: linear-gradient(135deg, #EAF1FB 0%, #D6E4F8 100%);
   
+  /* Subject Colors */
+  --english: #0052CC;
+  --physics: #003D99;
+  --chemistry: #1A6FDF;
+  --mathematics: #0066FF;
+
   /* Subject-Specific Gradients */
   --gradient-english: linear-gradient(135deg, #0052CC 0%, #1A6FDF 100%);
   --gradient-physics: linear-gradient(135deg, #003D99 0%, #0052CC 100%);
