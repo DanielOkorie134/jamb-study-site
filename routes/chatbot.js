@@ -22,7 +22,7 @@ Keep your responses concise, clear, and educational. Use simple language that st
 // POST /chatbot/message - Send message and get AI response
 router.post('/message', requireAuth, async (req, res) => {
   try {
-    const { message, subjectId } = req.body;
+    const { message, subjectId, pageContext } = req.body;
 
     if (!message || message.trim().length === 0) {
       return res.status(400).json({ success: false, message: 'Message is required' });
@@ -60,6 +60,41 @@ router.post('/message', requireAuth, async (req, res) => {
         parts: [{ text: msg.content }]
       }));
 
+    // Build context-aware prompt
+    let contextPrompt = SYSTEM_PROMPT;
+    
+    // Add page context if available
+    if (pageContext) {
+      contextPrompt += '\n\n--- CURRENT PAGE CONTEXT ---';
+      
+      if (pageContext.pageType === 'topic' && pageContext.topicTitle) {
+        contextPrompt += `\nThe student is currently viewing a topic page about: "${pageContext.topicTitle}"`;
+        
+        if (pageContext.subjectName) {
+          contextPrompt += ` (Subject: ${pageContext.subjectName})`;
+        }
+        
+        if (pageContext.topicContent) {
+          contextPrompt += `\n\nTopic content preview:\n${pageContext.topicContent}`;
+        }
+        
+        if (pageContext.hasExercises) {
+          contextPrompt += '\n\nThis page has practice exercises that the student can work on.';
+        }
+      } else if (pageContext.pageType === 'subject' && pageContext.subjectName) {
+        contextPrompt += `\nThe student is currently viewing the ${pageContext.subjectName} subject page.`;
+      } else if (pageContext.pageType === 'exam' && pageContext.currentQuestion) {
+        contextPrompt += `\nThe student is currently taking a practice exam. Current question:\n${pageContext.currentQuestion}`;
+      }
+      
+      if (pageContext.selectedText) {
+        contextPrompt += `\n\nThe student has selected this text: "${pageContext.selectedText}"`;
+      }
+      
+      contextPrompt += '\n--- END CONTEXT ---\n';
+      contextPrompt += '\nUse this context to provide more specific and relevant answers. If the student asks about "this topic" or "this", they are referring to the content shown in the context above.';
+    }
+
     // Get subject context if provided
     let subjectContext = '';
     if (subjectId) {
@@ -79,7 +114,7 @@ router.post('/message', requireAuth, async (req, res) => {
     });
     
     // Build the prompt with context
-    const fullPrompt = `${SYSTEM_PROMPT}${subjectContext}\n\nConversation history:\n${conversationHistory.slice(0, -1).map(msg => `${msg.role === 'user' ? 'Student' : 'Assistant'}: ${msg.parts[0].text}`).join('\n')}\n\nStudent: ${message}\n\nAssistant:`;
+    const fullPrompt = `${contextPrompt}${subjectContext}\n\nConversation history:\n${conversationHistory.slice(0, -1).map(msg => `${msg.role === 'user' ? 'Student' : 'Assistant'}: ${msg.parts[0].text}`).join('\n')}\n\nStudent: ${message}\n\nAssistant:`;
     
     const result = await model.generateContent(fullPrompt);
     const aiResponse = result.response.text();

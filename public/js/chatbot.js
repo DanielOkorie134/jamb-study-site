@@ -12,6 +12,131 @@
   if (!chatbotToggle) return; // Exit if chatbot not present
 
   let isOpen = false;
+  let currentContext = null;
+
+  // Get page context
+  function getPageContext() {
+    const context = {
+      pageType: 'home',
+      url: window.location.pathname
+    };
+
+    // Detect page type and extract relevant information
+    if (window.location.pathname.includes('/topics/')) {
+      context.pageType = 'topic';
+      
+      // Extract topic information from the page
+      const topicTitle = document.querySelector('h1');
+      const subjectName = document.querySelector('nav a[href*="/subjects/"]');
+      const explanation = document.querySelector('.note-content');
+      
+      if (topicTitle) context.topicTitle = topicTitle.textContent.trim();
+      if (subjectName) context.subjectName = subjectName.textContent.trim();
+      if (explanation) {
+        // Get first 500 characters of explanation
+        context.topicContent = explanation.textContent.trim().substring(0, 500);
+      }
+      
+      // Check if there are exercises visible
+      const exercises = document.querySelectorAll('.exercise-item');
+      if (exercises.length > 0) {
+        context.hasExercises = true;
+      }
+      
+    } else if (window.location.pathname.includes('/subjects/')) {
+      context.pageType = 'subject';
+      
+      const subjectTitle = document.querySelector('h1');
+      if (subjectTitle) context.subjectName = subjectTitle.textContent.trim();
+      
+    } else if (window.location.pathname.includes('/mock-exam')) {
+      context.pageType = 'exam';
+      
+      // Try to get current question if visible
+      const currentQuestion = document.querySelector('.question-text');
+      if (currentQuestion) {
+        context.currentQuestion = currentQuestion.textContent.trim();
+      }
+    }
+
+    // Check for selected text
+    const selectedText = window.getSelection().toString().trim();
+    if (selectedText && selectedText.length > 0 && selectedText.length < 500) {
+      context.selectedText = selectedText;
+    }
+
+    return context;
+  }
+
+  // Update quick actions based on context
+  function updateQuickActions() {
+    const quickActionsContainer = document.getElementById('chatbot-quick-actions');
+    if (!quickActionsContainer) return;
+
+    currentContext = getPageContext();
+    quickActionsContainer.innerHTML = '';
+
+    const actions = [];
+
+    // Context-specific quick actions
+    if (currentContext.pageType === 'topic') {
+      if (currentContext.topicTitle) {
+        actions.push({
+          text: '💡 Explain this topic',
+          message: `Can you explain the topic "${currentContext.topicTitle}" in simple terms?`
+        });
+        actions.push({
+          text: '📝 Give me practice questions',
+          message: `Can you give me some practice questions about "${currentContext.topicTitle}"?`
+        });
+      }
+      if (currentContext.hasExercises) {
+        actions.push({
+          text: '🎯 Help with exercises',
+          message: 'Can you help me understand the practice exercises on this page?'
+        });
+      }
+    } else if (currentContext.pageType === 'subject') {
+      if (currentContext.subjectName) {
+        actions.push({
+          text: '📚 Study tips',
+          message: `What are the best ways to study ${currentContext.subjectName} for JAMB?`
+        });
+        actions.push({
+          text: '🎯 Key topics',
+          message: `What are the most important topics in ${currentContext.subjectName} for JAMB?`
+        });
+      }
+    } else if (currentContext.pageType === 'exam') {
+      actions.push({
+        text: '💡 Explain this question',
+        message: 'Can you explain this question and how to solve it?'
+      });
+    }
+
+    // Selected text action
+    if (currentContext.selectedText) {
+      actions.push({
+        text: '🔍 Explain selection',
+        message: `Can you explain this: "${currentContext.selectedText.substring(0, 100)}${currentContext.selectedText.length > 100 ? '...' : ''}"`
+      });
+    }
+
+    // Render quick action buttons
+    actions.forEach(action => {
+      const button = document.createElement('button');
+      button.className = 'chatbot-quick-action';
+      button.textContent = action.text;
+      button.onclick = () => {
+        chatbotInput.value = action.message;
+        chatbotInput.focus();
+      };
+      quickActionsContainer.appendChild(button);
+    });
+
+    // Show/hide container based on actions
+    quickActionsContainer.style.display = actions.length > 0 ? 'flex' : 'none';
+  }
 
   // Toggle chat window
   function toggleChat() {
@@ -20,6 +145,11 @@
     if (isOpen) {
       chatbotInput.focus();
       loadChatHistory();
+      try {
+        updateQuickActions(); // Update context when opening
+      } catch (error) {
+        console.warn('Quick actions not available:', error);
+      }
     }
   }
 
@@ -101,6 +231,9 @@
     
     if (!message) return;
     
+    // Get current page context
+    currentContext = getPageContext();
+    
     // Add user message
     addMessage(message, 'user');
     chatbotInput.value = '';
@@ -117,7 +250,10 @@
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ message })
+        body: JSON.stringify({ 
+          message,
+          pageContext: currentContext // Include page context
+        })
       });
       
       const data = await response.json();
@@ -137,6 +273,11 @@
       chatbotInput.disabled = false;
       chatbotSend.disabled = false;
       chatbotInput.focus();
+      try {
+        updateQuickActions(); // Refresh quick actions after sending
+      } catch (error) {
+        console.warn('Quick actions not available:', error);
+      }
     }
   }
 

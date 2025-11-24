@@ -163,7 +163,17 @@ body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 880px) {
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 881px) and (max-width: 1024px) {
   .grid-cols-3,
   .grid-cols-4 {
     grid-template-columns: repeat(2, 1fr);
@@ -249,7 +259,38 @@ ul, ol {
   list-style-position: inside;
 }
 
-/* Responsive */
+/* Mobile Utilities */
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+/* Prevent text overflow */
+.text-wrap {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Safe area for notched devices */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+  }
+}
+
+/* Responsive - Tablet */
+@media (max-width: 880px) {
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+}
+
+/* Responsive - Mobile */
 @media (max-width: 768px) {
   html {
     font-size: 14px;
@@ -257,5 +298,60 @@ ul, ol {
   
   .container {
     padding: 0 var(--spacing-md);
+  }
+  
+  /* Better touch targets */
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Mobile visibility utilities */
+  .mobile-only {
+    display: block;
+  }
+  
+  .desktop-only {
+    display: none;
+  }
+  
+  /* Stack flex items on mobile */
+  .flex {
+    flex-direction: column;
+  }
+  
+  .flex.flex-row-mobile {
+    flex-direction: row;
+  }
+}
+
+/* Responsive - Small Mobile */
+@media (max-width: 480px) {
+  html {
+    font-size: 13px;
+  }
+  
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+  
+  /* Reduce spacing on very small screens */
+  .grid {
+    gap: var(--spacing-md);
+  }
+}
+
+/* Responsive - Extra Small Mobile */
+@media (max-width: 360px) {
+  html {
+    font-size: 12px;
+  }
+  
+  .container {
+    padding: 0 var(--spacing-xs);
+  }
+  
+  .grid {
+    gap: var(--spacing-sm);
   }
 }

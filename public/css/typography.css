@@ -216,7 +216,38 @@ p {
   font-size: 1.125rem;
 }
 
-/* Responsive Typography */
+/* Responsive Typography - Tablet */
+@media (max-width: 880px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.625rem; }
+  h4 { font-size: 1.375rem; }
+  
+  .lead {
+    font-size: 1.125rem;
+  }
+  
+  .note-content {
+    font-size: 1rem;
+  }
+  
+  .note-content h1 { font-size: 1.875rem; }
+  .note-content h2 { font-size: 1.625rem; }
+  .note-content h3 { font-size: 1.375rem; }
+  
+  .formula {
+    font-size: 1rem;
+    padding: var(--spacing-md);
+  }
+  
+  .definition,
+  .important-note,
+  .example {
+    padding: var(--spacing-md);
+  }
+}
+
+/* Responsive Typography - Mobile */
 @media (max-width: 768px) {
   h1 { font-size: 2.25rem; }
   h2 { font-size: 1.875rem; }
@@ -230,4 +261,48 @@ p {
   .note-content h1 { font-size: 1.75rem; }
   .note-content h2 { font-size: 1.5rem; }
   .note-content h3 { font-size: 1.25rem; }
+}
+
+/* Responsive Typography - Small Mobile */
+@media (max-width: 480px) {
+  h1 { font-size: 1.875rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+  h4 { font-size: 1.125rem; }
+  h5 { font-size: 1rem; }
+  h6 { font-size: 0.9375rem; }
+  
+  .lead {
+    font-size: 1rem;
+  }
+  
+  .note-content {
+    font-size: 0.9375rem;
+    line-height: 1.7;
+  }
+  
+  .note-content h1 { font-size: 1.5rem; }
+  .note-content h2 { font-size: 1.25rem; }
+  .note-content h3 { font-size: 1.125rem; }
+  
+  .note-content ul,
+  .note-content ol {
+    margin-left: var(--spacing-lg);
+  }
+  
+  .formula {
+    font-size: 0.9375rem;
+    padding: var(--spacing-sm);
+  }
+  
+  .definition,
+  .important-note,
+  .example {
+    padding: var(--spacing-sm);
+  }
+  
+  .definition-title,
+  .example-title {
+    font-size: 1rem;
+  }
 }
