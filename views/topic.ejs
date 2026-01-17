@@ -195,20 +195,24 @@
     setInterval(() => {
       timeSpent += 30;
       if (timeSpent % 60 === 0 && '<%= locals.user %>') {
-        fetch(`/topics/${topicId}/time`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ timeSpent: 1 })
-        });
+        window.offlineSync.performAction('TIME_TRACK', { topicId, timeSpent: 1 }, () => 
+          fetch(`/topics/${topicId}/time`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ timeSpent: 1 })
+          })
+        );
       }
     }, 30000);
     
     async function toggleComplete() {
       try {
-        const response = await fetch(`/topics/${topicId}/complete`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' }
-        });
+        const response = await window.offlineSync.performAction('TOPIC_COMPLETE', { topicId }, () =>
+          fetch(`/topics/${topicId}/complete`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' }
+          })
+        );
         
         const data = await response.json();
         
@@ -220,6 +224,10 @@
           } else {
             btn.className = 'btn btn-outline';
             btn.innerHTML = 'Mark as Complete';
+          }
+          
+          if (data.offline) {
+             showStatusToast('Progress saved locally (Offline)', 'info');
           }
         }
       } catch (error) {
