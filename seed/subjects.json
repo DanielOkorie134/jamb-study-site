@@ -7,30 +7,49 @@
     "color": "#ec4899",
     "syllabus": [
       {
-        "section": "Comprehension",
+        "section": "Comprehension and Summary",
         "topics": [
           "Reading comprehension passages",
           "Vocabulary in context",
           "Inference and deduction",
-          "Main ideas and supporting details"
+          "Main ideas and supporting details",
+          "Meaning of words, phrases, and clauses",
+          "Figures of speech and idiomatic expressions",
+          "Coherence and logical reasoning",
+          "Synthesis and summary writing"
         ]
       },
       {
         "section": "Lexis and Structure",
         "topics": [
-          "Parts of speech",
-          "Sentence structure",
-          "Punctuation",
-          "Synonyms and antonyms",
-          "Idiomatic expressions"
+          "Synonyms, antonyms, and homonyms",
+          "Clause and sentence patterns",
+          "Word classes and their functions",
+          "Mood, tense, and aspect",
+          "Number and agreement (concord)",
+          "Degree (positive, comparative, superlative)",
+          "Question tags",
+          "Punctuation and spelling",
+          "Ordinary, figurative, and idiomatic usage"
         ]
       },
       {
-        "section": "Oral English",
+        "section": "Oral Forms",
         "topics": [
-          "Vowels and consonants",
-          "Stress and intonation",
-          "Rhymes"
+          "Vowels (monophthongs, diphthongs, triphthongs)",
+          "Consonants and consonant clusters",
+          "Rhymes and homophones",
+          "Word stress (monosyllabic and polysyllabic)",
+          "Emphatic stress in connected speech"
+        ]
+      },
+      {
+        "section": "Literary Appreciation",
+        "topics": [
+          "Recommended novel study",
+          "Themes and character analysis",
+          "Plot development",
+          "Literary devices and techniques"
         ]
       }
     ]
@@ -43,30 +62,109 @@
     "color": "#3b82f6",
     "syllabus": [
       {
+        "section": "Measurements and Units",
+        "topics": [
+          "Physical quantities and SI units",
+          "Measurement of length, mass, time, area, and volume",
+          "Measuring instruments and their uses",
+          "Scalars and vectors",
+          "Dimensions and significant figures"
+        ]
+      },
+      {
         "section": "Mechanics",
         "topics": [
-          "Motion",
-          "Force and Newton's Laws",
-          "Work, Energy and Power",
-          "Momentum and Impulse"
+          "Types of motion (linear, circular, oscillatory, SHM)",
+          "Speed, velocity, and acceleration",
+          "Equations of motion and motion under gravity",
+          "Projectiles and Newton's laws of motion",
+          "Momentum and impulse",
+          "Work, energy, and power",
+          "Conservation of energy"
+        ]
+      },
+      {
+        "section": "Gravitational Field",
+        "topics": [
+          "Newton's law of universal gravitation",
+          "Gravitational potential",
+          "Acceleration due to gravity",
+          "Escape velocity"
+        ]
+      },
+      {
+        "section": "Equilibrium of Forces",
+        "topics": [
+          "Coplanar forces",
+          "Moments and torque",
+          "Equilibrium of rigid bodies"
+        ]
+      },
+      {
+        "section": "Properties of Matter",
+        "topics": [
+          "Friction and simple machines",
+          "Elasticity (Hooke's Law, Young's Modulus)",
+          "Pressure (atmospheric and liquid)",
+          "Density, relative density, and upthrust",
+          "Archimedes' principle"
+        ]
+      },
+      {
+        "section": "Heat and Thermodynamics",
+        "topics": [
+          "Temperature and its measurement",
+          "Thermal expansion",
+          "Gas laws (Boyle's, Charles', Avogadro's)",
+          "Quantity of heat and specific heat capacity",
+          "Change of state and latent heat",
+          "Vapours and kinetic theory of matter",
+          "Heat transfer (conduction, convection, radiation)"
+        ]
+      },
+      {
+        "section": "Waves",
+        "topics": [
+          "General wave properties",
+          "Types of waves (mechanical and electromagnetic)",
+          "Propagation of sound waves",
+          "Reflection, refraction, and diffraction",
+          "Polarization and superposition",
+          "Beats and Doppler effect"
+        ]
+      },
+      {
+        "section": "Light and Optics",
+        "topics": [
+          "Light energy and sources",
+          "Reflection at plane and curved surfaces",
+          "Refraction of light",
+          "Optical instruments (mirrors, lenses, telescopes)",
+          "Dispersion of light and colors",
+          "Electromagnetic spectrum"
         ]
       },
       {
         "section": "Electricity and Magnetism",
         "topics": [
-          "Electric fields and potential",
-          "Current electricity",
-          "Magnetism",
-          "Electromagnetic induction"
+          "Electrostatics and electric fields",
+          "Capacitors and capacitance",
+          "Electric cells and current electricity",
+          "Ohm's law, resistance, and conductivity",
+          "Kirchhoff's laws",
+          "Electrical energy and power",
+          "Magnets and magnetic fields",
+          "Force on current-carrying conductors",
+          "Electromagnetic induction and inductance",
+          "Eddy currents and A.C. circuits"
         ]
       },
       {
-        "section": "Waves and Optics",
+        "section": "Modern Physics",
         "topics": [
-          "Wave motion",
-          "Sound waves",
-          "Light and reflection",
-          "Refraction and lenses"
+          "Atomic structure and Bohr's theory",
+          "Elementary electronics",
+          "Radioactivity and nuclear physics"
         ]
       }
     ]
@@ -81,28 +179,46 @@
       {
         "section": "Physical Chemistry",
         "topics": [
-          "Atomic structure",
-          "Chemical bonding",
-          "States of matter",
-          "Kinetic theory"
+          "Separation of mixtures and purification",
+          "Chemical laws and stoichiometry",
+          "Atomic structure and electronic configuration",
+          "Periodic table and periodic trends",
+          "Chemical bonding (ionic, covalent, metallic)",
+          "Molecular geometry and structure",
+          "States of matter and gas laws",
+          "Ideal gas equation and kinetic theory",
+          "Energy changes and thermochemistry",
+          "Chemical kinetics and equilibrium",
+          "Le Chatelier's principle",
+          "Solubility and solubility curves"
         ]
       },
       {
         "section": "Inorganic Chemistry",
         "topics": [
-          "Periodic table",
-          "Metals and non-metals",
-          "Acids, bases and salts",
-          "Oxidation and reduction"
+          "Acids, bases, and salts",
+          "pH scale and titration",
+          "Neutralization reactions",
+          "Redox reactions and oxidation numbers",
+          "Balancing redox equations",
+          "Electrochemistry and electrolysis",
+          "Periodic classification of elements",
+          "Air composition and uses",
+          "Water purification and hardness",
+          "Environmental pollution (air, water, soil)",
+          "Non-metals and their compounds",
+          "Metals and their compounds"
         ]
       },
       {
         "section": "Organic Chemistry",
         "topics": [
-          "Hydrocarbons",
-          "Functional groups",
-          "Polymers",
-          "Organic reactions"
+          "Hydrocarbons (alkanes, alkenes, alkynes)",
+          "Aromatic hydrocarbons",
+          "Functional groups (alkanols, alkanals, alkanones)",
+          "Alkanoic acids, esters, and amines",
+          "Polymers and polymerization",
+          "Organic reactions and mechanisms"
         ]
       }
     ]
@@ -115,30 +231,71 @@
     "color": "#f59e0b",
     "syllabus": [
       {
-        "section": "Algebra",
+        "section": "Number and Numeration",
         "topics": [
-          "Number systems",
-          "Indices and logarithms",
-          "Polynomials",
-          "Sequences and series"
+          "Number bases (operations and conversions)",
+          "Fractions, decimals, and approximations",
+          "Percentages and applications",
+          "Simple interest, profit, loss, and discount",
+          "Ratio, proportion, and rates",
+          "VAT and shares",
+          "Indices and surds",
+          "Logarithms and applications",
+          "Sets and Venn diagrams"
         ]
       },
       {
-        "section": "Calculus",
+        "section": "Algebra",
         "topics": [
-          "Differentiation",
-          "Integration",
-          "Applications of calculus",
-          "Rates of change"
+          "Polynomials (operations, factorization, roots)",
+          "Quadratic and simultaneous equations",
+          "Variations (direct, inverse, joint, partial)",
+          "Inequalities (analytical and graphical)",
+          "Progressions (arithmetic and geometric)",
+          "Binary operations",
+          "Matrices and determinants (up to 3x3)"
         ]
       },
       {
         "section": "Geometry and Trigonometry",
         "topics": [
-          "Angles and triangles",
-          "Circles",
-          "Trigonometric ratios",
-          "Trigonometric identities"
+          "Euclidean geometry (angles, lines, polygons)",
+          "Properties of circles",
+          "Mensuration (area, volume, surface area)",
+          "Loci and constructions",
+          "Coordinate geometry (midpoint, gradient, distance)",
+          "Equations of straight lines",
+          "Trigonometric ratios and identities",
+          "Angles of elevation and depression",
+          "Bearings and navigation",
+          "Sine and cosine rules",
+          "Solution of triangles"
+        ]
+      },
+      {
+        "section": "Calculus",
+        "topics": [
+          "Limits and derivatives",
+          "Differentiation of algebraic functions",
+          "Differentiation of trigonometric functions",
+          "Applications (rates of change, maxima, minima)",
+          "Integration (antiderivatives)",
+          "Area under curves",
+          "Applications of integration"
+        ]
+      },
+      {
+        "section": "Statistics and Probability",
+        "topics": [
+          "Data representation (frequency distribution, histograms)",
+          "Bar charts and pie charts",
+          "Measures of location (mean, median, mode)",
+          "Cumulative frequency",
+          "Measures of dispersion (range, variance, standard deviation)",
+          "Mean deviation",
+          "Permutation and combination",
+          "Probability (experimental and theoretical)",
+          "Addition and multiplication of probabilities"
         ]
       }
     ]
